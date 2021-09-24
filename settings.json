@@ -1,0 +1,134 @@
+{
+    "workbench.colorTheme": "Monokai",
+    "workbench.enableExperiments": false,
+    "editor.fontSize": 14,
+    "workbench.tree.indent": 13,
+    "workbench.editor.untitled.hint": "hidden",
+    "workbench.list.openMode": "doubleClick",
+    "workbench.startupEditor": "none",
+    "workbench.activityBar.visible": false,
+    "workbench.editorAssociations": {
+        "*.ipynb": "jupyter-notebook",
+    },
+    "breadcrumbs.enabled": false,
+    "editor.fontFamily": "Consolas",
+    "editor.detectIndentation": false,
+    "editor.tabSize": 4,
+    "editor.formatOnType": true,
+    "editor.formatOnPaste": false,
+    "editor.wordWrap": "on",
+    "editor.minimap.showSlider": "always",
+    "editor.dragAndDrop": false,
+    "editor.hover.enabled": false,
+    "editor.minimap.renderCharacters": true,
+    "editor.bracketPairColorization.enabled": true,
+    "window.restoreWindows": "all",
+    "window.menuBarVisibility": "toggle",
+    "explorer.confirmDelete": false,
+    "explorer.autoReveal": false,
+    "explorer.confirmDragAndDrop": false,
+    "update.showReleaseNotes": false,
+    "update.enableWindowsBackgroundUpdates": false,
+    "security.workspace.trust.untrustedFiles": "open",
+    "security.workspace.trust.banner": "always",
+    "files.hotExit": "off",
+    "files.simpleDialog.enable": true,
+    "files.insertFinalNewline": true,
+    "git.enabled": false,
+    "git.ignoreMissingGitWarning": true,
+    "terminal.integrated.defaultProfile.windows": "CentOS (WSL)",
+    "telemetry.enableTelemetry": false,
+    "npm.fetchOnlinePackageInfo": false,
+    "extensions.ignoreRecommendations": false,
+    "csscomb.preset": "C:/Users/owner/.vscode/extensions/mrmlnc.vscode-csscomb-5.3.2/node_modules/csscomb/config/csscomb.json",
+    "liveServer.settings.donotVerifyTags": true,
+    "liveServer.settings.donotShowInfoMsg": true,
+
+    "html.autoClosingTags": false,
+    "htmltagwrap.tag": "strong",
+    "htmltagwrap.autoDeselectClosingTag": false,
+
+    "prettier.tabWidth": 2,
+    "prettier.bracketSpacing": false,
+    "prettier.printWidth": 777,
+    "prettier.semi": true,
+
+    "vetur.ignoreProjectWarning": true,
+
+    "python.showStartPage": false,
+    "python.pythonPath": "C:\\Users\\owner\\anaconda3\\python.exe",
+    "notebook.cellToolbarLocation": {
+        "default": "right",
+        "jupyter-notebook": "left",
+    },
+    "php.validate.executablePath": "C:\\php\\php.exe",
+    "php.executablePath": "C:\\php\\php.exe",
+    "php.validate.run": "onType",
+    "phpserver.browser": "",
+    "php-cs-fixer.executablePath": "${extensionPath}\\php-cs-fixer.phar",
+
+    "dart.devToolsBrowser": "default",
+    "dart.lineLength": 0,
+    "dart.debugExternalLibraries": false,
+    "dart.debugSdkLibraries": false,
+
+    "[plaintext]": {
+        "editor.quickSuggestions": false,
+    },
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        // "editor.formatOnSave": true,
+        "editor.tabSize": 2,
+    },
+    "[css]": {
+        // "editor.defaultFormatter": "esbenp.prettier-vscode",
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.tabSize": 2,
+    },
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features",
+        "editor.formatOnSave": true,
+    },
+    "[jsonc]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": false,
+    },
+    "[vue]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.tabSize": 2,
+        "editor.formatOnType": true, //ESLintのautofixとは別で動く
+        // "editor.formatOnSave": true, //ESLintのautofixとは別で動く
+    },
+    "[python]": {
+        // "editor.defaultFormatter": "ms-python.python",
+        // "editor.formatOnType": true,
+    },
+    "[dart]": {
+        "editor.formatOnType": true,
+        "editor.formatOnSave": true,
+        // "editor.rulers": [
+        //     80
+        // ],
+        "editor.selectionHighlight": false,
+        "editor.suggest.snippetsPreventQuickSuggestions": false,
+        "editor.suggestSelection": "first",
+        "editor.tabCompletion": "onlySnippets",
+        "editor.wordBasedSuggestions": false,
+    },
+
+    "eslint.validate": [
+        "javascript",
+        "javascriptreact",
+        "vue",
+    ],
+    "eslint.format.enable": true,
+    "vetur.validation.template": false,
+    "python.linting.pylintArgs": [
+        "--load-plugins=pylint_django",
+    ],
+    "settingsSync.ignoredSettings": [
+        "editor.fontSize"
+    ],
+}
