@@ -21,9 +21,10 @@
     "editor.dragAndDrop": false,
     "editor.hover.enabled": false,
     "editor.minimap.renderCharacters": true,
-    "editor.bracketPairColorization.enabled": true,
+    // "editor.bracketPairColorization.enabled": true,  バグ直るまで無効化
     "window.restoreWindows": "all",
     "window.menuBarVisibility": "toggle",
+    "explorer.compactFolders": false,
     "explorer.confirmDelete": false,
     "explorer.autoReveal": false,
     "explorer.confirmDragAndDrop": false,
@@ -54,6 +55,9 @@
     "prettier.semi": true,
 
     "vetur.ignoreProjectWarning": true,
+    "volar.codeLens.references": false,
+    "volar.icon.splitEditors": false,
+    "volar.preferredTagNameCase": "kebab",
 
     "python.showStartPage": false,
     "python.pythonPath": "C:\\Users\\owner\\anaconda3\\python.exe",
