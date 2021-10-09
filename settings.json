@@ -112,9 +112,6 @@
     "[dart]": {
         "editor.formatOnType": true,
         "editor.formatOnSave": true,
-        // "editor.rulers": [
-        //     80
-        // ],
         "editor.selectionHighlight": false,
         "editor.suggest.snippetsPreventQuickSuggestions": false,
         "editor.suggestSelection": "first",
