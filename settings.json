@@ -132,4 +132,5 @@
     "settingsSync.ignoredSettings": [
         "editor.fontSize"
     ],
+    "json.schemas": [],
 }
