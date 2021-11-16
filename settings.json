@@ -38,7 +38,7 @@
     "git.enabled": false,
     "git.ignoreMissingGitWarning": true,
     "terminal.integrated.defaultProfile.windows": "CentOS (WSL)",
-    "telemetry.enableTelemetry": false,
+    "telemetry.telemetryLevel": "off",
     "npm.fetchOnlinePackageInfo": false,
     "extensions.ignoreRecommendations": false,
     "csscomb.preset": "C:/Users/owner/.vscode/extensions/mrmlnc.vscode-csscomb-5.3.2/node_modules/csscomb/config/csscomb.json",
@@ -95,6 +95,7 @@
         "editor.defaultFormatter": "vscode.json-language-features",
         "editor.formatOnSave": true,
     },
+    "json.schemas": [],
     "[jsonc]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode",
         "editor.formatOnSave": false,
@@ -132,5 +133,5 @@
     "settingsSync.ignoredSettings": [
         "editor.fontSize"
     ],
-    "json.schemas": [],
+    "settingsSync.keybindingsPerPlatform": false,
 }
