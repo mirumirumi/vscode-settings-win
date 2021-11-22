@@ -44,6 +44,9 @@
     "csscomb.preset": "C:/Users/owner/.vscode/extensions/mrmlnc.vscode-csscomb-5.3.2/node_modules/csscomb/config/csscomb.json",
     "liveServer.settings.donotVerifyTags": true,
     "liveServer.settings.donotShowInfoMsg": true,
+    "markdown.extension.print.absoluteImgPath": false,
+    "markdown.extension.list.indentationSize": "inherit",
+    "remote.WSL.debug": true,
 
     "html.autoClosingTags": false,
     "htmltagwrap.tag": "strong",
@@ -54,7 +57,6 @@
     "prettier.printWidth": 777,
     "prettier.semi": true,
 
-    "vetur.ignoreProjectWarning": true,
     "volar.codeLens.references": false,
     "volar.icon.splitEditors": false,
     "volar.preferredTagNameCase": "kebab",
@@ -71,11 +73,6 @@
     "phpserver.browser": "",
     "php-cs-fixer.executablePath": "${extensionPath}\\php-cs-fixer.phar",
 
-    "dart.devToolsBrowser": "default",
-    "dart.lineLength": 0,
-    "dart.debugExternalLibraries": false,
-    "dart.debugSdkLibraries": false,
-
     "[plaintext]": {
         "editor.quickSuggestions": false,
     },
@@ -91,6 +88,12 @@
         "editor.defaultFormatter": "esbenp.prettier-vscode",
         "editor.tabSize": 2,
     },
+    "eslint.validate": [
+        "javascript",
+        "javascriptreact",
+        "vue",
+    ],
+    "eslint.format.enable": true,
     "[json]": {
         "editor.defaultFormatter": "vscode.json-language-features",
         "editor.formatOnSave": true,
@@ -107,29 +110,13 @@
         // "editor.formatOnSave": true, //ESLintのautofixとは別で動く
     },
     "[python]": {
-        // "editor.defaultFormatter": "ms-python.python",
         // "editor.formatOnType": true,
+        // "editor.formatOnSave": true,
     },
-    "[dart]": {
-        "editor.formatOnType": true,
-        "editor.formatOnSave": true,
-        "editor.selectionHighlight": false,
-        "editor.suggest.snippetsPreventQuickSuggestions": false,
-        "editor.suggestSelection": "first",
-        "editor.tabCompletion": "onlySnippets",
-        "editor.wordBasedSuggestions": false,
-    },
-
-    "eslint.validate": [
-        "javascript",
-        "javascriptreact",
-        "vue",
-    ],
-    "eslint.format.enable": true,
-    "vetur.validation.template": false,
     "python.linting.pylintArgs": [
         "--load-plugins=pylint_django",
     ],
+
     "settingsSync.ignoredSettings": [
         "editor.fontSize"
     ],
