@@ -14,6 +14,7 @@
     "editor.fontFamily": "Consolas",
     "editor.detectIndentation": false,
     "editor.tabSize": 4,
+    "editor.tabCompletion": "on",
     "editor.formatOnType": true,
     "editor.formatOnPaste": false,
     "editor.wordWrap": "on",
@@ -37,7 +38,7 @@
     "files.insertFinalNewline": true,
     "git.enabled": false,
     "git.ignoreMissingGitWarning": true,
-    "terminal.integrated.defaultProfile.windows": "CentOS (WSL)",
+    "terminal.integrated.defaultProfile.windows": "Ubuntu (WSL)",
     "telemetry.telemetryLevel": "off",
     "npm.fetchOnlinePackageInfo": false,
     "extensions.ignoreRecommendations": false,
@@ -62,7 +63,6 @@
     "volar.preferredTagNameCase": "kebab",
 
     "python.showStartPage": false,
-    "python.pythonPath": "C:\\Users\\owner\\anaconda3\\python.exe",
     "notebook.cellToolbarLocation": {
         "default": "right",
         "jupyter-notebook": "left",
@@ -120,6 +120,7 @@
     "python.linting.pylintArgs": [
         "--load-plugins=pylint_django",
     ],
+    "python.pythonPath": "C:\\Users\\owner\\anaconda3\\python.exe",
 
     "settingsSync.ignoredSettings": [
         "editor.fontSize"
