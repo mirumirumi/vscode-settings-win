@@ -22,6 +22,7 @@
     "editor.dragAndDrop": false,
     "editor.hover.enabled": false,
     "editor.minimap.renderCharacters": true,
+    "editor.unicodeHighlight.invisibleCharacters": false,
     // "editor.bracketPairColorization.enabled": true,  バグ直るまで無効化
     "window.restoreWindows": "all",
     "window.menuBarVisibility": "toggle",
