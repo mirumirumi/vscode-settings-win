@@ -122,6 +122,9 @@
         "--load-plugins=pylint_django",
     ],
     "python.pythonPath": "C:\\Users\\owner\\anaconda3\\python.exe",
+    "[tf]": {
+        "editor.tabSize": 2,
+    },
 
     "settingsSync.ignoredSettings": [
         "editor.fontSize"
