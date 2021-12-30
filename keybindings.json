@@ -106,5 +106,13 @@
         "key": "ctrl+k m",
         "command": "-workbench.action.editor.changeLanguageMode",
         "when": "!notebookEditorFocused"
+    },
+    {
+        "key": "ctrl+shift+n",
+        "command": "-workbench.action.newWindow"
+    },
+    {
+        "key": "ctrl+shift+n",
+        "command": "explorer.newFolder"
     }
 ]
