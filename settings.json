@@ -10,6 +10,7 @@
     "workbench.editorAssociations": {
         "*.ipynb": "jupyter-notebook",
     },
+    "workbench.settings.editor": "json",
     "breadcrumbs.enabled": false,
     "editor.fontFamily": "Consolas",
     "editor.detectIndentation": false,
@@ -37,6 +38,7 @@
     "files.hotExit": "off",
     "files.simpleDialog.enable": true,
     "files.insertFinalNewline": true,
+    "debug.javascript.codelens.npmScripts": "never",
     "git.enabled": false,
     "git.ignoreMissingGitWarning": true,
     "terminal.integrated.defaultProfile.windows": "Ubuntu (WSL)",
