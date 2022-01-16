@@ -24,7 +24,8 @@
     "editor.hover.enabled": false,
     "editor.minimap.renderCharacters": true,
     "editor.unicodeHighlight.invisibleCharacters": false,
-    // "editor.bracketPairColorization.enabled": true,  バグ直るまで無効化
+    "editor.bracketPairColorization.enabled": true,
+    "editor.guides.bracketPairs": "active",
     "window.restoreWindows": "all",
     "window.menuBarVisibility": "toggle",
     "explorer.compactFolders": false,
