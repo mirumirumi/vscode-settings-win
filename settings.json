@@ -51,7 +51,6 @@
     "liveServer.settings.donotShowInfoMsg": true,
     "markdown.extension.print.absoluteImgPath": false,
     "markdown.extension.list.indentationSize": "inherit",
-    "bracket-pair-colorizer-2.depreciation-notice": false,
 
     "html.autoClosingTags": false,
     "htmltagwrap.tag": "strong",
