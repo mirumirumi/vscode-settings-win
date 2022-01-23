@@ -114,5 +114,43 @@
     {
         "key": "ctrl+shift+n",
         "command": "explorer.newFolder"
+    },
+    {
+        "key": "shift+alt+down",
+        "command": "editor.debug.action.goToNextBreakpoint"
+    },
+    {
+        "key": "shift+alt+up",
+        "command": "editor.debug.action.goToPreviousBreakpoint"
+    },
+    {
+        "key": "shift+alt+down",
+        "command": "-notebook.cell.copyDown",
+        "when": "notebookEditorFocused && !inputFocus"
+    },
+    {
+        "key": "shift+alt+down",
+        "command": "-editor.action.copyLinesDownAction",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "shift+alt+down",
+        "command": "-markdown.extension.onCopyLineDown",
+        "when": "editorTextFocus && !editorReadonly && !suggestWidgetVisible && editorLangId == 'markdown'"
+    },
+    {
+        "key": "shift+alt+up",
+        "command": "-notebook.cell.copyUp",
+        "when": "notebookEditorFocused && !inputFocus"
+    },
+    {
+        "key": "shift+alt+up",
+        "command": "-editor.action.copyLinesUpAction",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "shift+alt+up",
+        "command": "-markdown.extension.onCopyLineUp",
+        "when": "editorTextFocus && !editorReadonly && !suggestWidgetVisible && editorLangId == 'markdown'"
     }
 ]
