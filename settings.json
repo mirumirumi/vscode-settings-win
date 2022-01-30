@@ -79,6 +79,11 @@
     "[plaintext]": {
         "editor.quickSuggestions": false,
     },
+    "[markdown]":  {
+        "editor.quickSuggestions": true,
+        "editor.suggest.showKeywords": false,
+        "editor.suggest.showWords": false,
+    },
     "[html]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode",
         // "editor.formatOnSave": true,
