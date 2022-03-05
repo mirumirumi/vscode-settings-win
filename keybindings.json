@@ -152,5 +152,15 @@
         "key": "shift+alt+up",
         "command": "-markdown.extension.onCopyLineUp",
         "when": "editorTextFocus && !editorReadonly && !suggestWidgetVisible && editorLangId == 'markdown'"
+    },
+    {
+        "key": "alt+h",
+        "command": "extension.htmlTagWrap",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "alt+w",
+        "command": "-extension.htmlTagWrap",
+        "when": "editorTextFocus"
     }
 ]
