@@ -76,10 +76,24 @@
     "volar.preferredTagNameCase": "kebab",
 
     "python.showStartPage": false,
+    "python.linting.pylintArgs": [
+        "--load-plugins=pylint_django",
+    ],
+    "python.analysis.typeCheckingMode": "strict",
+    "python.analysis.diagnosticSeverityOverrides": {
+        "reportUnusedImport": "none",
+        "reportUnusedClass": "information",
+        "reportUnusedFunction": "none",
+        "reportUnboundVariable": "warning",
+        // "reportMissingImports": "none",
+        // "reportUnknownVariableType": "none",  // 本当はOFFにしたいくない（１つ下も）。しかし明示できない外部インポートに係るものなどどうしようもない。プリミティブな変数については型推論っぽい挙動になっているようなのでしばらくこれでやってみる。 → pipでローカル環境に入れれば反応することがわかった
+        "reportUnknownMemberType": "none",
+    },
     "notebook.cellToolbarLocation": {
         "default": "right",
         "jupyter-notebook": "left",
     },
+
     "php.validate.executablePath": "C:\\php\\php.exe",
     "php.executablePath": "C:\\php\\php.exe",
     "php.validate.run": "onType",
@@ -126,11 +140,8 @@
     },
     "[python]": {
         // "editor.formatOnType": true,
+        "editor.semanticHighlighting.enabled": false,
     },
-    "python.linting.pylintArgs": [
-        "--load-plugins=pylint_django",
-    ],
-    "python.pythonPath": "C:\\Users\\owner\\anaconda3\\python.exe",
     "[tf]": {
         "editor.tabSize": 2,
     },
