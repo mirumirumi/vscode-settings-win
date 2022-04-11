@@ -85,8 +85,6 @@
         "reportUnusedClass": "information",
         "reportUnusedFunction": "none",
         "reportUnboundVariable": "warning",
-        // "reportMissingImports": "none",
-        // "reportUnknownVariableType": "none",  // 本当はOFFにしたいくない（１つ下も）。しかし明示できない外部インポートに係るものなどどうしようもない。プリミティブな変数については型推論っぽい挙動になっているようなのでしばらくこれでやってみる。 → pipでローカル環境に入れれば反応することがわかった
         "reportUnknownMemberType": "none",
     },
     "notebook.cellToolbarLocation": {
