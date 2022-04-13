@@ -80,12 +80,16 @@
         "--load-plugins=pylint_django",
     ],
     "python.analysis.typeCheckingMode": "strict",
+    "python.analysis.autoImportCompletions": false,
     "python.analysis.diagnosticSeverityOverrides": {
         "reportUnusedImport": "none",
         "reportUnusedClass": "information",
         "reportUnusedFunction": "none",
         "reportUnboundVariable": "warning",
         "reportUnknownMemberType": "none",
+        "reportMissingModuleSource": "information",
+        "reportMissingTypeStubs": "information",
+        "reportInvalidStringEscapeSequence": "none",
     },
     "notebook.cellToolbarLocation": {
         "default": "right",
