@@ -23,6 +23,8 @@
     "editor.unicodeHighlight.invisibleCharacters": false,
     "editor.bracketPairColorization.enabled": true,
     "editor.guides.bracketPairs": "active",
+    "editor.unicodeHighlight.includeComments": false,
+    "editor.unicodeHighlight.includeStrings": false,
     "window.restoreWindows": "all",
     "window.menuBarVisibility": "toggle",
     "window.newWindowDimensions": "maximized",
@@ -54,6 +56,10 @@
         "editor.fontSize"
     ],
     "settingsSync.keybindingsPerPlatform": false,
+    "files.exclude": {
+        "**/__pycache__": true,
+        "**/.pytest_cache": true
+    },
 
     "html.autoClosingTags": false,
     "htmltagwrap.tag": "strong",
@@ -112,7 +118,6 @@
         "editor.suggest.showWords": false,
     },
     "[html]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode",
         "editor.tabSize": 2,
     },
     "[css]": {
@@ -121,7 +126,6 @@
         "editor.tabSize": 2,
     },
     "[javascript]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode",
         "editor.tabSize": 2,
     },
     "[typescript]": {
@@ -136,12 +140,9 @@
         "editor.formatOnSave": false,
     },
     "[vue]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode",
         "editor.tabSize": 2,
-        // "editor.formatOnType": true,
     },
     "[python]": {
-        // "editor.formatOnType": true,
         "editor.semanticHighlighting.enabled": false,
     },
     "[tf]": {
