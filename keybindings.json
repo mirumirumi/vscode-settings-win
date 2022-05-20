@@ -172,5 +172,14 @@
         "key": "ctrl+k ctrl+o",
         "command": "-workbench.action.files.openFolder",
         "when": "openFolderWorkspaceSupport"
+    },
+    {
+        "key": "ctrl+p",
+        "command": "-workbench.action.quickOpen"
+    },
+    {
+        "key": "ctrl+p",
+        "command": "-workbench.action.quickOpenNavigateNextInFilePicker",
+        "when": "inFilesPicker && inQuickOpen"
     }
 ]
