@@ -79,7 +79,8 @@
 
     "volar.codeLens.references": false,
     "volar.icon.splitEditors": false,
-    "volar.preferredTagNameCase": "kebab",
+    "volar.completion.preferredAttrNameCase": "camel",
+    "volar.completion.preferredTagNameCase": "pascal",
 
     "python.showStartPage": false,
     "python.linting.pylintArgs": [
