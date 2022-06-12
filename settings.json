@@ -116,10 +116,18 @@
     "rust-analyzer.inlayHints.typeHints.enable": false,
 
     "[plaintext]": {
-        "editor.quickSuggestions": false,
+        "editor.quickSuggestions": {
+            "comments": "off",
+            "strings": "off",
+            "other": "off"
+        },
     },
     "[markdown]":  {
-        "editor.quickSuggestions": true,
+        "editor.quickSuggestions": {
+            "comments": "on",
+            "strings": "on",
+            "other": "on"
+        },
         "editor.suggest.showKeywords": false,
         "editor.suggest.showWords": false,
     },
