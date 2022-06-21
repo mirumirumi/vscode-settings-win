@@ -81,6 +81,7 @@
     "volar.icon.splitEditors": false,
     "volar.completion.preferredAttrNameCase": "camel",
     "volar.completion.preferredTagNameCase": "pascal",
+    "volar.autoCompleteRefs": true,
 
     "python.showStartPage": false,
     "python.linting.pylintArgs": [
