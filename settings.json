@@ -43,6 +43,7 @@
     "git.enabled": false,
     "git.ignoreMissingGitWarning": true,
     "terminal.integrated.defaultProfile.windows": "Ubuntu (WSL)",
+    "terminal.integrated.enableMultiLinePasteWarning": false,
     "telemetry.telemetryLevel": "off",
     "redhat.telemetry.enabled": false,
     "npm.fetchOnlinePackageInfo": false,
