@@ -1,5 +1,4 @@
 {
-    "editor.fontSize": 14,
     "workbench.colorTheme": "Monokai",
     "workbench.enableExperiments": false,
     "workbench.tree.indent": 13,
@@ -9,6 +8,7 @@
     "workbench.activityBar.visible": false,
     "workbench.settings.editor": "json",
     "breadcrumbs.enabled": false,
+    "editor.fontSize": 14,
     "editor.fontFamily": "Consolas",
     "editor.detectIndentation": false,
     "editor.tabSize": 4,
@@ -66,6 +66,8 @@
     "htmltagwrap.tag": "strong",
     "htmltagwrap.autoDeselectClosingTag": false,
 
+    "typescript.updateImportsOnFileMove.enabled": "never",
+
     "eslint.validate": [
         "javascript",
         "javascriptreact",
@@ -84,7 +86,6 @@
     "volar.completion.preferredTagNameCase": "pascal",
     "volar.autoCompleteRefs": true,
 
-    "python.showStartPage": false,
     "python.linting.pylintArgs": [
         "--load-plugins=pylint_django",
     ],
@@ -106,8 +107,6 @@
         "jupyter-notebook": "left",
     },
 
-    "php.validate.executablePath": "C:\\php\\php.exe",
-    "php.executablePath": "C:\\php\\php.exe",
     "php.validate.run": "onType",
     "phpserver.browser": "",
     "php-cs-fixer.executablePath": "${extensionPath}\\php-cs-fixer.phar",
