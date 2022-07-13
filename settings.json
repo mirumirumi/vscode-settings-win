@@ -9,7 +9,7 @@
     "workbench.settings.editor": "json",
     "breadcrumbs.enabled": false,
     "editor.fontSize": 14,
-    "editor.fontFamily": "Consolas",
+    "editor.fontFamily": "Consolas, 'Noto Sans JP'",
     "editor.detectIndentation": false,
     "editor.tabSize": 4,
     "editor.tabCompletion": "on",
