@@ -25,6 +25,7 @@
     "editor.guides.bracketPairs": "active",
     "editor.unicodeHighlight.includeComments": false,
     "editor.unicodeHighlight.includeStrings": false,
+    "editor.suggest.showSnippets": false,
     "window.restoreWindows": "all",
     "window.menuBarVisibility": "toggle",
     "window.newWindowDimensions": "maximized",
@@ -115,7 +116,6 @@
     "rust-analyzer.lens.run.enable": false,
     "rust-analyzer.lens.debug.enable": false,
     "rust-analyzer.lens.implementations.enable": false,
-    "rust-analyzer.inlayHints.typeHints.enable": false,
 
     "yaml.customTags": [
         "!And",
@@ -193,6 +193,39 @@
     },
     "[python]": {
         "editor.semanticHighlighting.enabled": false,
+    },
+    "[rust]": {
+        "editor.inlayHints.enabled": "offUnlessPressed",
+    },
+    // for only Rust
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+            {
+                "scope": "keyword.other.rust",
+                "settings": {
+                    "foreground": "#66d9ef",
+                },
+            },
+            {
+                "scope": [
+                    "entity.name.type.struct.rust",
+                    "entity.name.type.declaration.rust",
+                ],
+                "settings": {
+                    "foreground": "#f8f8f2",
+                    "fontStyle": "",
+                },
+            },
+            {
+                "scope": [
+                    "meta.attribute.rust",
+                ],
+                "settings": {
+                    "foreground": "#fd971f",
+                    "fontStyle": "italic",
+                },
+            },
+        ],
     },
     "[tf]": {
         "editor.tabSize": 2,
