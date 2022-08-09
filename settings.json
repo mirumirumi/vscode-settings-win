@@ -113,6 +113,19 @@
     "php-cs-fixer.executablePath": "${extensionPath}\\php-cs-fixer.phar",
     "intelephense.stubs": ["apache", "bcmath", "bz2", "calendar", "com_dotnet", "Core", "ctype", "curl", "date", "dba", "dom", "enchant", "exif", "FFI", "fileinfo", "filter", "fpm", "ftp", "gd", "gettext", "gmp", "hash", "iconv", "imap", "intl", "json", "ldap", "libxml", "mbstring", "meta", "mysqli", "oci8", "odbc", "openssl", "pcntl", "pcre", "PDO", "pdo_ibm", "pdo_mysql", "pdo_pgsql", "pdo_sqlite", "pgsql", "Phar", "posix", "pspell", "readline", "Reflection", "session", "shmop", "SimpleXML", "snmp", "soap", "sockets", "sodium", "SPL", "sqlite3", "standard", "superglobals", "sysvmsg", "sysvsem", "sysvshm", "tidy", "tokenizer", "xml", "xmlreader", "xmlrpc", "xmlwriter", "xsl", "Zend OPcache", "zip", "zlib", "wordpress"],
 
+    "go.lintOnSave": "off",
+    "go.formatTool": "gofmt",
+    "go.editorContextMenuCommands": {
+        "toggleTestFile": false,
+        "addTags": false,
+        "testAtCursor": false,
+        "generateTestForFunction": false,
+        "addImport": false,
+        "testCoverage": false,
+        "playground": false,
+        "debugTestAtCursor": false
+    },
+
     "rust-analyzer.lens.run.enable": false,
     "rust-analyzer.lens.debug.enable": false,
     "rust-analyzer.lens.implementations.enable": false,
@@ -194,12 +207,60 @@
     "[python]": {
         "editor.semanticHighlighting.enabled": false,
     },
+    "[go]": {
+        "editor.formatOnSave": false,
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": false,
+        },
+    },
     "[rust]": {
         "editor.inlayHints.enabled": "offUnlessPressed",
     },
-    // for only Rust
+    "[tf]": {
+        "editor.tabSize": 2,
+    },
+
     "editor.tokenColorCustomizations": {
         "textMateRules": [
+            // for only Go
+            {
+                "scope": [
+                    "keyword.const.go",
+                    "keyword.function.go",
+                    "keyword.type.go",
+                ],
+                "settings": {
+                    "foreground": "#66d9ef",
+                },
+            },
+            {
+                "scope": [
+                    "storage.type",
+                ],
+                "settings": {
+                    "foreground": "#fd971f",
+                    "fontStyle": "italic",
+                },
+            },
+            {
+                "scope": [
+                    "support.function.go",
+                ],
+                "settings": {
+                    "foreground": "#f8f8f2",
+                },
+            },
+            {
+                "scope": [
+                    "entity.name.type.go",
+                ],
+                "settings": {
+                    "foreground": "#a6e22e",
+                    "fontStyle": "",
+                },
+            },
+
+            // for only Rust
             {
                 "scope": "keyword.other.rust",
                 "settings": {
@@ -226,8 +287,5 @@
                 },
             },
         ],
-    },
-    "[tf]": {
-        "editor.tabSize": 2,
     },
 }
