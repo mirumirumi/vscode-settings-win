@@ -235,7 +235,7 @@
             },
             {
                 "scope": [
-                    "storage.type",
+                    "storage.type.string.go",
                 ],
                 "settings": {
                     "foreground": "#fd971f",
@@ -288,4 +288,5 @@
             },
         ],
     },
+    "go.toolsManagement.autoUpdate": true,
 }
