@@ -25,7 +25,6 @@
     "editor.guides.bracketPairs": "active",
     "editor.unicodeHighlight.includeComments": false,
     "editor.unicodeHighlight.includeStrings": false,
-    "editor.suggest.showSnippets": false,
     "window.restoreWindows": "all",
     "window.menuBarVisibility": "toggle",
     "window.newWindowDimensions": "maximized",
