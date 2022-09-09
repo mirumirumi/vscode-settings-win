@@ -201,5 +201,13 @@
         "key": "alt+w",
         "command": "-toggleSearchWholeWord",
         "when": "searchViewletFocus"
+    },
+    {
+        "key": "ctrl+p",
+        "command": "workbench.action.showCommands"
+    },
+    {
+        "key": "ctrl+shift+p",
+        "command": "-workbench.action.showCommands"
     }
 ]
