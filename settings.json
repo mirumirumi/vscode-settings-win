@@ -48,7 +48,6 @@
     "redhat.telemetry.enabled": false,
     "npm.fetchOnlinePackageInfo": false,
     "extensions.ignoreRecommendations": false,
-    "csscomb.preset": "C:/Users/owner/.vscode/extensions/mrmlnc.vscode-csscomb-5.3.2/node_modules/csscomb/config/csscomb.json",
     "liveServer.settings.donotVerifyTags": true,
     "liveServer.settings.donotShowInfoMsg": true,
     "markdown.extension.print.absoluteImgPath": false,
@@ -65,8 +64,6 @@
     "html.autoClosingTags": false,
     "htmltagwrap.tag": "strong",
     "htmltagwrap.autoDeselectClosingTag": false,
-
-    "typescript.updateImportsOnFileMove.enabled": "never",
 
     "eslint.validate": [
         "javascript",
@@ -94,13 +91,14 @@
     "python.analysis.autoImportCompletions": false,
     "python.analysis.diagnosticSeverityOverrides": {
         "reportUnusedImport": "none",
-        "reportUnusedClass": "information",
+        "reportUnusedClass": "none",
         "reportUnusedFunction": "none",
-        "reportUnboundVariable": "warning",
+        "reportUnboundVariable": "error",
         "reportUnknownMemberType": "none",
         "reportMissingModuleSource": "information",
         "reportMissingTypeStubs": "information",
-        "reportInvalidStringEscapeSequence": "none",
+        "reportInvalidStringEscapeSequence": "information",
+        "reportTypedDictNotRequiredAccess":"warning",
     },
     "notebook.cellToolbarLocation": {
         "default": "right",
