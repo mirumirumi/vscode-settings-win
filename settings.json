@@ -83,9 +83,6 @@
     "volar.completion.preferredTagNameCase": "pascal",
     "volar.autoCompleteRefs": true,
 
-    "python.linting.pylintArgs": [
-        "--load-plugins=pylint_django",
-    ],
     "python.analysis.typeCheckingMode": "strict",
     "python.analysis.stubPath": "functions/typings",
     "python.analysis.autoImportCompletions": false,
@@ -100,6 +97,14 @@
         "reportInvalidStringEscapeSequence": "information",
         "reportTypedDictNotRequiredAccess":"warning",
     },
+    "python.linting.pylintArgs": [
+        "--load-plugins=pylint_django",
+    ],
+    "python.formatting.provider": "yapf",
+    "python.formatting.yapfArgs": [
+        // https://github.com/google/yapf#knobs
+        "--style={allow_multiline_dictionary_keys: false, allow_split_before_default_or_named_assigns: true, allow_split_before_dict_value: false, arithmetic_precedence_indication: true, based_on_style: google, blank_line_before_nested_class_or_def: false, blank_line_before_module_docstring: false, blank_line_before_class_docstring: false, coalesce_brackets: true, column_limit: 160, dedent_closing_brackets: true, each_dict_entry_on_separate_line: true, force_multiline_dict: true, indent_dictionary_value: true, spaces_around_default_or_named_assign: false, spaces_before_comment: 2, space_between_ending_comma_and_closing_bracket: true, split_arguments_when_comma_terminated: true, split_all_comma_separated_values: false, split_before_bitwise_operator: true, split_before_dict_set_generator: true, split_before_logical_operator: true}"
+    ],
     "notebook.cellToolbarLocation": {
         "default": "right",
         "jupyter-notebook": "left",
@@ -156,7 +161,6 @@
         "!Split",
         "!Split sequence"
     ],
-    "yaml.validate": false,
 
     "cfnLint.validateUsingJsonSchema": true,
 
@@ -202,6 +206,7 @@
         "editor.tabSize": 2,
     },
     "[python]": {
+        "editor.formatOnSave": true,
         "editor.semanticHighlighting.enabled": false,
     },
     "[go]": {
