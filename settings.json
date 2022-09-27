@@ -173,6 +173,7 @@
         },
     },
     "[markdown]":  {
+        "editor.tabSize": 2,
         "editor.quickSuggestions": {
             "comments": "on",
             "strings": "on",
