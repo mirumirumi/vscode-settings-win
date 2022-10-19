@@ -219,6 +219,7 @@
     },
     "[rust]": {
         "editor.inlayHints.enabled": "offUnlessPressed",
+        "editor.formatOnSave": true,
     },
     "[tf]": {
         "editor.tabSize": 2,
