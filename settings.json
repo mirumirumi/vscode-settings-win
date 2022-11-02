@@ -227,6 +227,17 @@
 
     "editor.tokenColorCustomizations": {
         "textMateRules": [
+            // for only Vue
+            {
+                "scope": [
+                    "entity.name.type.class",
+                ],
+                "settings": {
+                    "foreground": "#66d9ef",
+                    "fontStyle": "italic",
+                },
+            },
+
             // for only Go
             {
                 "scope": [
