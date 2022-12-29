@@ -66,6 +66,47 @@
     "htmltagwrap.tag": "strong",
     "htmltagwrap.autoDeselectClosingTag": false,
 
+    "stylelint.config": {
+        "extends": [
+            "stylelint-config-standard-scss",
+            "stylelint-config-standard-vue",
+        ],
+        "rules": {
+            "rule-empty-line-before": "never",
+            "at-rule-empty-line-before": "never",
+            "color-hex-length": "long",
+            "color-function-notation": null,
+            "alpha-value-notation": null,
+            "selector-list-comma-newline-after": null,
+            "max-line-length": null,
+            "no-descending-specificity": null,
+            "selector-class-pattern": null,
+            "declaration-block-no-redundant-longhand-properties": null,
+            "block-no-empty": null,
+            "length-zero-no-unit": null,
+            "declaration-colon-newline-after": "always-multi-line",
+            "scss/double-slash-comment-empty-line-before": null,
+            "at-rule-no-unknown": null,
+            "declaration-empty-line-before": "never",
+            "declaration-block-trailing-semicolon": null,
+            "no-eol-whitespace": null,
+            "number-max-precision": null,
+        },
+    },
+    "stylelint.snippet": [
+        "css",
+        "scss",
+        "vue",
+    ],
+    "stylelint.validate": [
+        "css",
+        "scss",
+        "vue",
+    ],
+    "css.validate": false,
+    "scss.validate": false,
+
+
     "eslint.validate": [
         "javascript",
         "javascriptreact",
@@ -74,9 +115,10 @@
     "eslint.format.enable": true,
 
     "prettier.tabWidth": 2,
-    "prettier.bracketSpacing": false,
-    "prettier.printWidth": 777,
-    "prettier.semi": true,
+    "prettier.bracketSpacing": true,
+    "prettier.printWidth": 7777,
+    "prettier.semi": false,
+    "prettier.bracketSameLine": true,
 
     "volar.codeLens.references": false,
     "volar.icon.splitEditors": false,
@@ -86,7 +128,7 @@
     "volar.autoCompleteRefs": true,
 
     "python.analysis.typeCheckingMode": "strict",
-    "python.analysis.stubPath": "functions/typings",
+    "python.analysis.stubPath": "./typings",
     "python.analysis.autoImportCompletions": false,
     "python.analysis.diagnosticSeverityOverrides": {
         "reportUnusedImport": "none",
@@ -98,11 +140,12 @@
         "reportMissingTypeStubs": "information",
         "reportInvalidStringEscapeSequence": "information",
         "reportTypedDictNotRequiredAccess":"warning",
+        "reportUntypedFunctionDecorator": "none",
     },
-    "python.linting.pylintArgs": [
-        "--load-plugins=pylint_django",
+    "python.formatting.provider": "none",
+    "black-formatter.args": [
+        "--line-length=124",
     ],
-    "python.formatting.provider": "yapf",
     "python.formatting.yapfArgs": [
         // https://github.com/google/yapf#knobs
         "--style={allow_multiline_dictionary_keys: false, allow_split_before_default_or_named_assigns: true, allow_split_before_dict_value: false, arithmetic_precedence_indication: true, based_on_style: google, blank_line_before_nested_class_or_def: false, blank_line_before_module_docstring: false, blank_line_before_class_docstring: false, coalesce_brackets: true, column_limit: 160, dedent_closing_brackets: true, each_dict_entry_on_separate_line: true, force_multiline_dict: true, indent_dictionary_value: true, spaces_around_default_or_named_assign: false, spaces_before_comment: 2, space_between_ending_comma_and_closing_bracket: true, split_arguments_when_comma_terminated: true, split_all_comma_separated_values: false, split_before_bitwise_operator: true, split_before_dict_set_generator: true, split_before_logical_operator: true}"
@@ -187,16 +230,26 @@
         "editor.tabSize": 2,
     },
     "[css]": {
+        "editor.defaultFormatter": "stylelint.vscode-stylelint",
+        "editor.formatOnSave": true,
+        "editor.formatOnType": true,
+        "editor.formatOnPaste": true,
     },
     "[scss]": {
         "editor.tabSize": 2,
+        "editor.defaultFormatter": "stylelint.vscode-stylelint",
+        "editor.formatOnSave": true,
+        "editor.formatOnType": true,
+        "editor.formatOnPaste": true,
     },
     "[javascript]": {
         "editor.tabSize": 2,
+        "editor.formatOnSave": true,
     },
     "[typescript]": {
         "editor.tabSize": 2,
         "editor.defaultFormatter": "vscode.typescript-language-features",
+        "editor.formatOnSave": true,
     },
     "[json]": {
         "editor.defaultFormatter": "vscode.json-language-features",
@@ -206,9 +259,13 @@
         "editor.formatOnSave": false,
     },
     "[vue]": {
-        "editor.tabSize": 2,
+        "editor.defaultFormatter": "stylelint.vscode-stylelint",
+        "editor.formatOnSave": true,
+        "editor.formatOnType": true,
+        "editor.formatOnPaste": true,
     },
     "[python]": {
+        "editor.defaultFormatter": "ms-python.black-formatter",
         "editor.formatOnSave": true,
         "editor.semanticHighlighting.enabled": false,
     },
