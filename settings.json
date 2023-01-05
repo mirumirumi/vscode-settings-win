@@ -41,7 +41,6 @@
     "files.simpleDialog.enable": true,
     "files.insertFinalNewline": true,
     "debug.javascript.codelens.npmScripts": "never",
-    "git.enabled": false,
     "git.ignoreMissingGitWarning": true,
     "terminal.integrated.defaultProfile.windows": "Ubuntu (WSL)",
     "terminal.integrated.enableMultiLinePasteWarning": false,
