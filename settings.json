@@ -33,6 +33,9 @@
     "explorer.confirmDelete": false,
     "explorer.autoReveal": false,
     "explorer.confirmDragAndDrop": false,
+    "git.ignoreMissingGitWarning": true,
+    // "search.useGlobalIgnoreFiles": true,
+    // "search.useParentIgnoreFiles": true,
     "update.showReleaseNotes": false,
     "update.enableWindowsBackgroundUpdates": false,
     "security.workspace.trust.untrustedFiles": "open",
@@ -41,7 +44,6 @@
     "files.simpleDialog.enable": true,
     "files.insertFinalNewline": true,
     "debug.javascript.codelens.npmScripts": "never",
-    "git.ignoreMissingGitWarning": true,
     "terminal.integrated.defaultProfile.windows": "Ubuntu (WSL)",
     "terminal.integrated.enableMultiLinePasteWarning": false,
     "telemetry.telemetryLevel": "off",
@@ -156,7 +158,8 @@
 
     "php.validate.run": "onType",
     "phpserver.browser": "",
-    "php-cs-fixer.executablePath": "${extensionPath}\\php-cs-fixer.phar",
+    "php-cs-fixer.lastDownload": 1676854355142,
+    "php-cs-fixer.executablePath": "${extensionPath}/php-cs-fixer.phar",
     "intelephense.stubs": ["apache", "bcmath", "bz2", "calendar", "com_dotnet", "Core", "ctype", "curl", "date", "dba", "dom", "enchant", "exif", "FFI", "fileinfo", "filter", "fpm", "ftp", "gd", "gettext", "gmp", "hash", "iconv", "imap", "intl", "json", "ldap", "libxml", "mbstring", "meta", "mysqli", "oci8", "odbc", "openssl", "pcntl", "pcre", "PDO", "pdo_ibm", "pdo_mysql", "pdo_pgsql", "pdo_sqlite", "pgsql", "Phar", "posix", "pspell", "readline", "Reflection", "session", "shmop", "SimpleXML", "snmp", "soap", "sockets", "sodium", "SPL", "sqlite3", "standard", "superglobals", "sysvmsg", "sysvsem", "sysvshm", "tidy", "tokenizer", "xml", "xmlreader", "xmlrpc", "xmlwriter", "xsl", "Zend OPcache", "zip", "zlib", "wordpress"],
 
     "go.lintOnSave": "off",
