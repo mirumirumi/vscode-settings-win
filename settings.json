@@ -127,6 +127,7 @@
     "volar.completion.preferredTagNameCase": "pascal",
     "volar.completion.autoImportComponent": false,
     "volar.autoCompleteRefs": true,
+    "volar.inlayHints.eventArgumentInInlineHandlers": false,
 
     "python.analysis.typeCheckingMode": "strict",
     "python.analysis.stubPath": "./typings",
@@ -158,7 +159,7 @@
 
     "php.validate.run": "onType",
     "phpserver.browser": "",
-    "php-cs-fixer.lastDownload": 1676854355142,
+    "php-cs-fixer.lastDownload": 1678777171761,
     "php-cs-fixer.executablePath": "${extensionPath}/php-cs-fixer.phar",
     "intelephense.stubs": ["apache", "bcmath", "bz2", "calendar", "com_dotnet", "Core", "ctype", "curl", "date", "dba", "dom", "enchant", "exif", "FFI", "fileinfo", "filter", "fpm", "ftp", "gd", "gettext", "gmp", "hash", "iconv", "imap", "intl", "json", "ldap", "libxml", "mbstring", "meta", "mysqli", "oci8", "odbc", "openssl", "pcntl", "pcre", "PDO", "pdo_ibm", "pdo_mysql", "pdo_pgsql", "pdo_sqlite", "pgsql", "Phar", "posix", "pspell", "readline", "Reflection", "session", "shmop", "SimpleXML", "snmp", "soap", "sockets", "sodium", "SPL", "sqlite3", "standard", "superglobals", "sysvmsg", "sysvsem", "sysvshm", "tidy", "tokenizer", "xml", "xmlreader", "xmlrpc", "xmlwriter", "xsl", "Zend OPcache", "zip", "zlib", "wordpress"],
 
@@ -246,12 +247,13 @@
     },
     "[javascript]": {
         "editor.tabSize": 2,
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
         "editor.formatOnSave": true,
     },
     "[typescript]": {
         "editor.tabSize": 2,
-        "editor.defaultFormatter": "vscode.typescript-language-features",
-        "editor.formatOnSave": true,
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        // "editor.formatOnSave": true,
     },
     "[json]": {
         "editor.defaultFormatter": "vscode.json-language-features",
