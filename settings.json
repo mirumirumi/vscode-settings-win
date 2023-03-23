@@ -94,25 +94,12 @@
             "number-max-precision": null,
         },
     },
-    "stylelint.snippet": [
-        "css",
-        "scss",
-        "vue",
-    ],
-    "stylelint.validate": [
-        "css",
-        "scss",
-        "vue",
-    ],
+    "stylelint.snippet": ["css", "scss", "vue"],
+    "stylelint.validate": ["css", "scss", "vue"],
     "css.validate": false,
     "scss.validate": false,
 
-
-    "eslint.validate": [
-        "javascript",
-        "javascriptreact",
-        "vue",
-    ],
+    "eslint.validate": ["javascript", "javascriptreact", "vue"],
     "eslint.format.enable": true,
 
     "prettier.tabWidth": 2,
@@ -159,7 +146,6 @@
 
     "php.validate.run": "onType",
     "phpserver.browser": "",
-    "php-cs-fixer.lastDownload": 1678777171761,
     "php-cs-fixer.executablePath": "${extensionPath}/php-cs-fixer.phar",
     "intelephense.stubs": ["apache", "bcmath", "bz2", "calendar", "com_dotnet", "Core", "ctype", "curl", "date", "dba", "dom", "enchant", "exif", "FFI", "fileinfo", "filter", "fpm", "ftp", "gd", "gettext", "gmp", "hash", "iconv", "imap", "intl", "json", "ldap", "libxml", "mbstring", "meta", "mysqli", "oci8", "odbc", "openssl", "pcntl", "pcre", "PDO", "pdo_ibm", "pdo_mysql", "pdo_pgsql", "pdo_sqlite", "pgsql", "Phar", "posix", "pspell", "readline", "Reflection", "session", "shmop", "SimpleXML", "snmp", "soap", "sockets", "sodium", "SPL", "sqlite3", "standard", "superglobals", "sysvmsg", "sysvsem", "sysvshm", "tidy", "tokenizer", "xml", "xmlreader", "xmlrpc", "xmlwriter", "xsl", "Zend OPcache", "zip", "zlib", "wordpress"],
 
@@ -179,36 +165,9 @@
     "rust-analyzer.lens.run.enable": false,
     "rust-analyzer.lens.debug.enable": false,
     "rust-analyzer.lens.implementations.enable": false,
+    "rust-analyzer.linkedProjects": [],
 
-    "yaml.customTags": [
-        "!And",
-        "!And sequence",
-        "!If",
-        "!If sequence",
-        "!Not",
-        "!Not sequence",
-        "!Equals",
-        "!Equals sequence",
-        "!Or",
-        "!Or sequence",
-        "!FindInMap",
-        "!FindInMap sequence",
-        "!Base64",
-        "!Join",
-        "!Join sequence",
-        "!Cidr",
-        "!Ref",
-        "!Sub",
-        "!Sub sequence",
-        "!GetAtt",
-        "!GetAZs",
-        "!ImportValue",
-        "!ImportValue sequence",
-        "!Select",
-        "!Select sequence",
-        "!Split",
-        "!Split sequence"
-    ],
+    "yaml.customTags": ["!And", "!And sequence", "!If", "!If sequence", "!Not", "!Not sequence", "!Equals", "!Equals sequence", "!Or", "!Or sequence", "!FindInMap", "!FindInMap sequence", "!Base64", "!Join", "!Join sequence", "!Cidr", "!Ref", "!Sub", "!Sub sequence", "!GetAtt", "!GetAZs", "!ImportValue", "!ImportValue sequence", "!Select", "!Select sequence", "!Split", "!Split sequence"],
 
     "cfnLint.validateUsingJsonSchema": true,
 
@@ -283,6 +242,7 @@
     "[rust]": {
         "editor.inlayHints.enabled": "offUnlessPressed",
         "editor.formatOnSave": true,
+        "editor.semanticHighlighting.enabled": false,
     },
     "[tf]": {
         "editor.tabSize": 2,
@@ -341,15 +301,15 @@
 
             // for only Rust
             {
-                "scope": "keyword.other.rust",
-                "settings": {
-                    "foreground": "#66d9ef",
-                },
-            },
-            {
                 "scope": [
+                    "keyword.operator.key-value.rust",
+                    "entity.name.type.rust",
                     "entity.name.type.struct.rust",
-                    "entity.name.type.declaration.rust",
+                    "entity.name.type.result.rust",
+                    "entity.name.function.rust",
+                    "entity.name.namespace.rust",
+                    "entity.name.type.trait.rust",
+                    "meta.function.definition.rust keyword.operator.arrow.skinny.rust",
                 ],
                 "settings": {
                     "foreground": "#f8f8f2",
@@ -358,11 +318,44 @@
             },
             {
                 "scope": [
+                    "keyword.other.fn.rust",
+                    "entity.name.type.primitive.rust",
+                    "entity.name.type.numeric.rust",
+                    "meta.function.definition.rust entity.name.type.rust",
+                    "meta.attribute.rust entity.name.type.rust",
+                    "meta.use.rust entity.name.type.rust",
+                ],
+                "settings": {
+                    "foreground": "#66d9ef",
+                    "fontStyle": "italic",
+                },
+            },
+            {
+                "scope": [
                     "meta.attribute.rust",
+                    "meta.function.definition.rust variable.other.rust",
                 ],
                 "settings": {
                     "foreground": "#fd971f",
                     "fontStyle": "italic",
+                },
+            },
+            {
+                "scope": [
+                    "meta.function.definition.rust entity.name.function.rust",
+                    "punctuation.definition.attribute.rust",
+                ],
+                "settings": {
+                    "foreground": "#A6E22E",
+                    "fontStyle": "",
+                },
+            },
+            {
+                "scope": [
+                    "storage.type.rust",
+                ],
+                "settings": {
+                    "foreground": "#F92672",
                 },
             },
         ],
