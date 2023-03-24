@@ -165,7 +165,6 @@
     "rust-analyzer.lens.run.enable": false,
     "rust-analyzer.lens.debug.enable": false,
     "rust-analyzer.lens.implementations.enable": false,
-    "rust-analyzer.linkedProjects": [],
 
     "yaml.customTags": ["!And", "!And sequence", "!If", "!If sequence", "!Not", "!Not sequence", "!Equals", "!Equals sequence", "!Or", "!Or sequence", "!FindInMap", "!FindInMap sequence", "!Base64", "!Join", "!Join sequence", "!Cidr", "!Ref", "!Sub", "!Sub sequence", "!GetAtt", "!GetAZs", "!ImportValue", "!ImportValue sequence", "!Select", "!Select sequence", "!Split", "!Split sequence"],
 
@@ -334,6 +333,8 @@
                 "scope": [
                     "meta.attribute.rust",
                     "meta.function.definition.rust variable.other.rust",
+                    "punctuation.definition.lifetime.rust",
+                    "entity.name.type.lifetime.rust",
                 ],
                 "settings": {
                     "foreground": "#fd971f",
