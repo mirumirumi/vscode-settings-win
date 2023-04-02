@@ -102,19 +102,27 @@
     "eslint.validate": ["javascript", "javascriptreact", "vue"],
     "eslint.format.enable": true,
 
-    "prettier.tabWidth": 2,
+    "prettier.arrowParens": "always",
+    "prettier.bracketSameLine": false,
     "prettier.bracketSpacing": true,
-    "prettier.printWidth": 7777,
+    "prettier.htmlWhitespaceSensitivity": "strict",
+    "prettier.printWidth": 120,
+    "prettier.quoteProps": "consistent",
     "prettier.semi": false,
-    "prettier.bracketSameLine": true,
+    "prettier.singleAttributePerLine": false,
+    "prettier.singleQuote": false,
+    "prettier.tabWidth": 2,
+    "prettier.trailingComma": "es5",
+    "prettier.vueIndentScriptAndStyle": false,
 
+    "volar.autoCompleteRefs": true,
     "volar.codeLens.references": false,
-    "volar.icon.splitEditors": false,
     "volar.completion.preferredAttrNameCase": "camel",
     "volar.completion.preferredTagNameCase": "pascal",
-    "volar.completion.autoImportComponent": false,
-    "volar.autoCompleteRefs": true,
     "volar.inlayHints.eventArgumentInInlineHandlers": false,
+    "volar.splitEditors.layout.left": ["template"],
+    "volar.splitEditors.layout.right": ["style"],
+    "volar.vueserver.fullCompletionList": true,
 
     "python.analysis.typeCheckingMode": "strict",
     "python.analysis.stubPath": "./typings",
@@ -222,10 +230,14 @@
     },
     "[vue]": {
         "editor.tabSize": 2,
-        "editor.defaultFormatter": "stylelint.vscode-stylelint",
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
         "editor.formatOnSave": true,
         "editor.formatOnType": true,
         "editor.formatOnPaste": true,
+        "editor.codeActionsOnSave": {
+            "source.fixAll.prettier": true,
+            "source.fixAll.stylelint": true,
+        },
     },
     "[python]": {
         "editor.defaultFormatter": "ms-python.black-formatter",
@@ -347,7 +359,7 @@
                     "punctuation.definition.attribute.rust",
                 ],
                 "settings": {
-                    "foreground": "#A6E22E",
+                    "foreground": "#a6e22e",
                     "fontStyle": "",
                 },
             },
@@ -356,7 +368,16 @@
                     "storage.type.rust",
                 ],
                 "settings": {
-                    "foreground": "#F92672",
+                    "foreground": "#f92672",
+                },
+            },
+            {
+                "scope": [
+                    "entity.name.type.option.rust",
+                ],
+                "settings": {
+                    "foreground": "#ae81ff",
+                    "fontStyle": "italic",
                 },
             },
         ],
