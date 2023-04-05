@@ -164,11 +164,6 @@
         "when": "editorTextFocus"
     },
     {
-        "key": "ctrl+o",
-        "command": "workbench.action.files.openFolder",
-        "when": "openFolderWorkspaceSupport"
-    },
-    {
         "key": "ctrl+k ctrl+o",
         "command": "-workbench.action.files.openFolder",
         "when": "openFolderWorkspaceSupport"
@@ -237,5 +232,9 @@
     {
         "key": "ctrl+alt+right",
         "command": "-workbench.action.moveEditorToNextGroup"
+    },
+    {
+        "key": "ctrl+o",
+        "command": "workbench.action.openWorkspace"
     }
 ]
