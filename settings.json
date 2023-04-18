@@ -174,7 +174,7 @@
     "rust-analyzer.lens.debug.enable": false,
     "rust-analyzer.lens.implementations.enable": false,
     "rust-analyzer.rustfmt.extraArgs": [
-        "--config", "blank_lines_upper_bound=999,imports_layout=HorizontalVertical,imports_granularity=Crate,overflow_delimited_expr=true,group_imports=StdExternalCrate,struct_lit_single_line=false",
+        "--config", "blank_lines_upper_bound=999,imports_layout=HorizontalVertical,imports_granularity=Crate,group_imports=StdExternalCrate",
     ],
 
     "yaml.customTags": ["!And", "!And sequence", "!If", "!If sequence", "!Not", "!Not sequence", "!Equals", "!Equals sequence", "!Or", "!Or sequence", "!FindInMap", "!FindInMap sequence", "!Base64", "!Join", "!Join sequence", "!Cidr", "!Ref", "!Sub", "!Sub sequence", "!GetAtt", "!GetAZs", "!ImportValue", "!ImportValue sequence", "!Select", "!Select sequence", "!Split", "!Split sequence"],
