@@ -5,8 +5,8 @@
     "workbench.editor.untitled.hint": "hidden",
     "workbench.list.openMode": "doubleClick",
     "workbench.startupEditor": "none",
-    "workbench.activityBar.visible": false,
     "workbench.settings.editor": "json",
+    "workbench.activityBar.visible": false,
     "breadcrumbs.enabled": false,
     "editor.fontSize": 14,
     "editor.fontFamily": "Consolas, 'Noto Sans JP'",
@@ -173,14 +173,9 @@
     "rust-analyzer.lens.run.enable": false,
     "rust-analyzer.lens.debug.enable": false,
     "rust-analyzer.lens.implementations.enable": false,
-    // "rust-analyzer.rustfmt.extraArgs": [
-        // blank_lines_upper_bound = 999,
-        // imports_layout = \"HorizontalVertical\",
-        // imports_granularity = \"Crate\"",
-        // overflow_delimited_expr = true,
-        // group_imports = \"StdExternalCrate\",
-        // struct_lit_single_line = false,
-    // ],
+    "rust-analyzer.rustfmt.extraArgs": [
+        "--config", "blank_lines_upper_bound=999,imports_layout=HorizontalVertical,imports_granularity=Crate,overflow_delimited_expr=true,group_imports=StdExternalCrate,struct_lit_single_line=false",
+    ],
 
     "yaml.customTags": ["!And", "!And sequence", "!If", "!If sequence", "!Not", "!Not sequence", "!Equals", "!Equals sequence", "!Or", "!Or sequence", "!FindInMap", "!FindInMap sequence", "!Base64", "!Join", "!Join sequence", "!Cidr", "!Ref", "!Sub", "!Sub sequence", "!GetAtt", "!GetAZs", "!ImportValue", "!ImportValue sequence", "!Select", "!Select sequence", "!Split", "!Split sequence"],
 
