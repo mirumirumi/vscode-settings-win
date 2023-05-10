@@ -54,6 +54,7 @@
     "liveServer.settings.donotShowInfoMsg": true,
     "markdown.extension.print.absoluteImgPath": false,
     "markdown.extension.list.indentationSize": "inherit",
+    "googleTranslateExt.languages": ["ja"],
     "settingsSync.ignoredSettings": [
         "editor.fontSize"
     ],
@@ -231,6 +232,9 @@
     "[jsonc]": {
         "editor.defaultFormatter": "vscode.json-language-features",
         "editor.formatOnSave": false,
+    },
+    "[yaml]": {
+        "editor.tabSize": 2,
     },
     "[vue]": {
         "editor.tabSize": 2,
