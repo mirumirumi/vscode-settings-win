@@ -240,5 +240,13 @@
     {
         "key": "ctrl+shift+t",
         "command": "-extension.translate"
+    },
+    {
+        "key": "ctrl+shift+oem_102",
+        "command": "workbench.action.gotoSymbol"
+    },
+    {
+        "key": "ctrl+shift+o",
+        "command": "-workbench.action.gotoSymbol"
     }
 ]
