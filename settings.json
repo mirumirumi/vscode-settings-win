@@ -1,6 +1,5 @@
 {
     "workbench.colorTheme": "Monokai",
-    "workbench.enableExperiments": false,
     "workbench.tree.indent": 13,
     "workbench.editor.untitled.hint": "hidden",
     "workbench.list.openMode": "doubleClick",
@@ -26,50 +25,44 @@
     "editor.unicodeHighlight.includeComments": false,
     "editor.unicodeHighlight.includeStrings": false,
     "editor.accessibilitySupport": "off",
-    "window.restoreWindows": "all",
-    "window.menuBarVisibility": "toggle",
-    "window.newWindowDimensions": "maximized",
+	"editor.codeActionsOnSave":{
+		"source.organizeImports.biome": true
+	},
     "explorer.compactFolders": false,
     "explorer.confirmDelete": false,
     "explorer.autoReveal": false,
     "explorer.confirmDragAndDrop": false,
-    "git.ignoreMissingGitWarning": true,
-    // "search.useGlobalIgnoreFiles": true,
-    // "search.useParentIgnoreFiles": true,
-    "update.showReleaseNotes": false,
-    "update.enableWindowsBackgroundUpdates": false,
-    "security.workspace.trust.untrustedFiles": "open",
-    "security.workspace.trust.banner": "always",
-    "files.hotExit": "off",
     "files.simpleDialog.enable": true,
     "files.insertFinalNewline": true,
-    "debug.javascript.codelens.npmScripts": "never",
-    "terminal.integrated.defaultProfile.windows": "Ubuntu (WSL)",
+    "terminal.integrated.tabs.enabled": false,
+    "terminal.integrated.defaultProfile.windows":"Ubuntu-22.04 (WSL)",
     "terminal.integrated.enableMultiLinePasteWarning": false,
-    "telemetry.telemetryLevel": "off",
+    "git.ignoreMissingGitWarning": true,
+    "git.openRepositoryInParentFolders": "never",
     "redhat.telemetry.enabled": false,
     "npm.fetchOnlinePackageInfo": false,
+    "debug.javascript.codelens.npmScripts": "never",
     "extensions.ignoreRecommendations": false,
     "liveServer.settings.donotVerifyTags": true,
     "liveServer.settings.donotShowInfoMsg": true,
     "markdown.extension.print.absoluteImgPath": false,
     "markdown.extension.list.indentationSize": "inherit",
-    "googleTranslateExt.languages": ["ja"],
-    "settingsSync.ignoredSettings": [
-        "editor.fontSize"
-    ],
-    "settingsSync.keybindingsPerPlatform": false,
-    "files.exclude": {
-        "**/__pycache__": true,
-        "**/.pytest_cache": true
+    "github.copilot.enable": {
+        "*": false,
+        "plaintext": false,
+        "markdown": false,
+        "scminput": false
     },
+    "genieai.enableConversationHistory": true,
+    "genieai.openai.model": "gpt-4",
+    "genieai.personalizedName": "Nyan",
 
     "html.autoClosingTags": false,
     "htmltagwrap.tag": "strong",
     "htmltagwrap.autoDeselectClosingTag": false,
 
-    "javascript.preferGoToSourceDefinition": true,
-    "typescript.preferGoToSourceDefinition": true,
+    // "javascript.preferGoToSourceDefinition": true,
+    // "typescript.preferGoToSourceDefinition": true,
 
     "stylelint.config": {
         "extends": [
@@ -103,9 +96,11 @@
     "css.validate": false,
     "scss.validate": false,
 
-    "eslint.validate": ["javascript", "javascriptreact", "vue"],
+    "eslint.enable": false,
+    "eslint.validate": ["javascript", "typescript", "vue"],
     "eslint.format.enable": true,
 
+    "prettier.enable": false,
     "prettier.arrowParens": "always",
     "prettier.bracketSameLine": false,
     "prettier.bracketSpacing": true,
@@ -142,13 +137,8 @@
         "reportTypedDictNotRequiredAccess":"warning",
         "reportUntypedFunctionDecorator": "none",
     },
-    "python.formatting.provider": "none",
     "black-formatter.args": [
         "--line-length=124",
-    ],
-    "python.formatting.yapfArgs": [
-        // https://github.com/google/yapf#knobs
-        "--style={allow_multiline_dictionary_keys: false, allow_split_before_default_or_named_assigns: true, allow_split_before_dict_value: false, arithmetic_precedence_indication: true, based_on_style: google, blank_line_before_nested_class_or_def: false, blank_line_before_module_docstring: false, blank_line_before_class_docstring: false, coalesce_brackets: true, column_limit: 160, dedent_closing_brackets: true, each_dict_entry_on_separate_line: true, force_multiline_dict: true, indent_dictionary_value: true, spaces_around_default_or_named_assign: false, spaces_before_comment: 2, space_between_ending_comma_and_closing_bracket: true, split_arguments_when_comma_terminated: true, split_all_comma_separated_values: false, split_before_bitwise_operator: true, split_before_dict_set_generator: true, split_before_logical_operator: true}"
     ],
     "notebook.cellToolbarLocation": {
         "default": "right",
@@ -156,22 +146,7 @@
     },
 
     "php.validate.run": "onType",
-    "phpserver.browser": "",
-    "php-cs-fixer.executablePath": "${extensionPath}/php-cs-fixer.phar",
     "intelephense.stubs": ["apache", "bcmath", "bz2", "calendar", "com_dotnet", "Core", "ctype", "curl", "date", "dba", "dom", "enchant", "exif", "FFI", "fileinfo", "filter", "fpm", "ftp", "gd", "gettext", "gmp", "hash", "iconv", "imap", "intl", "json", "ldap", "libxml", "mbstring", "meta", "mysqli", "oci8", "odbc", "openssl", "pcntl", "pcre", "PDO", "pdo_ibm", "pdo_mysql", "pdo_pgsql", "pdo_sqlite", "pgsql", "Phar", "posix", "pspell", "readline", "Reflection", "session", "shmop", "SimpleXML", "snmp", "soap", "sockets", "sodium", "SPL", "sqlite3", "standard", "superglobals", "sysvmsg", "sysvsem", "sysvshm", "tidy", "tokenizer", "xml", "xmlreader", "xmlrpc", "xmlwriter", "xsl", "Zend OPcache", "zip", "zlib", "wordpress"],
-
-    "go.lintOnSave": "off",
-    "go.formatTool": "gofmt",
-    "go.editorContextMenuCommands": {
-        "toggleTestFile": false,
-        "addTags": false,
-        "testAtCursor": false,
-        "generateTestForFunction": false,
-        "addImport": false,
-        "testCoverage": false,
-        "playground": false,
-        "debugTestAtCursor": false
-    },
 
     "rust-analyzer.lens.run.enable": false,
     "rust-analyzer.lens.debug.enable": false,
@@ -203,7 +178,9 @@
         "editor.suggest.showWords": false,
     },
     "[html]": {
+        "editor.defaultFormatter": "vscode.html-language-features",
         "editor.tabSize": 2,
+        "editor.formatOnSave": true,
     },
     "[css]": {
         "editor.defaultFormatter": "stylelint.vscode-stylelint",
@@ -220,13 +197,15 @@
     },
     "[javascript]": {
         "editor.tabSize": 2,
-        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.defaultFormatter": "biomejs.biome",
         "editor.formatOnSave": true,
+        "editor.semanticHighlighting.enabled": false,
     },
     "[typescript]": {
         "editor.tabSize": 2,
-        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.defaultFormatter": "biomejs.biome",
         "editor.formatOnSave": true,
+        "editor.semanticHighlighting.enabled": false,
     },
     "[json]": {
         "editor.defaultFormatter": "vscode.json-language-features",
@@ -271,7 +250,85 @@
 
     "editor.tokenColorCustomizations": {
         "textMateRules": [
-            // for only Vue
+            // HTML
+            {
+                "scope": [
+                    "meta.tag.custom.start.html entity.name.tag.html",
+                    "meta.tag.custom.end.html entity.name.tag.html",
+                ],
+                "settings": {
+                    "foreground": "#66d9ef",
+                    "fontStyle": "italic",
+                },
+            },
+
+            // JS/TS
+            {
+                "scope": [
+                    "entity.name.type",
+                    "entity.name.type.interface",
+                    "support.function.json.ts",
+                ],
+                "settings": {
+                    "foreground": "#a6e22e",
+                    "fontStyle": "",
+                },
+            },
+            {
+                "scope": [
+                    "meta.type.annotation.ts entity.name.type.ts",
+                    "meta.type.parameters.ts entity.name.type.ts",
+                    "meta.return.type.ts entity.name.type.ts",
+                    "meta.return.type.arrow.ts entity.name.type.ts",
+                    "meta.class.ts entity.other.inherited-class.ts",
+                ],
+                "settings": {
+                    "foreground": "#66d9ef",
+                    "fontStyle": "italic",
+                },
+            },
+            {
+                "scope": [
+                    "punctuation.accessor.ts",
+                    "punctuation.accessor.optional.ts"
+                ],
+                "settings": {
+                    "foreground": "#f92672",
+                    "fontStyle": "",
+                },
+            },
+            {
+                "scope": [
+                    "new.expr.ts meta.function-call.ts entity.name.function.ts",
+                    "meta.type.declaration.ts entity.name.type.alias.ts",
+                    "meta.interface.ts entity.name.type.interface.ts",
+                    "variable.other.constant.ts entity.name.function.ts",
+                    "entity.name.type.class.ts",
+                ],
+                "settings": {
+                    "foreground": "#f8f8f2",
+                    "fontStyle": "",
+                },
+            },
+            {
+                "scope": [
+                    "meta.arrow.ts storage.type.function.arrow.ts",
+                ],
+                "settings": {
+                    "foreground": "#f8f8f2",
+                    "fontStyle": "italic",
+                },
+            },
+            {
+                "scope": [
+                ],
+                "settings": {
+                    "foreground": "#ae81ff",
+                    "fontStyle": "",
+                },
+            },
+
+            // Vue
             {
                 "scope": [
                     "entity.name.type.class",
@@ -282,7 +339,7 @@
                 },
             },
 
-            // for only Go
+            // Go
             {
                 "scope": [
                     "keyword.const.go",
@@ -320,7 +377,7 @@
                 },
             },
 
-            // for only Rust
+            // Rust
             {
                 "scope": [
                     "keyword.operator.key-value.rust",
@@ -393,4 +450,9 @@
             },
         ],
     },
+    "workbench.editor.empty.hint": "hidden",
+    "chatgpt.lang": "en",
+    "security.allowedUNCHosts": [
+        "wsl.localhost"
+    ],
 }
