@@ -61,6 +61,8 @@
     "htmltagwrap.tag": "strong",
     "htmltagwrap.autoDeselectClosingTag": false,
 
+    "javascript.preferences.importModuleSpecifier": "relative",
+    "typescript.preferences.importModuleSpecifier": "relative",
     // "javascript.preferGoToSourceDefinition": true,
     // "typescript.preferGoToSourceDefinition": true,
 
