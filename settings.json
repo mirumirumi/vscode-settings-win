@@ -6,7 +6,7 @@
     "workbench.settings.editor": "json",
     "workbench.editor.empty.hint": "hidden",
     "workbench.activityBar.location": "hidden",
-    "breadcrumbs.enabled": false,
+    "breadcrumbs.enabled": true,
     "editor.fontSize": 14,
     "editor.fontFamily": "Consolas, 'Noto Sans JP'",
     "editor.detectIndentation": false,
@@ -25,6 +25,7 @@
     "editor.unicodeHighlight.includeComments": false,
     "editor.unicodeHighlight.includeStrings": false,
     "editor.accessibilitySupport": "off",
+    "editor.multiCursorModifier": "ctrlCmd",
 	"editor.codeActionsOnSave":{
 		"source.organizeImports.biome": true
 	},
@@ -57,7 +58,7 @@
     "genieai.openai.model": "gpt-4",
     "genieai.personalizedName": "Nyan",
 
-    "html.autoClosingTags": false,
+    "html.autoClosingTags": true,
     "htmltagwrap.tag": "strong",
     "htmltagwrap.autoDeselectClosingTag": false,
 
@@ -69,7 +70,7 @@
     "stylelint.config": {
         "extends": [
             "stylelint-config-standard-scss",
-            "stylelint-config-standard-vue",
+            // "stylelint-config-standard-vue",
         ],
         "rules": {
             "rule-empty-line-before": "never",
