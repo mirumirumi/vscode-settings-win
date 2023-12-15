@@ -27,8 +27,8 @@
     "editor.accessibilitySupport": "off",
     "editor.multiCursorModifier": "ctrlCmd",
 	"editor.codeActionsOnSave":{
-		"source.organizeImports.biome": true
-	},
+        "source.organizeImports.biome": "explicit"
+    },
     "explorer.compactFolders": false,
     "explorer.confirmDelete": false,
     "explorer.autoReveal": false,
@@ -227,8 +227,8 @@
         "editor.formatOnType": true,
         "editor.formatOnPaste": true,
         "editor.codeActionsOnSave": {
-            "source.fixAll.prettier": true,
-            "source.fixAll.stylelint": true,
+            "source.fixAll.prettier": "explicit",
+            "source.fixAll.stylelint": "explicit"
         },
     },
     "[python]": {
@@ -239,7 +239,7 @@
     "[go]": {
         "editor.formatOnSave": false,
         "editor.codeActionsOnSave": {
-            "source.organizeImports": false,
+            "source.organizeImports": "never"
         },
     },
     "[rust]": {
