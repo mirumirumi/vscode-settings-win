@@ -27,6 +27,7 @@
     "editor.accessibilitySupport": "off",
     "editor.multiCursorModifier": "ctrlCmd",
 	"editor.codeActionsOnSave":{
+        "source.fixAll.stylelint": "explicit",
         "source.organizeImports.biome": "explicit"
     },
     "explorer.compactFolders": false,
