@@ -103,13 +103,11 @@
     "eslint.enable": false,
     "eslint.validate": ["javascript", "typescript", "vue"],
     "eslint.format.enable": true,
-
-    "prettier.enable": false,
     "prettier.arrowParens": "always",
     "prettier.bracketSameLine": false,
     "prettier.bracketSpacing": true,
     "prettier.htmlWhitespaceSensitivity": "strict",
-    "prettier.printWidth": 120,
+    "prettier.printWidth": 90,
     "prettier.quoteProps": "consistent",
     "prettier.semi": false,
     "prettier.singleAttributePerLine": false,
@@ -182,7 +180,7 @@
         "editor.suggest.showWords": false,
     },
     "[html]": {
-        "editor.defaultFormatter": "vscode.html-language-features",
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
         "editor.tabSize": 2,
         "editor.formatOnSave": true,
     },
