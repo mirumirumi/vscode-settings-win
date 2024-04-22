@@ -357,5 +357,9 @@
     {
         "key": "ctrl+e",
         "command": "-workbench.action.quickOpen"
+    },
+    {
+        "key": "ctrl+shift+v",
+        "command": "workbench.view.extension.test"
     }
 ]
