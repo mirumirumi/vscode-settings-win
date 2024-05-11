@@ -30,6 +30,9 @@
         "source.fixAll.stylelint": "explicit",
         "source.organizeImports.biome": "explicit"
     },
+    // "triggerTaskOnSave.tasks": {
+    //     "Import Sort": ["**/*.ts"]
+    // },
     "explorer.compactFolders": false,
     "explorer.confirmDelete": false,
     "explorer.autoReveal": false,
