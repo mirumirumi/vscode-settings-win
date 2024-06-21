@@ -129,7 +129,7 @@
 
     "python.analysis.typeCheckingMode": "strict",
     "python.analysis.stubPath": "./typings",
-    "python.analysis.autoImportCompletions": false,
+    "python.analysis.autoImportCompletions": true,
     "python.analysis.diagnosticSeverityOverrides": {
         "reportUnusedImport": "none",
         "reportUnusedClass": "none",
