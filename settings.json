@@ -455,8 +455,4 @@
             },
         ],
     },
-    "remote.autoForwardPortsSource": "hybrid",
-    "security.allowedUNCHosts": [
-        "wsl.localhost"
-    ],
 }
