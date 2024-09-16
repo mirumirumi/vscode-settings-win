@@ -68,8 +68,6 @@
 
     "javascript.preferences.importModuleSpecifier": "relative",
     "typescript.preferences.importModuleSpecifier": "relative",
-    // "javascript.preferGoToSourceDefinition": true,
-    // "typescript.preferGoToSourceDefinition": true,
 
     "stylelint.config": {
         "extends": [
@@ -455,7 +453,4 @@
             },
         ],
     },
-    "security.allowedUNCHosts": [
-        "wsl.localhost"
-    ],
 }
