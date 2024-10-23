@@ -11,8 +11,6 @@
     "editor.detectIndentation": false,
     "editor.tabSize": 4,
     "editor.tabCompletion": "on",
-    "editor.formatOnType": true,
-    "editor.formatOnPaste": false,
     "editor.wordWrap": "on",
     "editor.minimap.showSlider": "always",
     "editor.dragAndDrop": false,
@@ -188,15 +186,11 @@
     "[css]": {
         "editor.defaultFormatter": "stylelint.vscode-stylelint",
         "editor.formatOnSave": true,
-        "editor.formatOnType": true,
-        "editor.formatOnPaste": true,
     },
     "[scss]": {
         "editor.tabSize": 2,
         "editor.defaultFormatter": "stylelint.vscode-stylelint",
         "editor.formatOnSave": true,
-        "editor.formatOnType": true,
-        "editor.formatOnPaste": true,
     },
     "[javascript]": {
         "editor.tabSize": 2,
@@ -224,8 +218,6 @@
         "editor.tabSize": 2,
         "editor.defaultFormatter": "esbenp.prettier-vscode",
         "editor.formatOnSave": true,
-        "editor.formatOnType": true,
-        "editor.formatOnPaste": true,
         "editor.codeActionsOnSave": {
             "source.fixAll.prettier": "explicit",
             "source.fixAll.stylelint": "explicit"
