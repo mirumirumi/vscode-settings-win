@@ -448,4 +448,5 @@
     "security.allowedUNCHosts": [
         "wsl.localhost"
     ],
+    "chat.commandCenter.enabled": false,
 }
