@@ -42,6 +42,16 @@
     "terminal.integrated.enableMultiLinePasteWarning":"never",
     "git.ignoreMissingGitWarning": true,
     "git.openRepositoryInParentFolders": "never",
+    "github.copilot.enable": {
+        "*": false,
+        "plaintext": false,
+        "markdown": false,
+        "scminput": false
+    },
+    "chat.commandCenter.enabled": false,
+    "continue.enableTabAutocomplete": false,
+    "continue.telemetryEnabled": false,
+    "continue.showInlineTip": false,
     "redhat.telemetry.enabled": false,
     "npm.fetchOnlinePackageInfo": false,
     "debug.javascript.codelens.npmScripts": "never",
@@ -50,15 +60,6 @@
     "liveServer.settings.donotShowInfoMsg": true,
     "markdown.extension.print.absoluteImgPath": false,
     "markdown.extension.list.indentationSize": "inherit",
-    "github.copilot.enable": {
-        "*": false,
-        "plaintext": false,
-        "markdown": false,
-        "scminput": false
-    },
-    "genieai.enableConversationHistory": true,
-    "genieai.openai.model": "gpt-4",
-    "genieai.personalizedName": "Nyan",
 
     "html.autoClosingTags": true,
     "htmltagwrap.tag": "strong",
@@ -445,8 +446,4 @@
             },
         ],
     },
-    "security.allowedUNCHosts": [
-        "wsl.localhost"
-    ],
-    "chat.commandCenter.enabled": false,
 }
