@@ -381,5 +381,54 @@
         "key": "ctrl+k ctrl+oem_6",
         "command": "-editor.unfoldRecursively",
         "when": "editorTextFocus && foldingEnabled"
+    },
+    {
+        "key": "ctrl+shift+enter",
+        "command": "-continue.acceptDiff",
+        "when": "continue.diffVisible"
+    },
+    {
+        "key": "ctrl+alt+y",
+        "command": "-continue.acceptVerticalDiffBlock"
+    },
+    {
+        "key": "ctrl+shift+r",
+        "command": "-continue.debugTerminal"
+    },
+    {
+        "key": "ctrl+i",
+        "command": "-continue.focusEdit"
+    },
+    {
+        "key": "ctrl+shift+backspace",
+        "command": "-continue.rejectDiff",
+        "when": "continue.diffVisible"
+    },
+    {
+        "key": "ctrl+z",
+        "command": "-continue.rejectDiff",
+        "when": "continue.diffVisible"
+    },
+    {
+        "key": "ctrl+alt+n",
+        "command": "-continue.rejectVerticalDiffBlock"
+    },
+    {
+        "key": "ctrl+k ctrl+a",
+        "command": "-continue.toggleTabAutocompleteEnabled",
+        "when": "!terminalFocus"
+    },
+    {
+        "key": "ctrl+k ctrl+m",
+        "command": "-continue.toggleFullScreen",
+        "when": "!terminalFocus"
+    },
+    {
+        "key": "ctrl+l",
+        "command": "-continue.focusContinueInput"
+    },
+    {
+        "key": "ctrl+l",
+        "command": "workbench.action.focusAuxiliaryBar"
     }
 ]
