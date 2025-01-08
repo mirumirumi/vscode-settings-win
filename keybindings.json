@@ -59,10 +59,6 @@
         "command": "workbench.action.files.saveAs"
     },
     {
-        "key": "ctrl+b",
-        "command": "workbench.action.toggleSidebarVisibility"
-    },
-    {
         "key": "ctrl+d",
         "command": "editor.action.addSelectionToNextFindMatch",
         "when": "editorFocus"
