@@ -42,13 +42,10 @@
     "terminal.integrated.enableMultiLinePasteWarning":"never",
     "git.ignoreMissingGitWarning": true,
     "git.openRepositoryInParentFolders": "never",
-    "github.copilot.enable": {
-        "*": false,
-        "plaintext": false,
-        "markdown": false,
-        "scminput": false
+    "github.copilot.editor.enableAutoCompletions": false,
+    "github.copilot.advanced": {
+        
     },
-    "chat.commandCenter.enabled": false,
     "continue.enableTabAutocomplete": false,
     "continue.telemetryEnabled": false,
     "continue.showInlineTip": false,

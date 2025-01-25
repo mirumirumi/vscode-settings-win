@@ -426,5 +426,33 @@
     {
         "key": "ctrl+l",
         "command": "workbench.action.focusAuxiliaryBar"
+    },
+    {
+        "key": "ctrl+shift+l",
+        "command": "workbench.action.chat.openInEditor"
+    },
+    {
+        "key": "ctrl+shift+l",
+        "command": "-continue.focusContinueInputWithoutClear"
+    },
+    {
+        "key": "ctrl+alt+i",
+        "command": "-workbench.panel.chat",
+        "when": "workbench.panel.chat.view.copilot.active"
+    },
+    {
+        "key": "ctrl+shift+i",
+        "command": "-workbench.panel.chatEditing",
+        "when": "workbench.panel.chat.view.edits.active"
+    },
+    {
+        "key": "alt+oem_5",
+        "command": "-editor.action.inlineSuggest.trigger",
+        "when": "config.github.copilot.inlineSuggest.enable && editorTextFocus && !editorHasSelection && !inlineSuggestionsVisible"
+    },
+    {
+        "key": "ctrl+i",
+        "command": "-inlineChat.startWithCurrentLine",
+        "when": "editorFocus && github.copilot.chat.editor.enableLineTrigger && inlineChatHasProvider && !editorReadonly && !inlineChatVisible"
     }
 ]
