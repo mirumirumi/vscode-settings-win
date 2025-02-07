@@ -460,4 +460,5 @@
             },
         ],
     },
+    "remote.autoForwardPortsSource": "hybrid",
 }
