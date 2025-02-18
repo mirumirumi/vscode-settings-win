@@ -461,4 +461,5 @@
         ],
     },
     "remote.autoForwardPortsSource": "hybrid",
+    "javascript.updateImportsOnFileMove.enabled": "never",
 }
