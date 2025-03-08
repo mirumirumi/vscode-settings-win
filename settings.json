@@ -40,6 +40,7 @@
     "terminal.integrated.tabs.enabled": false,
     "terminal.integrated.defaultProfile.windows":"Ubuntu-22.04 (WSL)",
     "terminal.integrated.enableMultiLinePasteWarning":"never",
+    "remote.autoForwardPortsSource": "hybrid",
     "git.ignoreMissingGitWarning": true,
     "git.openRepositoryInParentFolders": "never",
     "github.copilot.editor.enableAutoCompletions": false,
@@ -162,7 +163,7 @@
     },
 
     "php.validate.run": "onType",
-    "intelephense.stubs": ["apache", "bcmath", "bz2", "calendar", "com_dotnet", "Core", "ctype", "curl", "date", "dba", "dom", "enchant", "exif", "FFI", "fileinfo", "filter", "fpm", "ftp", "gd", "gettext", "gmp", "hash", "iconv", "imap", "intl", "json", "ldap", "libxml", "mbstring", "meta", "mysqli", "oci8", "odbc", "openssl", "pcntl", "pcre", "PDO", "pdo_ibm", "pdo_mysql", "pdo_pgsql", "pdo_sqlite", "pgsql", "Phar", "posix", "pspell", "readline", "Reflection", "session", "shmop", "SimpleXML", "snmp", "soap", "sockets", "sodium", "SPL", "sqlite3", "standard", "superglobals", "sysvmsg", "sysvsem", "sysvshm", "tidy", "tokenizer", "xml", "xmlreader", "xmlrpc", "xmlwriter", "xsl", "Zend OPcache", "zip", "zlib", "wordpress"],
+    "intelephense.stubs": ["apache", "bcmath", "bz2", "calendar", "com_dotnet", "Core", "ctype", "curl", "date", "dba", "dom", "enchant", "exif", "FFI", "fileinfo", "filter", "fpm", "ftp", "gd", "gettext", "gmp", "hash", "iconv", "imap", "intl", "json", "ldap", "libxml", "mbstring", "meta", "mysqli", "oci8", "odbc", "openssl", "pcntl", "pcre", "PDO", "pgsql", "Phar", "posix", "pspell", "readline", "Reflection", "session", "shmop", "SimpleXML", "snmp", "soap", "sockets", "sodium", "SPL", "sqlite3", "standard", "superglobals", "sysvmsg", "sysvsem", "sysvshm", "tidy", "tokenizer", "xml", "xmlreader", "xmlrpc", "xmlwriter", "xsl", "Zend OPcache", "zip", "zlib", "wordpress"],
 
     "rust-analyzer.lens.run.enable": false,
     "rust-analyzer.lens.debug.enable": false,
@@ -192,6 +193,7 @@
         },
         "editor.suggest.showKeywords": false,
         "editor.suggest.showWords": false,
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
     },
     "[html]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode",
@@ -460,6 +462,4 @@
             },
         ],
     },
-    "remote.autoForwardPortsSource": "hybrid",
-    "javascript.updateImportsOnFileMove.enabled": "never",
 }
