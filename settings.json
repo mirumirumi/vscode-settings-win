@@ -43,7 +43,10 @@
     "remote.autoForwardPortsSource": "hybrid",
     "git.ignoreMissingGitWarning": true,
     "git.openRepositoryInParentFolders": "never",
-    "github.copilot.editor.enableAutoCompletions": false,
+    "chat.agent.enabled": true,
+    "github.copilot.enable": { "*": false },
+    "github.copilot.chat.terminalChatLocation": "quickChat",
+    "github.copilot.chat.agent.thinkingTool": true,
     "github.copilot.advanced": {
         
     },
