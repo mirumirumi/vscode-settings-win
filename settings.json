@@ -43,16 +43,13 @@
     "remote.autoForwardPortsSource": "hybrid",
     "git.ignoreMissingGitWarning": true,
     "git.openRepositoryInParentFolders": "never",
-    "chat.agent.enabled": true,
     "github.copilot.enable": { "*": false },
     "github.copilot.chat.terminalChatLocation": "quickChat",
     "github.copilot.chat.agent.thinkingTool": true,
     // "github.copilot.advanced": {
         
     // },
-    "continue.enableTabAutocomplete": false,
-    "continue.telemetryEnabled": false,
-    "continue.showInlineTip": false,
+    "chat.agent.enabled": true,
     "redhat.telemetry.enabled": false,
     "npm.fetchOnlinePackageInfo": false,
     "debug.javascript.codelens.npmScripts": "never",
@@ -140,7 +137,6 @@
     "vue.complete.casing.tags": "pascal",
     "vue.splitEditors.layout.left": ["template"],
     "vue.splitEditors.layout.right": ["style"],
-    "vue.server.fullCompletionList": true,
 
     "python.analysis.typeCheckingMode": "strict",
     "python.analysis.stubPath": "./typings",
