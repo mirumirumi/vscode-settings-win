@@ -47,9 +47,9 @@
     "github.copilot.enable": { "*": false },
     "github.copilot.chat.terminalChatLocation": "quickChat",
     "github.copilot.chat.agent.thinkingTool": true,
-    "github.copilot.advanced": {
+    // "github.copilot.advanced": {
         
-    },
+    // },
     "continue.enableTabAutocomplete": false,
     "continue.telemetryEnabled": false,
     "continue.showInlineTip": false,
