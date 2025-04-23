@@ -41,6 +41,7 @@
     "terminal.integrated.defaultProfile.windows":"Ubuntu-22.04 (WSL)",
     "terminal.integrated.enableMultiLinePasteWarning":"never",
     "remote.autoForwardPortsSource": "hybrid",
+    "gitlens.currentLine.enabled": false,
     "git.ignoreMissingGitWarning": true,
     "git.openRepositoryInParentFolders": "never",
     "github.copilot.enable": { "*": false },
