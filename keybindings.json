@@ -488,5 +488,15 @@
         "key": "ctrl+l",
         "command": "-workbench.action.chat.newEditSession",
         "when": "chatEditingParticipantRegistered && chatIsEnabled && inChat"
+    },
+    {
+        "key": "ctrl+shift+g",
+        "command": "workbench.view.scm",
+        "when": "workbench.scm.active && !gitlens:disabled && config.gitlens.keymap == 'chorded'"
+    },
+    {
+        "key": "ctrl+shift+g g",
+        "command": "-workbench.view.scm",
+        "when": "workbench.scm.active && !gitlens:disabled && config.gitlens.keymap == 'chorded'"
     }
 ]

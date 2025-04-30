@@ -41,10 +41,10 @@
     "terminal.integrated.defaultProfile.windows":"Ubuntu-22.04 (WSL)",
     "terminal.integrated.enableMultiLinePasteWarning":"never",
     "remote.autoForwardPortsSource": "hybrid",
-    "gitlens.currentLine.enabled": false,
-    "gitlens.codeLens.enabled": false,
     "git.ignoreMissingGitWarning": true,
     "git.openRepositoryInParentFolders": "never",
+    "gitlens.currentLine.enabled": false,
+    "gitlens.codeLens.enabled": false,
     "github.copilot.enable": { "*": false },
     "github.copilot.chat.terminalChatLocation": "quickChat",
     "github.copilot.chat.agent.thinkingTool": true,
@@ -463,4 +463,5 @@
             },
         ],
     },
+    "diffEditor.hideUnchangedRegions.enabled": true,
 }
