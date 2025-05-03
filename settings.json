@@ -28,6 +28,7 @@
         "source.fixAll.stylelint": "explicit",
         "source.organizeImports.biome": "explicit"
     },
+    "diffEditor.hideUnchangedRegions.enabled": true,
     // "triggerTaskOnSave.tasks": {
     //     "Import Sort": ["**/*.ts"]
     // },
@@ -463,5 +464,4 @@
             },
         ],
     },
-    "diffEditor.hideUnchangedRegions.enabled": true,
 }
