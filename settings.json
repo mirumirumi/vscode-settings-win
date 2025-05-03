@@ -28,7 +28,7 @@
         "source.fixAll.stylelint": "explicit",
         "source.organizeImports.biome": "explicit"
     },
-    "diffEditor.hideUnchangedRegions.enabled": true,
+    "diffEditor.ignoreTrimWhitespace": false,
     "explorer.compactFolders": false,
     "explorer.confirmDelete": false,
     "explorer.autoReveal": false,
