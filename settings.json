@@ -29,9 +29,6 @@
         "source.organizeImports.biome": "explicit"
     },
     "diffEditor.hideUnchangedRegions.enabled": true,
-    // "triggerTaskOnSave.tasks": {
-    //     "Import Sort": ["**/*.ts"]
-    // },
     "explorer.compactFolders": false,
     "explorer.confirmDelete": false,
     "explorer.autoReveal": false,
