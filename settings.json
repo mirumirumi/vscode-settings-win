@@ -216,6 +216,7 @@
         "editor.formatOnSave": true,
     },
     "[css]": {
+        "editor.tabSize": 2,
         "editor.defaultFormatter": "stylelint.vscode-stylelint",
         "editor.formatOnSave": true,
     },
