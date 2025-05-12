@@ -302,12 +302,13 @@
                 },
             },
 
-            // JS/TS
+            // JS/TS, jsx/tsx
             {
                 "scope": [
                     "entity.name.type",
                     "entity.name.type.interface",
                     "support.function.json.ts",
+                    "support.function.json.tsx",
                 ],
                 "settings": {
                     "foreground": "#a6e22e",
@@ -317,10 +318,15 @@
             {
                 "scope": [
                     "meta.type.annotation.ts entity.name.type.ts",
+                    "meta.type.annotation.tsx entity.name.type.tsx",
                     "meta.type.parameters.ts entity.name.type.ts",
+                    "meta.type.parameters.tsx entity.name.type.tsx",
                     "meta.return.type.ts entity.name.type.ts",
+                    "meta.return.type.tsx entity.name.type.tsx",
                     "meta.return.type.arrow.ts entity.name.type.ts",
+                    "meta.return.type.arrow.tsx entity.name.type.tsx",
                     "meta.class.ts entity.other.inherited-class.ts",
+                    "meta.class.tsx entity.other.inherited-class.tsx",
                 ],
                 "settings": {
                     "foreground": "#66d9ef",
@@ -330,7 +336,9 @@
             {
                 "scope": [
                     "punctuation.accessor.ts",
-                    "punctuation.accessor.optional.ts"
+                    "punctuation.accessor.tsx",
+                    "punctuation.accessor.optional.ts",
+                    "punctuation.accessor.optional.tsx",
                 ],
                 "settings": {
                     "foreground": "#f92672",
@@ -340,10 +348,15 @@
             {
                 "scope": [
                     "new.expr.ts meta.function-call.ts entity.name.function.ts",
+                    "new.expr.tsx meta.function-call.ts entity.name.function.tsx",
                     "meta.type.declaration.ts entity.name.type.alias.ts",
+                    "meta.type.declaration.tsx entity.name.type.alias.tsx",
                     "meta.interface.ts entity.name.type.interface.ts",
+                    "meta.interface.tsx entity.name.type.interface.tsx",
                     "variable.other.constant.ts entity.name.function.ts",
+                    "variable.other.constant.tsx entity.name.function.tsx",
                     "entity.name.type.class.ts",
+                    "entity.name.type.class.tsx",
                 ],
                 "settings": {
                     "foreground": "#f8f8f2",
@@ -353,6 +366,7 @@
             {
                 "scope": [
                     "meta.arrow.ts storage.type.function.arrow.ts",
+                    "meta.arrow.tsx storage.type.function.arrow.tsx",
                 ],
                 "settings": {
                     "foreground": "#f8f8f2",
