@@ -373,14 +373,6 @@
                     "fontStyle": "italic",
                 },
             },
-            {
-                "scope": [
-                ],
-                "settings": {
-                    "foreground": "#ae81ff",
-                    "fontStyle": "",
-                },
-            },
 
             // Vue
             {
