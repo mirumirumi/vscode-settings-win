@@ -250,9 +250,11 @@
         "editor.semanticHighlighting.enabled": false,
     },
     "[json]": {
+        "editor.tabSize": 2,
         "editor.defaultFormatter": "vscode.json-language-features",
     },
     "[jsonc]": {
+        "editor.tabSize": 2,
         "editor.defaultFormatter": "vscode.json-language-features",
         "editor.formatOnSave": false,
     },
