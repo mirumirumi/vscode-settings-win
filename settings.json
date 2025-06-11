@@ -24,7 +24,7 @@
     "editor.accessibilitySupport": "off",
     "editor.multiCursorModifier": "ctrlCmd",
     "editor.stickyScroll.enabled": false,
-	"editor.codeActionsOnSave":{
+  	"editor.codeActionsOnSave":{
         "source.fixAll.stylelint": "explicit",
         "source.organizeImports.biome": "explicit"
     },
@@ -62,9 +62,9 @@
     "github.copilot.enable": { "*": false },
     "github.copilot.chat.terminalChatLocation": "quickChat",
     "github.copilot.chat.agent.thinkingTool": true,
-    // "github.copilot.advanced": {
-        
-    // },
+    "github.copilot.chat.codeGeneration.instructions": [{
+        "file": "./AGENTS.md",
+    }],
     "chat.agent.enabled": true,
     "redhat.telemetry.enabled": false,
     "npm.fetchOnlinePackageInfo": false,
