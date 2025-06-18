@@ -498,5 +498,9 @@
         "key": "ctrl+shift+g g",
         "command": "-workbench.view.scm",
         "when": "workbench.scm.active && !gitlens:disabled && config.gitlens.keymap == 'chorded'"
+    },
+    {
+      "key": "ctrl+o ctrl+c",
+      "command": "git.openChange"
     }
 ]
