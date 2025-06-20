@@ -425,10 +425,6 @@
     },
     {
         "key": "ctrl+shift+l",
-        "command": "workbench.action.chat.openInEditor"
-    },
-    {
-        "key": "ctrl+shift+l",
         "command": "-continue.focusContinueInputWithoutClear"
     },
     {
@@ -502,5 +498,9 @@
     {
       "key": "ctrl+o ctrl+c",
       "command": "git.openChange"
+    },
+    {
+      "key": "ctrl+shift+l",
+      "command": "cline.openInNewTab"
     }
 ]
