@@ -63,7 +63,7 @@
     "github.copilot.chat.terminalChatLocation": "quickChat",
     "github.copilot.chat.agent.thinkingTool": true,
     "github.copilot.chat.codeGeneration.instructions": [{
-        "file": "./AGENTS.md",
+        "file": "/home/kei/Cline/Rules/coding-agent-master-rules.md",
     }],
     "chat.agent.enabled": true,
     "redhat.telemetry.enabled": false,
