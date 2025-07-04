@@ -499,4 +499,5 @@
         ],
     },
     "git.blame.editorDecoration.enabled": false,
+    "git.blame.statusBarItem.enabled": true,
 }
