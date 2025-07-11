@@ -501,4 +501,5 @@
             },
         ],
     },
+    "workbench.editor.enablePreview": false,
 }
