@@ -6,6 +6,7 @@
     "workbench.settings.editor": "json",
     "workbench.editor.empty.hint": "hidden",
     "workbench.activityBar.location": "hidden",
+    "workbench.editor.enablePreview": false,
     "editor.fontSize": 14,
     "editor.fontFamily": "Consolas, 'Noto Sans JP'",
     "editor.detectIndentation": false,
@@ -36,27 +37,11 @@
     "files.simpleDialog.enable": true,
     "files.insertFinalNewline": true,
     "terminal.integrated.tabs.enabled": false,
-    "terminal.integrated.defaultProfile.windows":"Ubuntu-22.04 (WSL)",
+    "terminal.integrated.defaultProfile.windows":"Ubuntu",
     "terminal.integrated.enableMultiLinePasteWarning":"never",
     "remote.autoForwardPortsSource": "hybrid",
     "git.ignoreMissingGitWarning": true,
     "git.openRepositoryInParentFolders": "never",
-    "git-graph.commitDetailsView.location": "Docked to Bottom",
-    "git-graph.date.format": "ISO Date & Time",
-    "git-graph.keyboardShortcut.scrollToStash": "UNASSIGNED",
-    "git-graph.graph.colours": [
-        "#0085d9",
-        "#d45c29",
-        "#3db943",
-        "#e34ad6",
-        "#4b50e1",
-        "#339178",
-        "#953db5",
-        "#8ab448",
-        "#aa7a38",
-        "#362f7d",
-        "#b59e42",
-    ],
     "git.blame.editorDecoration.enabled": false,
     "git.blame.statusBarItem.enabled": true,
     "gitlens.currentLine.enabled": false,
@@ -101,6 +86,8 @@
 
     "javascript.preferences.importModuleSpecifier": "relative",
     "typescript.preferences.importModuleSpecifier": "relative",
+
+    "biome.suggestInstallingGlobally": false,
 
     "stylelint.config": {
         "extends": [
@@ -151,11 +138,6 @@
     "prettier.vueIndentScriptAndStyle": false,
 
     "vue.autoInsert.dotValue": true,
-    "vue.codeLens.enabled": false,
-    "vue.complete.casing.props": "camel",
-    "vue.complete.casing.tags": "pascal",
-    "vue.splitEditors.layout.left": ["template"],
-    "vue.splitEditors.layout.right": ["style"],
 
     "python.analysis.typeCheckingMode": "strict",
     "python.analysis.stubPath": "./typings",
@@ -501,5 +483,4 @@
             },
         ],
     },
-    "workbench.editor.enablePreview": false,
 }

@@ -502,5 +502,20 @@
     {
       "key": "ctrl+shift+l",
       "command": "cline.openInNewTab"
+    },
+    {
+      "key": "ctrl+shift+oem_3",
+      "command": "workbench.action.terminal.openNativeConsole",
+      "when": "!terminalFocus"
+    },
+    {
+      "key": "ctrl+shift+c",
+      "command": "-workbench.action.terminal.openNativeConsole",
+      "when": "!terminalFocus"
+    },
+    {
+      "key": "ctrl+shift+oem_3",
+      "command": "-workbench.action.terminal.new",
+      "when": "terminalProcessSupported || terminalWebExtensionContributedProfile"
     }
 ]
