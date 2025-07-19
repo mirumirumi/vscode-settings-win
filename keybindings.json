@@ -517,5 +517,20 @@
       "key": "ctrl+shift+oem_3",
       "command": "-workbench.action.terminal.new",
       "when": "terminalProcessSupported || terminalWebExtensionContributedProfile"
+    },
+    {
+      "key": "ctrl+oem_6",
+      "command": "workbench.action.terminal.new",
+      "when": "terminalFocus"
+    },
+    {
+      "key": "ctrl+w",
+      "command": "workbench.action.terminal.kill",
+      "when": "terminalFocus"
+    },
+    {
+      "key": "ctrl+w",
+      "command": "-workbench.action.terminal.killEditor",
+      "when": "terminalEditorFocus && terminalFocus && terminalHasBeenCreated || terminalEditorFocus && terminalFocus && terminalProcessSupported"
     }
 ]
