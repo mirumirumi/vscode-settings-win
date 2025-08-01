@@ -49,9 +49,6 @@
     "github.copilot.enable": { "*": false },
     "github.copilot.chat.terminalChatLocation": "terminal",
     "github.copilot.chat.agent.thinkingTool": true,
-    "github.copilot.chat.codeGeneration.instructions": [{
-        "file": "/home/kei/Cline/Rules/coding-agent.instructions.md",
-    }],
     "github.copilot.chat.codesearch.enabled": true,
     "chat.agent.enabled": true,
     "redhat.telemetry.enabled": false,
