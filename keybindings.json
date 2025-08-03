@@ -500,10 +500,6 @@
       "command": "git.openChange"
     },
     {
-      "key": "ctrl+shift+l",
-      "command": "cline.openInNewTab"
-    },
-    {
       "key": "ctrl+shift+oem_3",
       "command": "workbench.action.terminal.openNativeConsole",
       "when": "!terminalFocus"
@@ -542,5 +538,49 @@
       "key": "ctrl+k e",
       "command": "-workbench.files.action.focusOpenEditorsView",
       "when": "workbench.explorer.openEditorsView.active"
+    },
+    {
+      "key": "ctrl+shift+l",
+      "command": "roo-cline.openInNewTab"
+    },
+    {
+      "key": "ctrl+shift+l",
+      "command": "-notebook.selectAllFindMatches",
+      "when": "config.notebook.multiCursor.enabled && notebookFindWidgetFocused || config.notebook.multiCursor.enabled && notebookCellEditorFocused && activeEditor == 'workbench.editor.notebook'"
+    },
+    {
+      "key": "ctrl+shift+l",
+      "command": "-editor.action.selectHighlights",
+      "when": "editorFocus"
+    },
+    {
+      "key": "ctrl+shift+l",
+      "command": "-selectAllSearchEditorMatches",
+      "when": "inSearchEditor"
+    },
+    {
+      "key": "ctrl+shift+l",
+      "command": "-addCursorsAtSearchResults",
+      "when": "fileMatchOrMatchFocus && searchViewletVisible"
+    },
+    {
+      "key": "ctrl+shift+l",
+      "command": "-workbench.action.terminal.suggestLearnMore",
+      "when": "terminalFocus && terminalHasBeenCreated && terminalIsOpen && terminalSuggestWidgetVisible || terminalFocus && terminalIsOpen && terminalProcessSupported && terminalSuggestWidgetVisible"
+    },
+    {
+      "key": "ctrl+oem_7",
+      "command": "roo-cline.addToContext",
+      "when": "editorHasSelection"
+    },
+    {
+      "key": "ctrl+oem_7",
+      "command": "-cline.focusChatInput",
+      "when": "!editorHasSelection"
+    },
+    {
+      "key": "ctrl+oem_7",
+      "command": "-cline.addToChat",
+      "when": "editorHasSelection"
     }
 ]

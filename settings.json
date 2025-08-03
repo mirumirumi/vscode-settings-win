@@ -46,11 +46,6 @@
     "git.blame.statusBarItem.enabled": true,
     "gitlens.currentLine.enabled": false,
     "gitlens.codeLens.enabled": false,
-    "github.copilot.enable": { "*": false },
-    "github.copilot.chat.terminalChatLocation": "terminal",
-    "github.copilot.chat.agent.thinkingTool": true,
-    "github.copilot.chat.codesearch.enabled": true,
-    "chat.agent.enabled": true,
     "redhat.telemetry.enabled": false,
     "npm.fetchOnlinePackageInfo": false,
     "debug.javascript.codelens.npmScripts": "never",
@@ -76,6 +71,26 @@
         "timing.isoRfcToCustom",
         "timing.toggleInsertConvertedTimeUserLevel",
     ],
+
+    "github.copilot.enable": { "*": false },
+    "github.copilot.chat.terminalChatLocation": "terminal",
+    "github.copilot.chat.agent.thinkingTool": true,
+    "github.copilot.chat.codesearch.enabled": true,
+    "chat.agent.enabled": true,
+    "roo-cline.allowedCommands": [
+      "bu run tsc",
+      "bun run lint",
+      "bun run format",
+      "bun run test",
+      "bun test",
+      "grep",
+      "rg"
+    ],
+    "roo-cline.deniedCommands": [
+      "bun run exec",
+      "bun run script"
+    ],
+    "roo-cline.enableCodeActions": false,
 
     "html.autoClosingTags": true,
     "htmltagwrap.tag": "strong",
