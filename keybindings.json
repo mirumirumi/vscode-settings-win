@@ -570,8 +570,7 @@
     },
     {
       "key": "ctrl+oem_7",
-      "command": "roo-cline.addToContext",
-      "when": "editorHasSelection"
+      "command": "roo-cline.addToContext"
     },
     {
       "key": "ctrl+oem_7",
