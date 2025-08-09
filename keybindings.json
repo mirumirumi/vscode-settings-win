@@ -541,10 +541,6 @@
     },
     {
       "key": "ctrl+shift+l",
-      "command": "roo-cline.openInNewTab"
-    },
-    {
-      "key": "ctrl+shift+l",
       "command": "-notebook.selectAllFindMatches",
       "when": "config.notebook.multiCursor.enabled && notebookFindWidgetFocused || config.notebook.multiCursor.enabled && notebookCellEditorFocused && activeEditor == 'workbench.editor.notebook'"
     },
@@ -570,10 +566,6 @@
     },
     {
       "key": "ctrl+oem_7",
-      "command": "roo-cline.addToContext"
-    },
-    {
-      "key": "ctrl+oem_7",
       "command": "-cline.focusChatInput",
       "when": "!editorHasSelection"
     },
@@ -581,5 +573,13 @@
       "key": "ctrl+oem_7",
       "command": "-cline.addToChat",
       "when": "editorHasSelection"
+    },
+    {
+      "key": "ctrl+alt+l",
+      "command": "roo-cline.SidebarProvider.focus"
+    },
+    {
+      "key": "ctrl+oem_7",
+      "command": "roo-cline.addToContext"
     }
 ]
