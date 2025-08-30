@@ -25,6 +25,7 @@
     "editor.accessibilitySupport": "off",
     "editor.multiCursorModifier": "ctrlCmd",
     "editor.stickyScroll.enabled": false,
+    "editor.unicodeHighlight.nonBasicASCII": false,
   	"editor.codeActionsOnSave":{
         "source.fixAll.stylelint": "explicit",
         "source.organizeImports.biome": "explicit"
@@ -77,7 +78,8 @@
     "github.copilot.chat.agent.thinkingTool": true,
     "github.copilot.chat.codesearch.enabled": true,
     "chat.agent.enabled": true,
-    "roo-cline.allowedCommands": [
+    "chatgpt.commentCodeLensEnabled": false,
+	"roo-cline.allowedCommands": [
       "bu run tsc",
       "bun run lint",
       "bun run format",
@@ -499,5 +501,4 @@
             },
         ],
     },
-    "editor.unicodeHighlight.nonBasicASCII": false,
 }
