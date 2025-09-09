@@ -576,10 +576,10 @@
     },
     {
       "key": "ctrl+alt+l",
-      "command": "roo-cline.SidebarProvider.focus"
+      "command": "chatgpt.sidebarView.focus"
     },
     {
       "key": "ctrl+oem_7",
-      "command": "roo-cline.addToContext"
+      "command": "chatgpt.addToChat"
     }
 ]
