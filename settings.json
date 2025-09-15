@@ -152,6 +152,7 @@
     "prettier.vueIndentScriptAndStyle": false,
 
     "vue.autoInsert.dotValue": true,
+    "vue.editor.templateInterpolationDecorators": false,
 
     "python.analysis.typeCheckingMode": "strict",
     "python.analysis.stubPath": "./typings",
