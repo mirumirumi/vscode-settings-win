@@ -496,10 +496,6 @@
         "when": "workbench.scm.active && !gitlens:disabled && config.gitlens.keymap == 'chorded'"
     },
     {
-      "key": "ctrl+o ctrl+c",
-      "command": "git.openChange"
-    },
-    {
       "key": "ctrl+shift+oem_3",
       "command": "workbench.action.terminal.openNativeConsole",
       "when": "!terminalFocus"
@@ -581,5 +577,20 @@
     {
       "key": "ctrl+oem_7",
       "command": "chatgpt.addToChat"
+    },
+    {
+      "key": "ctrl+o",
+      "command": "-workbench.action.files.openFolderViaWorkspace",
+      "when": "!openFolderWorkspaceSupport && workbenchState == 'workspace'"
+    },
+    {
+      "key": "ctrl+o",
+      "command": "-workbench.action.files.openFileFolder",
+      "when": "isMacNative && openFolderWorkspaceSupport"
+    },
+    {
+      "key": "ctrl+o",
+      "command": "-workbench.action.files.openLocalFile",
+      "when": "remoteFileDialogVisible"
     }
 ]
