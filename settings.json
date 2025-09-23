@@ -79,7 +79,7 @@
     "github.copilot.chat.codesearch.enabled": true,
     "chat.agent.enabled": true,
     "chatgpt.commentCodeLensEnabled": false,
-	"roo-cline.allowedCommands": [
+    "roo-cline.allowedCommands": [
       "bu run tsc",
       "bun run lint",
       "bun run format",
