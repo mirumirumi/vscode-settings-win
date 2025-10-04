@@ -1,35 +1,51 @@
 {
-    "version": "2.0.0",
-    "tasks": [
-        {
-            "label": "Run Current Test File",
-            "type": "shell",
-            "command": "npx vitest related ${file} --coverage",
-            "group": {
-                "kind": "test",
-                "isDefault": true
-            },
-            "presentation": {
-                "reveal": "always",
-                "panel": "new"
-            }
-        },
-        {
-            "label": "Import Sort",
-            "type": "shell",
-            "command": "import-sort --write ${file}",
-            "group": {
-                "kind": "build",
-                "isDefault": true
-            },
-            "presentation": {
-                "reveal": "never",
-                "panel": "shared",
-                "echo": true,
-                "focus": false,
-                "showReuseMessage": false,
-                "clear": false
-            }
-        }
-    ]
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Run Current Test File",
+      "type": "shell",
+      "command": "npx vitest related ${file} --coverage",
+      "group": {
+        "kind": "test",
+        "isDefault": true
+      },
+      "presentation": {
+        "reveal": "always",
+        "panel": "new"
+      }
+    },
+    {
+      "label": "Import Sort",
+      "type": "shell",
+      "command": "import-sort --write ${file}",
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "presentation": {
+        "reveal": "never",
+        "panel": "shared",
+        "echo": true,
+        "focus": false,
+        "showReuseMessage": false,
+        "clear": false
+      }
+    },
+    {
+      "label": "Copy article content for WordPress",
+      "type": "shell",
+      "command": "bash",
+      "args": [
+        "-lc",
+        "bun run ~/dev/article-task.mts < '${file}' | iconv -f utf-8 -t utf-16le | /mnt/c/Windows/System32/clip.exe; seq 40 | while read i; do echo; done > '${file}'"
+      ],
+      "presentation": {
+        "reveal": "never",
+        "echo": false,
+        "focus": false,
+        "showReuseMessage": false
+      },
+      "problemMatcher": []
+    }
+  ]
 }
