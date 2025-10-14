@@ -86,7 +86,8 @@
       "bun run test",
       "bun test",
       "grep",
-      "rg"
+      "rg",
+      "bun run tsc"
     ],
     "roo-cline.deniedCommands": [
       "bun run exec",
