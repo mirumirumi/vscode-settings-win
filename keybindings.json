@@ -592,5 +592,15 @@
       "key": "ctrl+o",
       "command": "-workbench.action.files.openLocalFile",
       "when": "remoteFileDialogVisible"
+    },
+    {
+      "key": "ctrl+y",
+      "command": "-roo-cline.addToContext",
+      "when": "editorHasSelection && editorTextFocus"
+    },
+    {
+      "key": "ctrl+y",
+      "command": "-chatEditor.action.acceptHunk",
+      "when": "chatEdits.hasEditorModifications && editorFocus && !chatEdits.isRequestInProgress || chatEdits.hasEditorModifications && notebookCellListFocused && !chatEdits.isRequestInProgress"
     }
 ]
