@@ -602,5 +602,19 @@
       "key": "ctrl+y",
       "command": "-chatEditor.action.acceptHunk",
       "when": "chatEdits.hasEditorModifications && editorFocus && !chatEdits.isRequestInProgress || chatEdits.hasEditorModifications && notebookCellListFocused && !chatEdits.isRequestInProgress"
+    },
+    {
+      "key": "ctrl+shift+alt+l",
+      "command": "chatgpt.newChat"
+    },
+    {
+      "key": "ctrl+n",
+      "command": "-chatgpt.newChat",
+      "when": "chatgpt.supportsNewChatKeyShortcut"
+    },
+    {
+      "key": "ctrl+shift+alt+l",
+      "command": "-workbench.action.quickchat.toggle",
+      "when": "chatIsEnabled"
     }
 ]
