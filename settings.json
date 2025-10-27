@@ -80,14 +80,15 @@
     "chat.agent.enabled": true,
     "chatgpt.commentCodeLensEnabled": false,
     "roo-cline.allowedCommands": [
-      "bu run tsc",
+      "bun run tsc",
       "bun run lint",
       "bun run format",
       "bun run test",
       "bun test",
       "grep",
       "rg",
-      "bun run tsc"
+      "cd",
+      "npx tsc --noEmit"
     ],
     "roo-cline.deniedCommands": [
       "bun run exec",
