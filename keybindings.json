@@ -616,5 +616,25 @@
       "key": "ctrl+shift+alt+l",
       "command": "-workbench.action.quickchat.toggle",
       "when": "chatIsEnabled"
+    },
+    {
+      "key": "ctrl+k ctrl+a",
+      "command": "git.stageSelectedRanges",
+      "when": "editorTextFocus && !operationInProgress && resourceScheme == 'vscode-remote'"
+    },
+    {
+      "key": "ctrl+k ctrl+alt+s",
+      "command": "-git.stageSelectedRanges",
+      "when": "editorTextFocus && !operationInProgress && resourceScheme == 'vscode-remote'"
+    },
+    {
+      "key": "ctrl+k ctrl+a",
+      "command": "-roo-cline.addToContext",
+      "when": "editorHasSelection && editorTextFocus"
+    },
+    {
+      "key": "ctrl+k ctrl+a",
+      "command": "-keybindings.editor.addKeybinding",
+      "when": "inKeybindings && keybindingFocus"
     }
 ]
