@@ -575,10 +575,6 @@
       "command": "chatgpt.sidebarView.focus"
     },
     {
-      "key": "ctrl+oem_7",
-      "command": "chatgpt.addToChat"
-    },
-    {
       "key": "ctrl+o",
       "command": "-workbench.action.files.openFolderViaWorkspace",
       "when": "!openFolderWorkspaceSupport && workbenchState == 'workspace'"
@@ -636,5 +632,9 @@
       "key": "ctrl+k ctrl+a",
       "command": "-keybindings.editor.addKeybinding",
       "when": "inKeybindings && keybindingFocus"
+    },
+    {
+      "key": "ctrl+oem_7",
+      "command": "chatgpt.addToThread"
     }
 ]
