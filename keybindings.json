@@ -1,7 +1,7 @@
 // 既定値を上書きするには、このファイル内にキー バインドを挿入します
 [
     {
-        "key": "ctrl+alt+enter",
+        "key": "ctrl+alt+t",
         "command": "workbench.action.splitEditor"
     },
     {
@@ -242,7 +242,7 @@
         "command": "-workbench.action.gotoSymbol"
     },
     {
-        "key": "ctrl+shift+alt+enter",
+        "key": "ctrl+shift+alt+t",
         "command": "workbench.action.splitEditorDown"
     },
     {
@@ -636,5 +636,9 @@
     {
       "key": "ctrl+oem_7",
       "command": "chatgpt.addToThread"
+    },
+    {
+      "key": "ctrl+q",
+      "command": "workbench.action.openQuickChat"
     }
 ]
