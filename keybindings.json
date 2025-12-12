@@ -640,5 +640,10 @@
     {
       "key": "ctrl+q",
       "command": "workbench.action.openQuickChat"
+    },
+    {
+      "key": "ctrl+alt+i",
+      "command": "-workbench.action.chat.open",
+      "when": "!chatSetupDisabled && !chatSetupHidden"
     }
 ]
