@@ -37,7 +37,7 @@
       "command": "bash",
       "args": [
         "-lc",
-        "bun run ~/dev/article-copy-paste-vscode-task/src/main.ts < '${file}' | iconv -f utf-8 -t utf-16le | /mnt/c/Windows/System32/clip.exe; seq 40 | while read i; do echo; done > '${file}'"
+        "bun run ~/dev/article-copy-paste-vscode-task/src/main.ts < '${file}' | iconv -f utf-8 -t utf-16le | /mnt/c/Windows/System32/clip.exe; seq 56 | while read i; do echo; done > '${file}'"
       ],
       "presentation": {
         "reveal": "never",
