@@ -571,10 +571,6 @@
       "when": "editorHasSelection"
     },
     {
-      "key": "ctrl+alt+l",
-      "command": "chatgpt.sidebarView.focus"
-    },
-    {
       "key": "ctrl+o",
       "command": "-workbench.action.files.openFolderViaWorkspace",
       "when": "!openFolderWorkspaceSupport && workbenchState == 'workspace'"
@@ -598,15 +594,6 @@
       "key": "ctrl+y",
       "command": "-chatEditor.action.acceptHunk",
       "when": "chatEdits.hasEditorModifications && editorFocus && !chatEdits.isRequestInProgress || chatEdits.hasEditorModifications && notebookCellListFocused && !chatEdits.isRequestInProgress"
-    },
-    {
-      "key": "ctrl+shift+alt+l",
-      "command": "chatgpt.newChat"
-    },
-    {
-      "key": "ctrl+n",
-      "command": "-chatgpt.newChat",
-      "when": "chatgpt.supportsNewChatKeyShortcut"
     },
     {
       "key": "ctrl+shift+alt+l",
@@ -634,10 +621,6 @@
       "when": "inKeybindings && keybindingFocus"
     },
     {
-      "key": "ctrl+oem_7",
-      "command": "chatgpt.addToThread"
-    },
-    {
       "key": "ctrl+q",
       "command": "workbench.action.openQuickChat"
     },
@@ -645,5 +628,10 @@
       "key": "ctrl+alt+i",
       "command": "-workbench.action.chat.open",
       "when": "!chatSetupDisabled && !chatSetupHidden"
+    },
+    {
+      "key": "ctrl+n",
+      "command": "-chatgpt.newChat",
+      "when": "chatgpt.supportsNewChatKeyShortcut"
     }
 ]

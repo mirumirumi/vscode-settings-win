@@ -1,6 +1,7 @@
 {
     "workbench.colorTheme": "Monokai",
     "workbench.tree.indent": 13,
+    "workbench.tree.enableStickyScroll": false,
     "workbench.list.openMode": "doubleClick",
     "workbench.startupEditor": "none",
     "workbench.settings.editor": "json",
@@ -37,7 +38,9 @@
     "explorer.confirmDragAndDrop": false,
     "files.simpleDialog.enable": true,
     "files.insertFinalNewline": true,
-    "terminal.integrated.tabs.enabled": false,
+    "terminal.integrated.fontSize": 15,
+    "terminal.integrated.fontFamily": "Consolas, 'Noto Sans JP'",
+    "terminal.integrated.cursorStyle": "line",
     "terminal.integrated.defaultProfile.windows":"Ubuntu",
     "terminal.integrated.enableMultiLinePasteWarning":"never",
     "remote.autoForwardPortsSource": "hybrid",
