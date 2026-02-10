@@ -633,5 +633,9 @@
       "key": "ctrl+n",
       "command": "-chatgpt.newChat",
       "when": "chatgpt.supportsNewChatKeyShortcut"
+    },
+    {
+      "key": "ctrl+alt+l",
+      "command": "chatgpt.sidebarView.focus"
     }
 ]
