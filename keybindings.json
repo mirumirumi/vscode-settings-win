@@ -637,5 +637,10 @@
     {
       "key": "ctrl+alt+l",
       "command": "chatgpt.sidebarView.focus"
+    },
+    {
+      "key": "ctrl+shift+l",
+      "command": "workbench.action.createTerminalEditor",
+      "when": "terminalProcessSupported"
     }
 ]
