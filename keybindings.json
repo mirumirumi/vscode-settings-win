@@ -1,7 +1,7 @@
 // 既定値を上書きするには、このファイル内にキー バインドを挿入します
 [
     {
-        "key": "ctrl+alt+t",
+        "key": "ctrl+enter",
         "command": "workbench.action.splitEditor"
     },
     {
@@ -242,7 +242,7 @@
         "command": "-workbench.action.gotoSymbol"
     },
     {
-        "key": "ctrl+shift+alt+t",
+        "key": "ctrl+shift+enter",
         "command": "workbench.action.splitEditorDown"
     },
     {
