@@ -2,7 +2,7 @@
 	{
 		"name": "Anthropic",
 		"vendor": "anthropic",
-		"apiKey": "${input:chat.lm.secret.43a5d550}"
+		"apiKey": "${input:chat.lm.secret.-10af9696}"
 	},
 	{
 		"name": "OpenAI",
