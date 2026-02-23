@@ -601,7 +601,7 @@
       "when": "chatIsEnabled"
     },
     {
-      "key": "ctrl+k ctrl+a",
+      "key": "ctrl+e ctrl+a",
       "command": "git.stageSelectedRanges",
       "when": "editorTextFocus && !operationInProgress && resourceScheme == 'vscode-remote'"
     },
@@ -642,5 +642,10 @@
       "key": "ctrl+shift+l",
       "command": "workbench.action.createTerminalEditor",
       "when": "terminalProcessSupported"
+    },
+    {
+      "key": "ctrl+e",
+      "command": "-editor.action.toggleScreenReaderAccessibilityMode",
+      "when": "accessibilityHelpIsShown"
     }
 ]
