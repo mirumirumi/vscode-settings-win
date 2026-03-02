@@ -58,6 +58,14 @@
     "liveServer.settings.donotShowInfoMsg": true,
     "markdown.extension.print.absoluteImgPath": false,
     "markdown.extension.list.indentationSize": "inherit",
+        "json.schemaDownload.trustedDomains": {
+      "https://schemastore.azurewebsites.net/": true,
+      "https://raw.githubusercontent.com/": true,
+      "https://www.schemastore.org/": true,
+      "https://json.schemastore.org/": true,
+      "https://json-schema.org/": true,
+      "https://biomejs.dev": true
+    },
     "timing.hiddenCommands": [
         "timing.customToCustom",
         "timing.customToEpoch",
@@ -78,7 +86,6 @@
 
     "github.copilot.enable": { "*": false },
     "github.copilot.chat.terminalChatLocation": "terminal",
-    "github.copilot.chat.agent.thinkingTool": true,
     "github.copilot.chat.codesearch.enabled": true,
     "chat.agent.enabled": true,
     "chatgpt.commentCodeLensEnabled": false,
@@ -198,6 +205,8 @@
     ],
 
     "yaml.customTags": ["!And", "!And sequence", "!If", "!If sequence", "!Not", "!Not sequence", "!Equals", "!Equals sequence", "!Or", "!Or sequence", "!FindInMap", "!FindInMap sequence", "!Base64", "!Join", "!Join sequence", "!Cidr", "!Ref", "!Sub", "!Sub sequence", "!GetAtt", "!GetAZs", "!ImportValue", "!ImportValue sequence", "!Select", "!Select sequence", "!Split", "!Split sequence"],
+
+    "evenBetterToml.formatter.allowedBlankLines": 2,
 
     "cfnLint.validateUsingJsonSchema": true,
 
@@ -506,13 +515,5 @@
                 },
             },
         ],
-    },
-    "json.schemaDownload.trustedDomains": {
-      "https://schemastore.azurewebsites.net/": true,
-      "https://raw.githubusercontent.com/": true,
-      "https://www.schemastore.org/": true,
-      "https://json.schemastore.org/": true,
-      "https://json-schema.org/": true,
-      "https://biomejs.dev": true
     },
 }
