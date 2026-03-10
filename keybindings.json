@@ -647,5 +647,9 @@
       "key": "ctrl+e",
       "command": "-editor.action.toggleScreenReaderAccessibilityMode",
       "when": "accessibilityHelpIsShown"
+    },
+    {
+      "key": "ctrl+e ctrl+e",
+      "command": "diffEditor.toggleCollapseUnchangedRegions"
     }
 ]

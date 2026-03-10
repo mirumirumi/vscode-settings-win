@@ -31,7 +31,7 @@
         "source.fixAll.stylelint": "explicit",
         "source.organizeImports.biome": "explicit"
     },
-    "diffEditor.ignoreTrimWhitespace": false,
+    "diffEditor.ignoreTrimWhitespace": true,
     "explorer.compactFolders": false,
     "explorer.confirmDelete": false,
     "explorer.autoReveal": false,
@@ -43,13 +43,15 @@
     "terminal.integrated.cursorStyle": "line",
     "terminal.integrated.defaultProfile.windows":"Ubuntu",
     "terminal.integrated.enableMultiLinePasteWarning":"never",
-    "remote.autoForwardPortsSource": "hybrid",
+    "diffEditor.renderSideBySide": false,
+    "diffEditor.hideUnchangedRegions.contextLineCount": 13,
     "git.ignoreMissingGitWarning": true,
     "git.openRepositoryInParentFolders": "never",
     "git.blame.editorDecoration.enabled": false,
     "git.blame.statusBarItem.enabled": true,
     "gitlens.currentLine.enabled": false,
     "gitlens.codeLens.enabled": false,
+    "remote.autoForwardPortsSource": "hybrid",
     "redhat.telemetry.enabled": false,
     "npm.fetchOnlinePackageInfo": false,
     "debug.javascript.codelens.npmScripts": "never",
@@ -110,8 +112,7 @@
     "htmltagwrap.tag": "strong",
     "htmltagwrap.autoDeselectClosingTag": false,
 
-    "javascript.preferences.importModuleSpecifier": "relative",
-    "typescript.preferences.importModuleSpecifier": "relative",
+    "js/ts.preferences.importModuleSpecifier": "relative",
 
     "biome.suggestInstallingGlobally": false,
 
@@ -516,4 +517,5 @@
             },
         ],
     },
+    "diffEditor.hideUnchangedRegions.enabled": true,
 }
