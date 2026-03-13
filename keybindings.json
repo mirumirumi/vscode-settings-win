@@ -208,11 +208,6 @@
         "when": "editorTextFocus"
     },
     {
-        "key": "f4",
-        "command": "editor.debug.action.toggleBreakpoint",
-        "when": "debuggersAvailable && editorTextFocus"
-    },
-    {
         "key": "f9",
         "command": "-editor.debug.action.toggleBreakpoint",
         "when": "debuggersAvailable && editorTextFocus"
@@ -651,5 +646,14 @@
     {
       "key": "ctrl+e ctrl+e",
       "command": "diffEditor.toggleCollapseUnchangedRegions"
+    },
+    {
+      "key": "alt+g",
+      "command": "git.openChange"
+    },
+    {
+      "key": "ctrl+shift+d",
+      "command": "-workbench.view.debug",
+      "when": "viewContainer.workbench.view.debug.enabled"
     }
 ]
