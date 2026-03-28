@@ -634,11 +634,6 @@
       "command": "chatgpt.sidebarView.focus"
     },
     {
-      "key": "ctrl+shift+l",
-      "command": "workbench.action.createTerminalEditor",
-      "when": "terminalProcessSupported"
-    },
-    {
       "key": "ctrl+e",
       "command": "-editor.action.toggleScreenReaderAccessibilityMode",
       "when": "accessibilityHelpIsShown"
@@ -655,5 +650,9 @@
       "key": "ctrl+shift+d",
       "command": "-workbench.view.debug",
       "when": "viewContainer.workbench.view.debug.enabled"
+    },
+    {
+      "key": "ctrl+shift+l",
+      "command": "chatgpt.newCodexPanel"
     }
 ]

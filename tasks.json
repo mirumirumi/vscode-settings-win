@@ -15,23 +15,6 @@
       }
     },
     {
-      "label": "Import Sort",
-      "type": "shell",
-      "command": "import-sort --write ${file}",
-      "group": {
-        "kind": "build",
-        "isDefault": true
-      },
-      "presentation": {
-        "reveal": "never",
-        "panel": "shared",
-        "echo": true,
-        "focus": false,
-        "showReuseMessage": false,
-        "clear": false
-      }
-    },
-    {
       "label": "Copy article content for WordPress",
       "type": "shell",
       "command": "bash",

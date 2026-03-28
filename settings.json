@@ -32,6 +32,7 @@
         "source.organizeImports.biome": "explicit"
     },
     "diffEditor.ignoreTrimWhitespace": true,
+    "diffEditor.hideUnchangedRegions.enabled": true,
     "explorer.compactFolders": false,
     "explorer.confirmDelete": false,
     "explorer.autoReveal": false,
@@ -517,5 +518,4 @@
             },
         ],
     },
-    "diffEditor.hideUnchangedRegions.enabled": true,
 }
