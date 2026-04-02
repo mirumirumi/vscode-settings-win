@@ -630,10 +630,6 @@
       "when": "chatgpt.supportsNewChatKeyShortcut"
     },
     {
-      "key": "ctrl+alt+l",
-      "command": "chatgpt.sidebarView.focus"
-    },
-    {
       "key": "ctrl+e",
       "command": "-editor.action.toggleScreenReaderAccessibilityMode",
       "when": "accessibilityHelpIsShown"
@@ -654,5 +650,9 @@
     {
       "key": "ctrl+shift+l",
       "command": "chatgpt.newCodexPanel"
+    },
+    {
+      "key": "ctrl+alt+l",
+      "command": "workbench.panel.chat.view.copilot.focus"
     }
 ]
