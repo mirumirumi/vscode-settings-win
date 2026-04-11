@@ -8,5 +8,14 @@
 		"name": "OpenAI",
 		"vendor": "openai",
 		"apiKey": "${input:chat.lm.secret.78ba81d1}"
+	},
+	{
+		"name": "Copilot",
+		"vendor": "copilot",
+		"settings": {
+			"gpt-5.4": {
+				"reasoningEffort": "xhigh"
+			}
+		}
 	}
 ]

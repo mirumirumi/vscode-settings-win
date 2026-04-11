@@ -6,8 +6,9 @@
     "workbench.startupEditor": "none",
     "workbench.settings.editor": "json",
     "workbench.editor.empty.hint": "hidden",
-    "workbench.activityBar.location": "hidden",
     "workbench.editor.enablePreview": false,
+    "workbench.editor.useModal": "off",
+    "workbench.activityBar.location": "hidden",
     "editor.fontSize": 14,
     "editor.fontFamily": "Consolas, 'Noto Sans JP'",
     "editor.detectIndentation": false,
@@ -69,29 +70,24 @@
       "https://json-schema.org/": true,
       "https://biomejs.dev": true
     },
-    "timing.hiddenCommands": [
-        "timing.customToCustom",
-        "timing.customToEpoch",
-        "timing.customToIsoLocal",
-        "timing.customToIsoUtc",
-        "timing.epochToCustom",
-        "timing.epochToCustomTimezone",
-        "timing.epochToIsoTimezone",
-        "timing.epochToGps",
-        "timing.epochToIsoDuration",
-        "timing.epochToReadableDuration",
-        "timing.epochToReadableDuration",
-        "timing.nowAsCustom",
-        "timing.isoDurationToEpoch",
-        "timing.isoRfcToCustom",
-        "timing.toggleInsertConvertedTimeUserLevel",
-    ],
+    "accessibility.signals.chatResponseReceived": {
+      "sound": "on"
+    },
+    "accessibility.signals.chatUserActionRequired": {
+      "sound": "on",
+      "announcement": "off"
+    },
 
     "github.copilot.enable": { "*": false },
     "github.copilot.chat.terminalChatLocation": "terminal",
     "github.copilot.chat.codesearch.enabled": true,
     "chat.agent.enabled": true,
+    "chat.notifyWindowOnConfirmation": "off",
+    "chat.notifyWindowOnResponseReceived": "off",
+    "chat.viewProgressBadge.enabled": true,
+    "inlineChat.defaultModel": "GPT-5.4 mini (copilotcli)",
     "chatgpt.commentCodeLensEnabled": false,
+    "chatgpt.followUpQueueMode": "steer",
     "roo-cline.allowedCommands": [
       "bun run tsc",
       "bun run lint",
@@ -518,4 +514,5 @@
             },
         ],
     },
+    "chat.fontSize": 14,
 }
