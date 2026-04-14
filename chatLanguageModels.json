@@ -14,7 +14,7 @@
 		"vendor": "copilot",
 		"settings": {
 			"gpt-5.4": {
-				"reasoningEffort": "xhigh"
+				"reasoningEffort": "low"
 			}
 		}
 	}
