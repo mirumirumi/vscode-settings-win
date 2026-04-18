@@ -514,4 +514,6 @@
         ],
     },
     "chat.fontSize": 14,
+    "workbench.browser.showInTitleBar": false,
+    "workbench.layoutControl.enabled": false,
 }
