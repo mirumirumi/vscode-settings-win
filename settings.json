@@ -9,6 +9,8 @@
     "workbench.editor.enablePreview": false,
     "workbench.editor.useModal": "off",
     "workbench.activityBar.location": "hidden",
+    "workbench.browser.showInTitleBar": false,
+    "workbench.layoutControl.enabled": false,
     "editor.fontSize": 14,
     "editor.fontFamily": "Consolas, 'Noto Sans JP'",
     "editor.detectIndentation": false,
@@ -80,6 +82,7 @@
     "github.copilot.enable": { "*": false },
     "github.copilot.chat.terminalChatLocation": "terminal",
     "github.copilot.chat.codesearch.enabled": true,
+    "chat.fontSize": 14,
     "chat.agent.enabled": true,
     "chat.notifyWindowOnConfirmation": "off",
     "chat.notifyWindowOnResponseReceived": "off",
@@ -305,6 +308,14 @@
         "editor.tabSize": 2,
     },
 
+    "workbench.colorCustomizations": {
+      "[Monokai]": {
+        "diffEditor.insertedLineBackground": "#6ace6511",
+        "diffEditor.insertedTextBackground": "#44b7441c",
+        "diffEditor.removedLineBackground": "#ff000011",
+        "diffEditor.removedTextBackground": "#ff000027"
+      },
+    },
     "editor.tokenColorCustomizations": {
         "textMateRules": [
             // HTML
@@ -513,7 +524,4 @@
             },
         ],
     },
-    "chat.fontSize": 14,
-    "workbench.browser.showInTitleBar": false,
-    "workbench.layoutControl.enabled": false,
 }
