@@ -650,5 +650,10 @@
     {
       "key": "ctrl+alt+l",
       "command": "workbench.panel.chat.view.copilot.focus"
+    },
+    {
+      "key": "shift+alt+g",
+      "command": "git.viewChanges",
+      "when": "!operationInProgress"
     }
 ]
