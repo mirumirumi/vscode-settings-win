@@ -71,6 +71,8 @@
       "https://json-schema.org/": true,
       "https://biomejs.dev": true
     },
+    "mermaidChart.showGenerateDiagramCodeLens": false,
+    "mermaidChart.preCommitSync.enabled": false,
     "accessibility.signals.chatResponseReceived": {
       "sound": "on"
     },
