@@ -655,5 +655,10 @@
       "key": "shift+alt+g",
       "command": "git.viewChanges",
       "when": "!operationInProgress"
+    },
+    {
+      "key": "ctrl+shift+l",
+      "command": "workbench.action.createTerminalEditor",
+      "when": "terminalProcessSupported"
     }
 ]
