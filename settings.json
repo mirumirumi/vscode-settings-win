@@ -31,8 +31,8 @@
     "editor.stickyScroll.enabled": false,
     "editor.unicodeHighlight.nonBasicASCII": false,
   	"editor.codeActionsOnSave":{
-        "source.fixAll.stylelint": "explicit",
-        "source.organizeImports.biome": "explicit"
+        "source.organizeImports.biome": "explicit",
+        "source.fixAll.stylelint": "explicit"
     },
     "diffEditor.ignoreTrimWhitespace": true,
     "explorer.compactFolders": false,
@@ -59,11 +59,9 @@
     "npm.fetchOnlinePackageInfo": false,
     "debug.javascript.codelens.npmScripts": "never",
     "extensions.ignoreRecommendations": false,
-    "liveServer.settings.donotVerifyTags": true,
-    "liveServer.settings.donotShowInfoMsg": true,
     "markdown.extension.print.absoluteImgPath": false,
     "markdown.extension.list.indentationSize": "inherit",
-        "json.schemaDownload.trustedDomains": {
+    "json.schemaDownload.trustedDomains": {
       "https://schemastore.azurewebsites.net/": true,
       "https://raw.githubusercontent.com/": true,
       "https://www.schemastore.org/": true,
@@ -89,25 +87,9 @@
     "chat.notifyWindowOnConfirmation": "off",
     "chat.notifyWindowOnResponseReceived": "off",
     "chat.viewProgressBadge.enabled": true,
-    "inlineChat.defaultModel": "GPT-5.4 mini (copilotcli)",
+    "inlineChat.defaultModel": "GPT-5.5 (openai)",
     "chatgpt.commentCodeLensEnabled": false,
     "chatgpt.followUpQueueMode": "steer",
-    "roo-cline.allowedCommands": [
-      "bun run tsc",
-      "bun run lint",
-      "bun run format",
-      "bun run test",
-      "bun test",
-      "grep",
-      "rg",
-      "cd",
-      "npx tsc --noEmit"
-    ],
-    "roo-cline.deniedCommands": [
-      "bun run exec",
-      "bun run script"
-    ],
-    "roo-cline.enableCodeActions": false,
 
     "html.autoClosingTags": true,
     "htmltagwrap.tag": "strong",
@@ -210,8 +192,6 @@
 
     "evenBetterToml.formatter.allowedBlankLines": 2,
 
-    "cfnLint.validateUsingJsonSchema": true,
-
     "[plaintext]": {
         "editor.quickSuggestions": {
             "comments": "off",
@@ -251,13 +231,13 @@
         "editor.formatOnSave": true,
         "editor.semanticHighlighting.enabled": false,
     },
-    "[typescript]": {
+    "[javascriptreact]": {
         "editor.tabSize": 2,
         "editor.defaultFormatter": "biomejs.biome",
         "editor.formatOnSave": true,
         "editor.semanticHighlighting.enabled": false,
     },
-    "[javascriptreact]": {
+    "[typescript]": {
         "editor.tabSize": 2,
         "editor.defaultFormatter": "biomejs.biome",
         "editor.formatOnSave": true,
