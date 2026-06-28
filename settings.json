@@ -193,6 +193,7 @@
 
     "evenBetterToml.formatter.allowedBlankLines": 2,
 
+    "dbcode.useExecuteCodeLens": false,
     "dbcode.connections": [
       {
         "connectionId": "cim-_uhaytAUUWLXxqMSb",
