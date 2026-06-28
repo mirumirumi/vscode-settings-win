@@ -193,6 +193,25 @@
 
     "evenBetterToml.formatter.allowedBlankLines": 2,
 
+    "dbcode.connections": [
+      {
+        "connectionId": "cim-_uhaytAUUWLXxqMSb",
+        "name": "futaribo",
+        "driver": "d1",
+        "color": "#FF7749",
+        "socket": "e06333d6-c754-40c9-bb09-d92ee0320664",
+        "username": "03d5a5ae65f44d853960a196c40b8cf3",
+        "password": "",
+        "savePassword": "secretStorage",
+        "readOnly": false,
+        "postConnectionSqlType": "inline",
+        "introspection": {
+          "progressive": false
+        },
+        "connectionType": "socket"
+      }
+    ],
+
     "[plaintext]": {
         "editor.quickSuggestions": {
             "comments": "off",
@@ -296,7 +315,11 @@
         "diffEditor.insertedLineBackground": "#6ace6511",
         "diffEditor.insertedTextBackground": "#44b7441c",
         "diffEditor.removedLineBackground": "#ff000011",
-        "diffEditor.removedTextBackground": "#ff000027"
+        "diffEditor.removedTextBackground": "#ff000027",
+        "statusBarItem.remoteBackground": "#3e3d32",
+        "statusBarItem.remoteForeground": "#f8f8f2",
+        "statusBarItem.remoteHoverBackground": "#49483e",
+        "statusBarItem.remoteHoverForeground": "#ffffff"
       },
     },
     "editor.tokenColorCustomizations": {
