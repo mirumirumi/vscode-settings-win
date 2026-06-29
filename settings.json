@@ -87,6 +87,7 @@
     "chat.notifyWindowOnConfirmation": "off",
     "chat.notifyWindowOnResponseReceived": "off",
     "chat.viewProgressBadge.enabled": true,
+    "chat.titleBar.openInAgentsWindow.enabled": false,
     "inlineChat.defaultModel": "GPT-5.5 (openai)",
     "chatgpt.commentCodeLensEnabled": false,
     "chatgpt.followUpQueueMode": "steer",
@@ -194,6 +195,11 @@
     "evenBetterToml.formatter.allowedBlankLines": 2,
 
     "dbcode.useExecuteCodeLens": false,
+    "dbcode.tabTitle.format": "${connection}${separator}${table}",
+    "dbcode.formatting.keywordCase": "upper",
+    "dbcode.formatting.functionCase": "upper",
+    "dbcode.history.enabled": true,
+    "dbcode.history.logFailedQueries": true,
     "dbcode.connections": [
       {
         "connectionId": "cim-_uhaytAUUWLXxqMSb",
