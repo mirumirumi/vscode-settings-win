@@ -670,5 +670,19 @@
       "key": "ctrl+d ctrl+b",
       "command": "-dbcode.connections.view.focus",
       "when": "editorHasMultipleSelections && !editorTextFocus && !terminalFocusInAny || editorHasSelection && !editorTextFocus && !terminalFocusInAny || !editorHasMultipleSelections && !editorHasSelection && !terminalFocusInAny"
+    },
+    {
+      "key": "shift+alt+r",
+      "command": "workbench.files.action.showActiveFileInExplorer"
+    },
+    {
+      "key": "shift+alt+r",
+      "command": "-remote-wsl.revealInExplorer",
+      "when": "editorFocus && remoteName == 'wsl'"
+    },
+    {
+      "key": "shift+alt+r",
+      "command": "-revealFileInOS",
+      "when": "!editorFocus"
     }
 ]
