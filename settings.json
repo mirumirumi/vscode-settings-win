@@ -8,7 +8,7 @@
     "workbench.editor.empty.hint": "hidden",
     "workbench.editor.enablePreview": false,
     "workbench.editor.useModal": "off",
-    "workbench.activityBar.location": "hidden",
+    "workbench.activityBar.location": "bottom",
     "workbench.browser.showInTitleBar": false,
     "workbench.layoutControl.enabled": false,
     "editor.fontSize": 14,
@@ -31,8 +31,8 @@
     "editor.stickyScroll.enabled": false,
     "editor.unicodeHighlight.nonBasicASCII": false,
   	"editor.codeActionsOnSave":{
-        "source.organizeImports.biome": "explicit",
-        "source.fixAll.stylelint": "explicit"
+      "source.organizeImports.biome": "explicit",
+      "source.fixAll.stylelint": "explicit"
     },
     "diffEditor.ignoreTrimWhitespace": true,
     "explorer.compactFolders": false,
@@ -155,23 +155,23 @@
     "python.analysis.stubPath": "./typings",
     "python.analysis.autoImportCompletions": true,
     "python.analysis.diagnosticSeverityOverrides": {
-        "reportUnusedImport": "none",
-        "reportUnusedClass": "none",
-        "reportUnusedFunction": "none",
-        "reportUnboundVariable": "error",
-        "reportUnknownMemberType": "none",
-        "reportMissingModuleSource": "information",
-        "reportMissingTypeStubs": "information",
-        "reportInvalidStringEscapeSequence": "information",
-        "reportTypedDictNotRequiredAccess":"warning",
-        "reportUntypedFunctionDecorator": "none",
+      "reportUnusedImport": "none",
+      "reportUnusedClass": "none",
+      "reportUnusedFunction": "none",
+      "reportUnboundVariable": "error",
+      "reportUnknownMemberType": "none",
+      "reportMissingModuleSource": "information",
+      "reportMissingTypeStubs": "information",
+      "reportInvalidStringEscapeSequence": "information",
+      "reportTypedDictNotRequiredAccess":"warning",
+      "reportUntypedFunctionDecorator": "none",
     },
     "black-formatter.args": [
-        "--line-length=124",
+      "--line-length=124",
     ],
     "notebook.cellToolbarLocation": {
-        "default": "right",
-        "jupyter-notebook": "left",
+      "default": "right",
+      "jupyter-notebook": "left",
     },
 
     "php.validate.run": "onType",
@@ -186,7 +186,7 @@
     "rust-analyzer.lens.implementations.enable": false,
     "rust-analyzer.check.command": "clippy",
     "rust-analyzer.rustfmt.extraArgs": [
-        "--config", "imports_layout=HorizontalVertical,imports_granularity=Crate,group_imports=StdExternalCrate",
+      "--config", "imports_layout=HorizontalVertical,imports_granularity=Crate,group_imports=StdExternalCrate",
     ],
 
     "yaml.customTags": ["!And", "!And sequence", "!If", "!If sequence", "!Not", "!Not sequence", "!Equals", "!Equals sequence", "!Or", "!Or sequence", "!FindInMap", "!FindInMap sequence", "!Base64", "!Join", "!Join sequence", "!Cidr", "!Ref", "!Sub", "!Sub sequence", "!GetAtt", "!GetAZs", "!ImportValue", "!ImportValue sequence", "!Select", "!Select sequence", "!Split", "!Split sequence"],
@@ -219,101 +219,101 @@
     ],
 
     "[plaintext]": {
-        "editor.quickSuggestions": {
-            "comments": "off",
-            "strings": "off",
-            "other": "off"
-        },
+      "editor.quickSuggestions": {
+        "comments": "off",
+        "strings": "off",
+        "other": "off"
+      },
     },
     "[markdown]":  {
-        "editor.tabSize": 4,
-        "editor.quickSuggestions": {
-            "comments": "on",
-            "strings": "on",
-            "other": "on"
-        },
-        "editor.suggest.showKeywords": false,
-        "editor.suggest.showWords": false,
-        "editor.defaultFormatter": "esbenp.prettier-vscode",
+      "editor.tabSize": 4,
+      "editor.quickSuggestions": {
+        "comments": "on",
+        "strings": "on",
+        "other": "on"
+      },
+      "editor.suggest.showKeywords": false,
+      "editor.suggest.showWords": false,
+      "editor.defaultFormatter": "esbenp.prettier-vscode",
     },
     "[html]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode",
-        "editor.tabSize": 2,
-        "editor.formatOnSave": true,
+      "editor.defaultFormatter": "esbenp.prettier-vscode",
+      "editor.tabSize": 2,
+      "editor.formatOnSave": true,
     },
     "[css]": {
-        "editor.tabSize": 2,
-        "editor.defaultFormatter": "stylelint.vscode-stylelint",
-        "editor.formatOnSave": true,
+      "editor.tabSize": 2,
+      "editor.defaultFormatter": "stylelint.vscode-stylelint",
+      "editor.formatOnSave": true,
     },
     "[scss]": {
-        "editor.tabSize": 2,
-        "editor.defaultFormatter": "stylelint.vscode-stylelint",
-        "editor.formatOnSave": true,
+      "editor.tabSize": 2,
+      "editor.defaultFormatter": "stylelint.vscode-stylelint",
+      "editor.formatOnSave": true,
     },
     "[javascript]": {
-        "editor.tabSize": 2,
-        "editor.defaultFormatter": "biomejs.biome",
-        "editor.formatOnSave": true,
-        "editor.semanticHighlighting.enabled": false,
+      "editor.tabSize": 2,
+      "editor.defaultFormatter": "biomejs.biome",
+      "editor.formatOnSave": true,
+      "editor.semanticHighlighting.enabled": false,
     },
     "[javascriptreact]": {
-        "editor.tabSize": 2,
-        "editor.defaultFormatter": "biomejs.biome",
-        "editor.formatOnSave": true,
-        "editor.semanticHighlighting.enabled": false,
+      "editor.tabSize": 2,
+      "editor.defaultFormatter": "biomejs.biome",
+      "editor.formatOnSave": true,
+      "editor.semanticHighlighting.enabled": false,
     },
     "[typescript]": {
-        "editor.tabSize": 2,
-        "editor.defaultFormatter": "biomejs.biome",
-        "editor.formatOnSave": true,
-        "editor.semanticHighlighting.enabled": false,
+      "editor.tabSize": 2,
+      "editor.defaultFormatter": "biomejs.biome",
+      "editor.formatOnSave": true,
+      "editor.semanticHighlighting.enabled": false,
     },
     "[typescriptreact]": {
-        "editor.tabSize": 2,
-        "editor.defaultFormatter": "biomejs.biome",
-        "editor.formatOnSave": true,
-        "editor.semanticHighlighting.enabled": false,
+      "editor.tabSize": 2,
+      "editor.defaultFormatter": "biomejs.biome",
+      "editor.formatOnSave": true,
+      "editor.semanticHighlighting.enabled": false,
     },
     "[json]": {
-        "editor.tabSize": 2,
-        "editor.defaultFormatter": "biomejs.biome",
+      "editor.tabSize": 2,
+      "editor.defaultFormatter": "biomejs.biome",
     },
     "[jsonc]": {
-        "editor.tabSize": 2,
-        "editor.defaultFormatter": "biomejs.biome",
-        "editor.formatOnSave": true,
+      "editor.tabSize": 2,
+      "editor.defaultFormatter": "biomejs.biome",
+      "editor.formatOnSave": true,
     },
     "[yaml]": {
-        "editor.tabSize": 2,
+      "editor.tabSize": 2,
     },
     "[vue]": {
-        "editor.tabSize": 2,
-        "editor.defaultFormatter": "esbenp.prettier-vscode",
-        "editor.formatOnSave": true,
-        "editor.codeActionsOnSave": {
-            "source.fixAll.prettier": "explicit",
-            "source.fixAll.stylelint": "explicit"
-        },
+      "editor.tabSize": 2,
+      "editor.defaultFormatter": "esbenp.prettier-vscode",
+      "editor.formatOnSave": true,
+      "editor.codeActionsOnSave": {
+        "source.fixAll.prettier": "explicit",
+        "source.fixAll.stylelint": "explicit"
+      },
     },
     "[python]": {
-        "editor.defaultFormatter": "ms-python.black-formatter",
-        "editor.formatOnSave": true,
-        "editor.semanticHighlighting.enabled": false,
+      "editor.defaultFormatter": "ms-python.black-formatter",
+      "editor.formatOnSave": true,
+      "editor.semanticHighlighting.enabled": false,
     },
     "[go]": {
-        "editor.formatOnSave": false,
-        "editor.codeActionsOnSave": {
-            "source.organizeImports": "never"
-        },
+      "editor.formatOnSave": false,
+      "editor.codeActionsOnSave": {
+        "source.organizeImports": "never"
+      },
     },
     "[rust]": {
-        "editor.inlayHints.enabled": "offUnlessPressed",
-        "editor.formatOnSave": true,
-        "editor.semanticHighlighting.enabled": false,
+      "editor.inlayHints.enabled": "offUnlessPressed",
+      "editor.formatOnSave": true,
+      "editor.semanticHighlighting.enabled": false,
     },
     "[tf]": {
-        "editor.tabSize": 2,
+      "editor.tabSize": 2,
     },
 
     "workbench.colorCustomizations": {
