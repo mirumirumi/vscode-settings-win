@@ -8,7 +8,7 @@
     "workbench.editor.empty.hint": "hidden",
     "workbench.editor.enablePreview": false,
     "workbench.editor.useModal": "off",
-    "workbench.activityBar.location": "bottom",
+    "workbench.activityBar.location": "hidden",
     "workbench.browser.showInTitleBar": false,
     "workbench.layoutControl.enabled": false,
     "editor.fontSize": 14,
