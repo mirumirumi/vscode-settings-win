@@ -713,5 +713,11 @@
       "key": "ctrl+r",
       "command": "-workbench.action.reloadWindow",
       "when": "isDevelopment"
+    },
+    {
+      "key": "ctrl+alt+c",
+      "command": "workbench.action.tasks.runTask",
+      "args": "Copy file and line",
+      "when": "editorTextFocus"
     }
 ]

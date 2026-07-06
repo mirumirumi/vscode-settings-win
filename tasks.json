@@ -2,6 +2,24 @@
   "version": "2.0.0",
   "tasks": [
     {
+      "label": "Copy file and line",
+      "type": "process",
+      "command": "bash",
+      "args": ["-lc", "printf '%s' \"$AI_FILE_LINE\" | clip.exe"],
+      "options": {
+        "env": {
+          "AI_FILE_LINE": "${file} L${lineNumber}"
+        }
+      },
+      "presentation": {
+        "reveal": "never",
+        "echo": false,
+        "focus": false,
+        "showReuseMessage": false
+      },
+      "problemMatcher": []
+    },
+    {
       "label": "Run Current Test File",
       "type": "shell",
       "command": "npx vitest related ${file} --coverage",
