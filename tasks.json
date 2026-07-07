@@ -8,7 +8,7 @@
       "args": ["-lc", "printf '%s' \"$AI_FILE_LINE\" | clip.exe"],
       "options": {
         "env": {
-          "AI_FILE_LINE": "${file} L${lineNumber}"
+          "AI_FILE_LINE": "${file} L${lineNumber} "
         }
       },
       "presentation": {
