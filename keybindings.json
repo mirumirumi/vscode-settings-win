@@ -511,16 +511,6 @@
       "when": "terminalFocus"
     },
     {
-      "key": "ctrl+w",
-      "command": "workbench.action.terminal.kill",
-      "when": "terminalFocus"
-    },
-    {
-      "key": "ctrl+w",
-      "command": "-workbench.action.terminal.killEditor",
-      "when": "terminalEditorFocus && terminalFocus && terminalHasBeenCreated || terminalEditorFocus && terminalFocus && terminalProcessSupported"
-    },
-    {
       "key": "ctrl+alt+k",
       "command": "workbench.files.action.focusOpenEditorsView",
       "when": "workbench.explorer.openEditorsView.active"
@@ -658,7 +648,16 @@
     },
     {
       "key": "ctrl+shift+l",
-      "command": "workbench.action.createTerminalEditor",
+      "command": "runCommands",
+      "args": {
+        "commands": [
+          "workbench.action.createTerminalEditor",
+          {
+            "command": "workbench.action.terminal.sendSequence",
+            "args": { "text": "codex\u000d" }
+          }
+        ]
+      },
       "when": "terminalProcessSupported"
     },
     {
@@ -719,5 +718,21 @@
       "command": "workbench.action.tasks.runTask",
       "args": "Copy file and line",
       "when": "editorTextFocus"
+    },
+    {
+      "key": "shift+enter",
+      "command": "workbench.action.terminal.sendSequence",
+      "args": { "text": "\u001b\u000d" },
+      "when": "terminalFocus"
+    },
+    {
+      "key": "ctrl+w",
+      "command": "workbench.action.terminal.kill",
+      "when": "terminalFocus && !terminalEditorFocus"
+    },
+    {
+      "key": "ctrl+w",
+      "command": "workbench.action.terminal.killEditor",
+      "when": "terminalEditorFocus && terminalFocus"
     }
 ]

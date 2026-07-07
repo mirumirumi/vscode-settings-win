@@ -45,6 +45,7 @@
     "terminal.integrated.cursorStyle": "line",
     "terminal.integrated.defaultProfile.windows":"Ubuntu",
     "terminal.integrated.enableMultiLinePasteWarning":"never",
+    "terminal.integrated.confirmOnKill": "never",
     "diffEditor.renderSideBySide": false,
     "diffEditor.hideUnchangedRegions.contextLineCount": 13,
     "git.ignoreMissingGitWarning": true,
@@ -95,7 +96,7 @@
     "htmltagwrap.tag": "strong",
     "htmltagwrap.autoDeselectClosingTag": false,
 
-    "js/ts.preferences.importModuleSpecifier": "relative",
+    "js/ts.preferences.importModuleSpecifier": "project-relative",
     "js/ts.updateImportsOnFileMove.enabled": "always",
 
     "biome.suggestInstallingGlobally": false,
