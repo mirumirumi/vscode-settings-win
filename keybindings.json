@@ -654,7 +654,7 @@
           "workbench.action.createTerminalEditor",
           {
             "command": "workbench.action.terminal.sendSequence",
-            "args": { "text": "codex\u000d" }
+            "args": { "text": "codex --profile cli\u000d" }
           }
         ]
       },
