@@ -734,5 +734,10 @@
       "key": "ctrl+w",
       "command": "workbench.action.terminal.killEditor",
       "when": "terminalEditorFocus && terminalFocus"
+    },
+    {
+      "key": "f18",
+      "command": "git.stageSelectedRanges",
+      "when": "editorTextFocus && !operationInProgress && resourceScheme == 'vscode-remote'"
     }
 ]
