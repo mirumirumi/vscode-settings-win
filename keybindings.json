@@ -647,7 +647,7 @@
       "when": "!operationInProgress"
     },
     {
-      "key": "ctrl+shift+l",
+      "key": "ctrl+l",
       "command": "runCommands",
       "args": {
         "commands": [
@@ -739,5 +739,20 @@
       "key": "f18",
       "command": "git.stageSelectedRanges",
       "when": "editorTextFocus && !operationInProgress && resourceScheme == 'vscode-remote'"
+    },
+    {
+      "key": "ctrl+l",
+      "command": "-workbench.action.chat.newChat",
+      "when": "chatIsEnabled && inChat && chatLocation == 'panel'"
+    },
+    {
+      "key": "ctrl+l",
+      "command": "-workbench.action.browser.focusUrlInput",
+      "when": "activeEditor == 'workbench.editor.browser'"
+    },
+    {
+      "key": "ctrl+f14",
+      "command": "workbench.action.terminal.toggleTerminal",
+      "when": "terminal.active"
     }
 ]
