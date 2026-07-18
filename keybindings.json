@@ -754,5 +754,14 @@
       "key": "ctrl+f14",
       "command": "workbench.action.terminal.toggleTerminal",
       "when": "terminal.active"
+    },
+    {
+      "key": "ctrl+shift+l",
+      "command": "workbench.action.chat.history",
+      "when": "chatIsEnabled"
+    },
+    {
+      "key": "ctrl+l",
+      "command": "chatgpt.newCodexPanel"
     }
 ]
