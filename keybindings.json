@@ -751,11 +751,6 @@
       "when": "activeEditor == 'workbench.editor.browser'"
     },
     {
-      "key": "ctrl+f14",
-      "command": "workbench.action.terminal.toggleTerminal",
-      "when": "terminal.active"
-    },
-    {
       "key": "ctrl+shift+l",
       "command": "workbench.action.chat.history",
       "when": "chatIsEnabled"
@@ -763,5 +758,20 @@
     {
       "key": "ctrl+l",
       "command": "chatgpt.newCodexPanel"
+    },
+    {
+      "key": "ctrl+alt+f14",
+      "command": "workbench.action.terminal.toggleTerminal",
+      "when": "terminal.active"
+    },
+    {
+      "key": "ctrl+f14",
+      "command": "editor.action.indentLines",
+      "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+      "key": "ctrl+shift+f14",
+      "command": "editor.action.outdentLines",
+      "when": "editorTextFocus && !editorReadonly"
     }
 ]
