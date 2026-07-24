@@ -88,7 +88,6 @@
     "chat.notifyWindowOnResponseReceived": "off",
     "chat.viewProgressBadge.enabled": true,
     "chat.titleBar.openInAgentsWindow.enabled": false,
-    "inlineChat.defaultModel": "GPT-5.5 (openai)",
     "chatgpt.commentCodeLensEnabled": false,
     "chatgpt.followUpQueueMode": "steer",
 
