@@ -5,7 +5,10 @@
       "label": "Copy file and line",
       "type": "process",
       "command": "bash",
-      "args": ["-lc", "printf '%s' \"$AI_FILE_LINE\" | clip.exe"],
+      "args": [
+        "-lc",
+        "printf '%s' \"$AI_FILE_LINE\" | iconv -f utf-8 -t utf-16le | clip.exe"
+      ],
       "options": {
         "env": {
           "AI_FILE_LINE": "${file} L${lineNumber} "

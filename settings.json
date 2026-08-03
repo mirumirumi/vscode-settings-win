@@ -360,211 +360,225 @@
       },
     },
     "editor.tokenColorCustomizations": {
+      "[Mayukai Reversal]": {
         "textMateRules": [
-            // HTML
-            {
-                "scope": [
-                    "meta.tag.custom.start.html entity.name.tag.html",
-                    "meta.tag.custom.end.html entity.name.tag.html",
-                ],
-                "settings": {
-                    "foreground": "#66d9ef",
-                    "fontStyle": "italic",
-                },
+          {
+            "scope": [
+              "comment",
+              "comment punctuation.definition.comment",
+            ],
+            "settings": {
+              "foreground": "#5a6066",
+              "fontStyle": "",
             },
-
-            // JS/TS, jsx/tsx
-            {
-                "scope": [
-                    "entity.name.type",
-                    "entity.name.type.interface",
-                    "support.function.json.ts",
-                    "support.function.json.tsx",
-                ],
-                "settings": {
-                    "foreground": "#a6e22e",
-                    "fontStyle": "",
-                },
-            },
-            {
-                "scope": [
-                    "meta.type.annotation.ts entity.name.type.ts",
-                    "meta.type.annotation.tsx entity.name.type.tsx",
-                    "meta.type.parameters.ts entity.name.type.ts",
-                    "meta.type.parameters.tsx entity.name.type.tsx",
-                    "meta.return.type.ts entity.name.type.ts",
-                    "meta.return.type.tsx entity.name.type.tsx",
-                    "meta.return.type.arrow.ts entity.name.type.ts",
-                    "meta.return.type.arrow.tsx entity.name.type.tsx",
-                    "meta.class.ts entity.other.inherited-class.ts",
-                    "meta.class.tsx entity.other.inherited-class.tsx",
-                ],
-                "settings": {
-                    "foreground": "#66d9ef",
-                    "fontStyle": "italic",
-                },
-            },
-            {
-                "scope": [
-                    "punctuation.accessor.ts",
-                    "punctuation.accessor.tsx",
-                    "punctuation.accessor.optional.ts",
-                    "punctuation.accessor.optional.tsx",
-                ],
-                "settings": {
-                    "foreground": "#f92672",
-                    "fontStyle": "",
-                },
-            },
-            {
-                "scope": [
-                    "new.expr.ts meta.function-call.ts entity.name.function.ts",
-                    "new.expr.tsx meta.function-call.ts entity.name.function.tsx",
-                    "meta.type.declaration.ts entity.name.type.alias.ts",
-                    "meta.type.declaration.tsx entity.name.type.alias.tsx",
-                    "meta.interface.ts entity.name.type.interface.ts",
-                    "meta.interface.tsx entity.name.type.interface.tsx",
-                    "variable.other.constant.ts entity.name.function.ts",
-                    "variable.other.constant.tsx entity.name.function.tsx",
-                    "entity.name.type.class.ts",
-                    "entity.name.type.class.tsx",
-                ],
-                "settings": {
-                    "foreground": "#f8f8f2",
-                    "fontStyle": "",
-                },
-            },
-            {
-                "scope": [
-                    "meta.arrow.ts storage.type.function.arrow.ts",
-                    "meta.arrow.tsx storage.type.function.arrow.tsx",
-                ],
-                "settings": {
-                    "foreground": "#f8f8f2",
-                    "fontStyle": "italic",
-                },
-            },
-
-            // Vue
-            {
-                "scope": [
-                    "entity.name.type.class",
-                ],
-                "settings": {
-                    "foreground": "#66d9ef",
-                    "fontStyle": "italic",
-                },
-            },
-
-            // Go
-            {
-                "scope": [
-                    "keyword.const.go",
-                    "keyword.function.go",
-                    "keyword.type.go",
-                ],
-                "settings": {
-                    "foreground": "#66d9ef",
-                },
-            },
-            {
-                "scope": [
-                    "storage.type.string.go",
-                ],
-                "settings": {
-                    "foreground": "#fd971f",
-                    "fontStyle": "italic",
-                },
-            },
-            {
-                "scope": [
-                    "support.function.go",
-                ],
-                "settings": {
-                    "foreground": "#f8f8f2",
-                },
-            },
-            {
-                "scope": [
-                    "entity.name.type.go",
-                ],
-                "settings": {
-                    "foreground": "#a6e22e",
-                    "fontStyle": "",
-                },
-            },
-
-            // Rust
-            {
-                "scope": [
-                    "keyword.operator.key-value.rust",
-                    "entity.name.type.rust",
-                    "entity.name.type.struct.rust",
-                    "entity.name.type.enum.rust",
-                    "entity.name.type.result.rust",
-                    "entity.name.function.rust",
-                    "entity.name.namespace.rust",
-                    "entity.name.type.trait.rust",
-                    "meta.function.definition.rust keyword.operator.arrow.skinny.rust",
-                ],
-                "settings": {
-                    "foreground": "#f8f8f2",
-                    "fontStyle": "",
-                },
-            },
-            {
-                "scope": [
-                    "keyword.other.fn.rust",
-                    "entity.name.type.primitive.rust",
-                    "entity.name.type.numeric.rust",
-                    "meta.function.definition.rust entity.name.type.rust",
-                    "meta.attribute.rust entity.name.type.rust",
-                    "meta.use.rust entity.name.type.rust",
-                ],
-                "settings": {
-                    "foreground": "#66d9ef",
-                    "fontStyle": "italic",
-                },
-            },
-            {
-                "scope": [
-                    "meta.attribute.rust",
-                    "meta.function.definition.rust variable.other.rust",
-                    "punctuation.definition.lifetime.rust",
-                    "entity.name.type.lifetime.rust",
-                ],
-                "settings": {
-                    "foreground": "#fd971f",
-                    "fontStyle": "italic",
-                },
-            },
-            {
-                "scope": [
-                    "meta.function.definition.rust entity.name.function.rust",
-                    "punctuation.definition.attribute.rust",
-                ],
-                "settings": {
-                    "foreground": "#a6e22e",
-                    "fontStyle": "",
-                },
-            },
-            {
-                "scope": [
-                    "storage.type.rust",
-                ],
-                "settings": {
-                    "foreground": "#f92672",
-                },
-            },
-            {
-                "scope": [
-                    "entity.name.type.option.rust",
-                ],
-                "settings": {
-                    "foreground": "#ae81ff",
-                    "fontStyle": "italic",
-                },
-            },
+          },
         ],
+      },
+      "textMateRules": [
+        // HTML
+        {
+          "scope": [
+            "meta.tag.custom.start.html entity.name.tag.html",
+            "meta.tag.custom.end.html entity.name.tag.html",
+          ],
+          "settings": {
+            "foreground": "#66d9ef",
+            "fontStyle": "italic",
+          },
+        },
+
+        // JS/TS, jsx/tsx
+        {
+          "scope": [
+            "entity.name.type",
+            "entity.name.type.interface",
+            "support.function.json.ts",
+            "support.function.json.tsx",
+          ],
+          "settings": {
+            "foreground": "#a6e22e",
+            "fontStyle": "",
+          },
+        },
+        {
+          "scope": [
+            "meta.type.annotation.ts entity.name.type.ts",
+            "meta.type.annotation.tsx entity.name.type.tsx",
+            "meta.type.parameters.ts entity.name.type.ts",
+            "meta.type.parameters.tsx entity.name.type.tsx",
+            "meta.return.type.ts entity.name.type.ts",
+            "meta.return.type.tsx entity.name.type.tsx",
+            "meta.return.type.arrow.ts entity.name.type.ts",
+            "meta.return.type.arrow.tsx entity.name.type.tsx",
+            "meta.class.ts entity.other.inherited-class.ts",
+            "meta.class.tsx entity.other.inherited-class.tsx",
+          ],
+          "settings": {
+            "foreground": "#66d9ef",
+            "fontStyle": "italic",
+          },
+        },
+        {
+          "scope": [
+            "punctuation.accessor.ts",
+            "punctuation.accessor.tsx",
+            "punctuation.accessor.optional.ts",
+            "punctuation.accessor.optional.tsx",
+          ],
+          "settings": {
+            "foreground": "#f92672",
+            "fontStyle": "",
+          },
+        },
+        {
+          "scope": [
+            "new.expr.ts meta.function-call.ts entity.name.function.ts",
+            "new.expr.tsx meta.function-call.ts entity.name.function.tsx",
+            "meta.type.declaration.ts entity.name.type.alias.ts",
+            "meta.type.declaration.tsx entity.name.type.alias.tsx",
+            "meta.interface.ts entity.name.type.interface.ts",
+            "meta.interface.tsx entity.name.type.interface.tsx",
+            "variable.other.constant.ts entity.name.function.ts",
+            "variable.other.constant.tsx entity.name.function.tsx",
+            "entity.name.type.class.ts",
+            "entity.name.type.class.tsx",
+          ],
+          "settings": {
+            "foreground": "#f8f8f2",
+            "fontStyle": "",
+          },
+        },
+        {
+          "scope": [
+            "meta.arrow.ts storage.type.function.arrow.ts",
+            "meta.arrow.tsx storage.type.function.arrow.tsx",
+          ],
+          "settings": {
+            "foreground": "#f8f8f2",
+            "fontStyle": "italic",
+          },
+        },
+
+        // Vue
+        {
+          "scope": [
+            "entity.name.type.class",
+          ],
+          "settings": {
+            "foreground": "#66d9ef",
+            "fontStyle": "italic",
+          },
+        },
+
+        // Go
+        {
+          "scope": [
+            "keyword.const.go",
+            "keyword.function.go",
+            "keyword.type.go",
+          ],
+          "settings": {
+            "foreground": "#66d9ef",
+          },
+        },
+        {
+          "scope": [
+            "storage.type.string.go",
+          ],
+          "settings": {
+            "foreground": "#fd971f",
+            "fontStyle": "italic",
+          },
+        },
+        {
+          "scope": [
+            "support.function.go",
+          ],
+          "settings": {
+            "foreground": "#f8f8f2",
+          },
+        },
+        {
+          "scope": [
+            "entity.name.type.go",
+          ],
+          "settings": {
+            "foreground": "#a6e22e",
+            "fontStyle": "",
+          },
+        },
+
+        // Rust
+        {
+          "scope": [
+            "keyword.operator.key-value.rust",
+            "entity.name.type.rust",
+            "entity.name.type.struct.rust",
+            "entity.name.type.enum.rust",
+            "entity.name.type.result.rust",
+            "entity.name.function.rust",
+            "entity.name.namespace.rust",
+            "entity.name.type.trait.rust",
+            "meta.function.definition.rust keyword.operator.arrow.skinny.rust",
+          ],
+          "settings": {
+            "foreground": "#f8f8f2",
+            "fontStyle": "",
+          },
+        },
+        {
+          "scope": [
+            "keyword.other.fn.rust",
+            "entity.name.type.primitive.rust",
+            "entity.name.type.numeric.rust",
+            "meta.function.definition.rust entity.name.type.rust",
+            "meta.attribute.rust entity.name.type.rust",
+            "meta.use.rust entity.name.type.rust",
+          ],
+          "settings": {
+            "foreground": "#66d9ef",
+            "fontStyle": "italic",
+          },
+        },
+        {
+          "scope": [
+            "meta.attribute.rust",
+            "meta.function.definition.rust variable.other.rust",
+            "punctuation.definition.lifetime.rust",
+            "entity.name.type.lifetime.rust",
+          ],
+          "settings": {
+            "foreground": "#fd971f",
+            "fontStyle": "italic",
+          },
+        },
+        {
+          "scope": [
+            "meta.function.definition.rust entity.name.function.rust",
+            "punctuation.definition.attribute.rust",
+          ],
+          "settings": {
+            "foreground": "#a6e22e",
+            "fontStyle": "",
+          },
+        },
+        {
+          "scope": [
+            "storage.type.rust",
+          ],
+          "settings": {
+            "foreground": "#f92672",
+          },
+        },
+        {
+          "scope": [
+            "entity.name.type.option.rust",
+          ],
+          "settings": {
+            "foreground": "#ae81ff",
+            "fontStyle": "italic",
+          },
+        },
+      ],
     },
 }
