@@ -581,4 +581,5 @@
         },
       ],
     },
+    "terminal.integrated.initialHint": false,
 }

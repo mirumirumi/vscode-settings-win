@@ -773,5 +773,14 @@
       "key": "ctrl+shift+f14",
       "command": "editor.action.outdentLines",
       "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+      "key": "ctrl+shift+p",
+      "command": "workbench.action.focusPanel"
+    },
+    {
+      "key": "ctrl+shift+p",
+      "command": "-workbench.action.quickOpenNavigatePreviousInFilePicker",
+      "when": "inFilesPicker && inQuickOpen"
     }
 ]
