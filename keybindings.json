@@ -642,7 +642,7 @@
       "command": "workbench.panel.chat.view.copilot.focus"
     },
     {
-      "key": "shift+alt+g",
+      "key": "ctrl+alt+g",
       "command": "git.viewChanges",
       "when": "!operationInProgress"
     },
