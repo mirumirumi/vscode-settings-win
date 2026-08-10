@@ -782,5 +782,15 @@
       "key": "ctrl+shift+p",
       "command": "-workbench.action.quickOpenNavigatePreviousInFilePicker",
       "when": "inFilesPicker && inQuickOpen"
+    },
+    {
+      "key": "alt+down",
+      "command": "-editor.action.moveLinesDownAction",
+      "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+      "key": "alt+up",
+      "command": "-editor.action.moveLinesUpAction",
+      "when": "editorTextFocus && !editorReadonly"
     }
 ]
