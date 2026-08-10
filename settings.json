@@ -100,33 +100,6 @@
 
     "biome.suggestInstallingGlobally": false,
 
-    "stylelint.config": {
-        "extends": [
-            "stylelint-config-standard-scss",
-            // "stylelint-config-standard-vue",
-        ],
-        "rules": {
-            "rule-empty-line-before": "never",
-            "at-rule-empty-line-before": "never",
-            "color-hex-length": "long",
-            "color-function-notation": null,
-            "alpha-value-notation": null,
-            "selector-list-comma-newline-after": null,
-            "max-line-length": null,
-            "no-descending-specificity": null,
-            "selector-class-pattern": null,
-            "declaration-block-no-redundant-longhand-properties": null,
-            "block-no-empty": null,
-            "length-zero-no-unit": null,
-            "declaration-colon-newline-after": "always-multi-line",
-            "scss/double-slash-comment-empty-line-before": null,
-            "at-rule-no-unknown": null,
-            "declaration-empty-line-before": "never",
-            "declaration-block-trailing-semicolon": null,
-            "no-eol-whitespace": null,
-            "number-max-precision": null,
-        },
-    },
     "stylelint.snippet": ["css", "scss", "vue"],
     "stylelint.validate": ["css", "scss", "vue"],
     "css.validate": false,
