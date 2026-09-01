@@ -91,6 +91,8 @@
     "chat.titleBar.openInAgentsWindow.enabled": false,
     "chatgpt.commentCodeLensEnabled": false,
     "chatgpt.followUpQueueMode": "steer",
+    "claudeCode.preferredLocation": "panel",
+    "claudeCode.hideOnboarding": true,
 
     "html.autoClosingTags": true,
     "htmltagwrap.tag": "strong",
@@ -593,5 +595,4 @@
         ],
       },
     },
-    "claudeCode.preferredLocation": "panel",
 }
