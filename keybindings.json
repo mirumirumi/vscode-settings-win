@@ -792,5 +792,14 @@
       "key": "alt+up",
       "command": "-editor.action.moveLinesUpAction",
       "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+      "key": "ctrl+shift+escape",
+      "command": "-claude-vscode.editor.open",
+      "when": "!config.claudeCode.useTerminal"
+    },
+    {
+      "key": "ctrl+l",
+      "command": "claude-vscode.primaryEditor.open"
     }
 ]
