@@ -127,6 +127,7 @@
     "vue.autoInsert.dotValue": true,
     "vue.editor.templateInterpolationDecorators": false,
 
+    "python.terminal.activateEnvironment": false,
     "python.analysis.typeCheckingMode": "strict",
     "python.analysis.stubPath": "./typings",
     "python.analysis.autoImportCompletions": true,
