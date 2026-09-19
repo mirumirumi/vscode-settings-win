@@ -638,28 +638,72 @@
       "when": "viewContainer.workbench.view.debug.enabled"
     },
     {
-      "key": "ctrl+alt+l",
-      "command": "workbench.panel.chat.view.copilot.focus"
-    },
-    {
       "key": "ctrl+alt+g",
       "command": "git.viewChanges",
       "when": "!operationInProgress"
     },
+
+    // 一瞬右サイドバーを経由してからタブに移動させるしかいまは方法がないので頑張ってる
     {
       "key": "ctrl+l",
       "command": "runCommands",
       "args": {
         "commands": [
-          "workbench.action.createTerminalEditor",
           {
-            "command": "workbench.action.terminal.sendSequence",
-            "args": { "text": "codex --profile cli\u000d" }
+            "command": "workbench.action.chat.openNewChatSessionInPlace.agent-host-codex",
+            "args": "sidebar"
+          },
+          "workbench.action.chat.openInEditor",
+          "workbench.files.action.focusOpenEditorsView",
+        ]
+      }
+    },
+
+    // チャット履歴をクイックオープンで頑張る
+    {
+      "key": "ctrl+shift+l",
+      "command": "runCommands",
+      "when": "!inQuickInput",
+      "args": {
+        "commands": [
+          {
+            "command": "_setContext",
+            "args": ["keiAgentHistoryPicker", true]
+          },
+          "workbench.action.chat.pickAgentSession"
+        ]
+      }
+    },
+    {
+      "key": "enter",
+      "command": "runCommands",
+      "when": "inQuickInput && quickInputType == 'quickPick' && keiAgentHistoryPicker",
+      "args": {
+        "commands": [
+          "quickInput.acceptInBackground",
+          "quickInput.hide",
+          {
+            "command": "_setContext",
+            "args": ["keiAgentHistoryPicker", false]
           }
         ]
-      },
-      "when": "terminalProcessSupported"
+      }
     },
+    {
+      "key": "escape",
+      "command": "runCommands",
+      "when": "inQuickInput && keiAgentHistoryPicker",
+      "args": {
+        "commands": [
+          "quickInput.hide",
+          {
+            "command": "_setContext",
+            "args": ["keiAgentHistoryPicker", false]
+          }
+        ]
+      }
+    },
+
     {
       "key": "ctrl+shift+d",
       "command": "dbcode.connections.view.focus",
@@ -751,15 +795,6 @@
       "when": "activeEditor == 'workbench.editor.browser'"
     },
     {
-      "key": "ctrl+shift+l",
-      "command": "workbench.action.chat.history",
-      "when": "chatIsEnabled"
-    },
-    {
-      "key": "ctrl+l",
-      "command": "chatgpt.newCodexPanel"
-    },
-    {
       "key": "ctrl+alt+f14",
       "command": "workbench.action.terminal.toggleTerminal",
       "when": "terminal.active"
@@ -799,7 +834,7 @@
       "when": "!config.claudeCode.useTerminal"
     },
     {
-      "key": "ctrl+l",
+      "key": "ctrl+alt+l",
       "command": "claude-vscode.primaryEditor.open"
     }
 ]

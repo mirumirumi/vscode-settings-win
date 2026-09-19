@@ -1,599 +1,606 @@
 {
-    "workbench.colorTheme": "Mayukai Reversal",
-    "workbench.tree.indent": 13,
-    "workbench.tree.enableStickyScroll": false,
-    "workbench.list.openMode": "doubleClick",
-    "workbench.startupEditor": "none",
-    "workbench.settings.editor": "json",
-    "workbench.editor.empty.hint": "hidden",
-    "workbench.editor.enablePreview": false,
-    "workbench.editor.useModal": "off",
-    "workbench.activityBar.location": "hidden",
-    "workbench.browser.showInTitleBar": false,
-    "workbench.layoutControl.enabled": false,
-    "editor.fontSize": 14,
-    "editor.fontFamily": "Consolas, 'Noto Sans JP'",
-    "editor.detectIndentation": false,
+  "workbench.experimental.modernUI": true,
+  "workbench.colorTheme": "Mayukai Reversal",
+  "workbench.tree.indent": 13,
+  "workbench.tree.enableStickyScroll": false,
+  "workbench.list.openMode": "doubleClick",
+  "workbench.startupEditor": "none",
+  "workbench.settings.editor": "json",
+  "workbench.editor.empty.hint": "hidden",
+  "workbench.editor.enablePreview": false,
+  "workbench.editor.useModal": "off",
+  "workbench.activityBar.location": "hidden",
+  "workbench.browser.showInTitleBar": false,
+  "workbench.layoutControl.enabled": false,
+  "editor.fontSize": 14,
+  "editor.fontFamily": "Consolas, 'Noto Sans JP'",
+  "editor.detectIndentation": false,
+  "editor.tabSize": 4,
+  "editor.tabCompletion": "on",
+  "editor.wordWrap": "on",
+  "editor.minimap.showSlider": "always",
+  "editor.dragAndDrop": false,
+  "editor.hover.enabled": "off",
+  "editor.minimap.renderCharacters": true,
+  "editor.unicodeHighlight.invisibleCharacters": false,
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs": "active",
+  "editor.unicodeHighlight.includeComments": false,
+  "editor.unicodeHighlight.includeStrings": false,
+  "editor.accessibilitySupport": "off",
+  "editor.multiCursorModifier": "ctrlCmd",
+  "editor.stickyScroll.enabled": false,
+  "editor.unicodeHighlight.nonBasicASCII": false,
+  "editor.codeActionsOnSave":{
+    "source.organizeImports.biome": "explicit",
+    "source.fixAll.stylelint": "explicit"
+  },
+  "diffEditor.ignoreTrimWhitespace": true,
+  "explorer.compactFolders": false,
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  "files.simpleDialog.enable": true,
+  "files.insertFinalNewline": true,
+  "terminal.integrated.fontSize": 15,
+  "terminal.integrated.fontFamily": "Consolas, 'Noto Sans JP'",
+  "terminal.integrated.cursorStyle": "line",
+  "terminal.integrated.defaultProfile.windows":"Ubuntu",
+  "terminal.integrated.enableMultiLinePasteWarning":"never",
+  "terminal.integrated.confirmOnKill": "never",
+  "terminal.integrated.initialHint": false,
+  "diffEditor.renderSideBySide": false,
+  "diffEditor.hideUnchangedRegions.contextLineCount": 13,
+  "git.ignoreMissingGitWarning": true,
+  "git.openRepositoryInParentFolders": "never",
+  "git.blame.editorDecoration.enabled": false,
+  "git.blame.statusBarItem.enabled": true,
+  "gitlens.currentLine.enabled": false,
+  "gitlens.codeLens.enabled": false,
+  "remote.autoForwardPortsSource": "hybrid",
+  "redhat.telemetry.enabled": false,
+  "npm.fetchOnlinePackageInfo": false,
+  "debug.javascript.codelens.npmScripts": "never",
+  "extensions.ignoreRecommendations": false,
+  "markdown.extension.print.absoluteImgPath": false,
+  "markdown.extension.list.indentationSize": "inherit",
+  "json.schemaDownload.trustedDomains": {
+    "https://schemastore.azurewebsites.net/": true,
+    "https://raw.githubusercontent.com/": true,
+    "https://www.schemastore.org/": true,
+    "https://json.schemastore.org/": true,
+    "https://json-schema.org/": true,
+    "https://biomejs.dev": true
+  },
+  "mermaidChart.showGenerateDiagramCodeLens": false,
+  "mermaidChart.preCommitSync.enabled": false,
+  "accessibility.signals.chatResponseReceived": {
+    "sound": "on"
+  },
+  "accessibility.signals.chatUserActionRequired": {
+    "sound": "on",
+    "announcement": "off"
+  },
+
+  "github.copilot.enable": { "*": false },
+  "github.copilot.chat.terminalChatLocation": "terminal",
+  "github.copilot.chat.codesearch.enabled": true,
+  "chat.fontSize": 15,
+  "chat.agent.enabled": true,
+  "chat.notifyWindowOnConfirmation": "off",
+  "chat.notifyWindowOnResponseReceived": "off",
+  "chat.viewProgressBadge.enabled": true,
+  "chat.titleBar.openInAgentsWindow.enabled": false,
+  "chat.agentHost.codexAgent.enabled": true,
+  "chat.editor.codex.preferAgentHost": true,
+  "chat.implicitContext.enabled": {
+    "panel": "never",
+  },
+  "chat.implicitContext.includeActiveEditor": false,
+  "chatgpt.commentCodeLensEnabled": false,
+  "chatgpt.followUpQueueMode": "steer",
+  "claudeCode.preferredLocation": "panel",
+  "claudeCode.hideOnboarding": true,
+
+  "html.autoClosingTags": true,
+  "htmltagwrap.tag": "strong",
+  "htmltagwrap.autoDeselectClosingTag": false,
+
+  "js/ts.preferences.importModuleSpecifier": "project-relative",
+  "js/ts.updateImportsOnFileMove.enabled": "always",
+
+  "biome.suggestInstallingGlobally": false,
+
+  "stylelint.snippet": ["css", "scss", "vue"],
+  "stylelint.validate": ["css", "scss", "vue"],
+  "css.validate": false,
+  "scss.validate": false,
+
+  "eslint.enable": false,
+  "eslint.validate": ["javascript", "typescript", "vue"],
+  "eslint.format.enable": true,
+  "prettier.arrowParens": "always",
+  "prettier.bracketSameLine": false,
+  "prettier.bracketSpacing": true,
+  "prettier.htmlWhitespaceSensitivity": "strict",
+  "prettier.printWidth": 90,
+  "prettier.quoteProps": "consistent",
+  "prettier.semi": false,
+  "prettier.singleAttributePerLine": false,
+  "prettier.singleQuote": false,
+  "prettier.tabWidth": 2,
+  "prettier.trailingComma": "es5",
+  "prettier.vueIndentScriptAndStyle": false,
+
+  "vue.autoInsert.dotValue": true,
+  "vue.editor.templateInterpolationDecorators": false,
+
+  "python.terminal.activateEnvironment": false,
+  "python.analysis.typeCheckingMode": "strict",
+  "python.analysis.stubPath": "./typings",
+  "python.analysis.autoImportCompletions": true,
+  "python.analysis.diagnosticSeverityOverrides": {
+    "reportUnusedImport": "none",
+    "reportUnusedClass": "none",
+    "reportUnusedFunction": "none",
+    "reportUnboundVariable": "error",
+    "reportUnknownMemberType": "none",
+    "reportMissingModuleSource": "information",
+    "reportMissingTypeStubs": "information",
+    "reportInvalidStringEscapeSequence": "information",
+    "reportTypedDictNotRequiredAccess":"warning",
+    "reportUntypedFunctionDecorator": "none",
+  },
+  "black-formatter.args": [
+    "--line-length=124",
+  ],
+  "notebook.cellToolbarLocation": {
+    "default": "right",
+    "jupyter-notebook": "left",
+  },
+
+  "php.validate.run": "onType",
+  "intelephense.format.braces": "k&r",
+  "intelephense.diagnostics.undefinedFunctions": false,
+  "intelephense.diagnostics.undefinedConstants": false,
+  "intelephense.diagnostics.undefinedTypes": false,
+  "intelephense.stubs": ["apache", "bcmath", "bz2", "calendar", "com_dotnet", "Core", "ctype", "curl", "date", "dba", "dom", "enchant", "exif", "FFI", "fileinfo", "filter", "fpm", "ftp", "gd", "gettext", "gmp", "hash", "iconv", "imap", "intl", "json", "ldap", "libxml", "mbstring", "meta", "mysqli", "oci8", "odbc", "openssl", "pcntl", "pcre", "PDO", "pgsql", "Phar", "posix", "pspell", "readline", "Reflection", "session", "shmop", "SimpleXML", "snmp", "soap", "sockets", "sodium", "SPL", "sqlite3", "standard", "superglobals", "sysvmsg", "sysvsem", "sysvshm", "tidy", "tokenizer", "xml", "xmlreader", "xmlrpc", "xmlwriter", "xsl", "Zend OPcache", "zip", "zlib", "wordpress"],
+
+  "rust-analyzer.lens.run.enable": false,
+  "rust-analyzer.lens.debug.enable": false,
+  "rust-analyzer.lens.implementations.enable": false,
+  "rust-analyzer.check.command": "clippy",
+  "rust-analyzer.rustfmt.extraArgs": [
+    "--config", "imports_layout=HorizontalVertical,imports_granularity=Crate,group_imports=StdExternalCrate",
+  ],
+
+  "yaml.customTags": ["!And", "!And sequence", "!If", "!If sequence", "!Not", "!Not sequence", "!Equals", "!Equals sequence", "!Or", "!Or sequence", "!FindInMap", "!FindInMap sequence", "!Base64", "!Join", "!Join sequence", "!Cidr", "!Ref", "!Sub", "!Sub sequence", "!GetAtt", "!GetAZs", "!ImportValue", "!ImportValue sequence", "!Select", "!Select sequence", "!Split", "!Split sequence"],
+
+  "evenBetterToml.formatter.allowedBlankLines": 2,
+
+  "dbcode.useExecuteCodeLens": false,
+  "dbcode.tabTitle.format": "${connection}${separator}${table}",
+  "dbcode.formatting.keywordCase": "upper",
+  "dbcode.formatting.functionCase": "upper",
+  "dbcode.history.enabled": true,
+  "dbcode.history.logFailedQueries": true,
+  "dbcode.connections": [
+    {
+      "connectionId": "cim-_uhaytAUUWLXxqMSb",
+      "name": "futaribo",
+      "driver": "d1",
+      "color": "#FF7749",
+      "socket": "e06333d6-c754-40c9-bb09-d92ee0320664",
+      "username": "03d5a5ae65f44d853960a196c40b8cf3",
+      "password": "",
+      "savePassword": "secretStorage",
+      "readOnly": false,
+      "postConnectionSqlType": "inline",
+      "introspection": {
+        "progressive": false
+      },
+      "connectionType": "socket"
+    }
+  ],
+
+  "[plaintext]": {
+    "editor.quickSuggestions": {
+      "comments": "off",
+      "strings": "off",
+      "other": "off"
+    },
+  },
+  "[markdown]":  {
     "editor.tabSize": 4,
-    "editor.tabCompletion": "on",
-    "editor.wordWrap": "on",
-    "editor.minimap.showSlider": "always",
-    "editor.dragAndDrop": false,
-    "editor.hover.enabled": "off",
-    "editor.minimap.renderCharacters": true,
-    "editor.unicodeHighlight.invisibleCharacters": false,
-    "editor.bracketPairColorization.enabled": true,
-    "editor.guides.bracketPairs": "active",
-    "editor.unicodeHighlight.includeComments": false,
-    "editor.unicodeHighlight.includeStrings": false,
-    "editor.accessibilitySupport": "off",
-    "editor.multiCursorModifier": "ctrlCmd",
-    "editor.stickyScroll.enabled": false,
-    "editor.unicodeHighlight.nonBasicASCII": false,
-  	"editor.codeActionsOnSave":{
-      "source.organizeImports.biome": "explicit",
+    "editor.quickSuggestions": {
+      "comments": "on",
+      "strings": "on",
+      "other": "on"
+    },
+    "editor.suggest.showKeywords": false,
+    "editor.suggest.showWords": false,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.tabSize": 2,
+    "editor.formatOnSave": true,
+  },
+  "[css]": {
+    "editor.tabSize": 2,
+    "editor.defaultFormatter": "stylelint.vscode-stylelint",
+    "editor.formatOnSave": true,
+  },
+  "[scss]": {
+    "editor.tabSize": 2,
+    "editor.defaultFormatter": "stylelint.vscode-stylelint",
+    "editor.formatOnSave": true,
+  },
+  "[javascript]": {
+    "editor.tabSize": 2,
+    "editor.defaultFormatter": "biomejs.biome",
+    "editor.formatOnSave": true,
+    "editor.semanticHighlighting.enabled": false,
+  },
+  "[javascriptreact]": {
+    "editor.tabSize": 2,
+    "editor.defaultFormatter": "biomejs.biome",
+    "editor.formatOnSave": true,
+    "editor.semanticHighlighting.enabled": false,
+  },
+  "[typescript]": {
+    "editor.tabSize": 2,
+    "editor.defaultFormatter": "biomejs.biome",
+    "editor.formatOnSave": true,
+    "editor.semanticHighlighting.enabled": false,
+  },
+  "[typescriptreact]": {
+    "editor.tabSize": 2,
+    "editor.defaultFormatter": "biomejs.biome",
+    "editor.formatOnSave": true,
+    "editor.semanticHighlighting.enabled": false,
+  },
+  "[json]": {
+    "editor.tabSize": 2,
+    "editor.defaultFormatter": "biomejs.biome",
+  },
+  "[jsonc]": {
+    "editor.tabSize": 2,
+    "editor.defaultFormatter": "biomejs.biome",
+    "editor.formatOnSave": true,
+  },
+  "[yaml]": {
+    "editor.tabSize": 2,
+  },
+  "[vue]": {
+    "editor.tabSize": 2,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+      "source.fixAll.prettier": "explicit",
       "source.fixAll.stylelint": "explicit"
     },
-    "diffEditor.ignoreTrimWhitespace": true,
-    "explorer.compactFolders": false,
-    "explorer.confirmDelete": false,
-    "explorer.confirmDragAndDrop": false,
-    "files.simpleDialog.enable": true,
-    "files.insertFinalNewline": true,
-    "terminal.integrated.fontSize": 15,
-    "terminal.integrated.fontFamily": "Consolas, 'Noto Sans JP'",
-    "terminal.integrated.cursorStyle": "line",
-    "terminal.integrated.defaultProfile.windows":"Ubuntu",
-    "terminal.integrated.enableMultiLinePasteWarning":"never",
-    "terminal.integrated.confirmOnKill": "never",
-    "terminal.integrated.initialHint": false,
-    "diffEditor.renderSideBySide": false,
-    "diffEditor.hideUnchangedRegions.contextLineCount": 13,
-    "git.ignoreMissingGitWarning": true,
-    "git.openRepositoryInParentFolders": "never",
-    "git.blame.editorDecoration.enabled": false,
-    "git.blame.statusBarItem.enabled": true,
-    "gitlens.currentLine.enabled": false,
-    "gitlens.codeLens.enabled": false,
-    "remote.autoForwardPortsSource": "hybrid",
-    "redhat.telemetry.enabled": false,
-    "npm.fetchOnlinePackageInfo": false,
-    "debug.javascript.codelens.npmScripts": "never",
-    "extensions.ignoreRecommendations": false,
-    "markdown.extension.print.absoluteImgPath": false,
-    "markdown.extension.list.indentationSize": "inherit",
-    "json.schemaDownload.trustedDomains": {
-      "https://schemastore.azurewebsites.net/": true,
-      "https://raw.githubusercontent.com/": true,
-      "https://www.schemastore.org/": true,
-      "https://json.schemastore.org/": true,
-      "https://json-schema.org/": true,
-      "https://biomejs.dev": true
+  },
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.black-formatter",
+    "editor.formatOnSave": true,
+    "editor.semanticHighlighting.enabled": false,
+  },
+  "[go]": {
+    "editor.formatOnSave": false,
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": "never"
     },
-    "mermaidChart.showGenerateDiagramCodeLens": false,
-    "mermaidChart.preCommitSync.enabled": false,
-    "accessibility.signals.chatResponseReceived": {
-      "sound": "on"
+  },
+  "[rust]": {
+    "editor.inlayHints.enabled": "offUnlessPressed",
+    "editor.formatOnSave": true,
+    "editor.semanticHighlighting.enabled": false,
+  },
+  "[tf]": {
+    "editor.tabSize": 2,
+  },
+
+  "workbench.colorCustomizations": {
+    "[Monokai]": {
+      "diffEditor.insertedLineBackground": "#6ace6511",
+      "diffEditor.insertedTextBackground": "#44b7441c",
+      "diffEditor.removedLineBackground": "#ff000011",
+      "diffEditor.removedTextBackground": "#ff000027",
+      "statusBarItem.remoteBackground": "#3e3d32",
+      "statusBarItem.remoteForeground": "#f8f8f2",
+      "statusBarItem.remoteHoverBackground": "#49483e",
+      "statusBarItem.remoteHoverForeground": "#ffffff"
     },
-    "accessibility.signals.chatUserActionRequired": {
-      "sound": "on",
-      "announcement": "off"
+    "[Mayukai Reversal]": {
+      "foreground": "#b2b6bd",
+      "editorCursor.foreground": "#ffe3e6",
+      "tab.inactiveForeground": "#999792",
+      "editor.selectionBackground": "#7597b966",
+      "editor.wordHighlightBackground": "#7597b926",
+      "editor.wordHighlightTextBackground": "#7597b926",
+      "editor.wordHighlightStrongBackground": "#ffcc6626",
+      "editor.selectionHighlightBackground": "#7597b926",
+      "editorBracketHighlight.foreground1": "#ffcc66",
+      "editorBracketHighlight.foreground2": "#a8c87c",
+      "editorBracketHighlight.foreground3": "#85baa8",
+      "editorBracketHighlight.foreground4": "#6e8dac",
+      "editorBracketHighlight.foreground5": "#afa1cd",
+      "editorBracketHighlight.foreground6": "#c68557",
+      "editorBracketPairGuide.background1": "#ffcc6626",
+      "editorBracketPairGuide.background2": "#bae67e26",
+      "editorBracketPairGuide.background3": "#95e6cb26",
+      "editorBracketPairGuide.background4": "#77a8d926",
+      "editorBracketPairGuide.background5": "#d4bfff26",
+      "editorBracketPairGuide.background6": "#ff8f4026",
+      "editorBracketPairGuide.activeBackground1": "#ffcc6699",
+      "editorBracketPairGuide.activeBackground2": "#bae67e99",
+      "editorBracketPairGuide.activeBackground3": "#95e6cb99",
+      "editorBracketPairGuide.activeBackground4": "#77a8d999",
+      "editorBracketPairGuide.activeBackground5": "#d4bfff99",
+      "editorBracketPairGuide.activeBackground6": "#ff8f4099",
+      "gitDecoration.untrackedResourceForeground": "#eac08c",
+      "statusBarItem.remoteBackground": "#1f2430",
+      "statusBarItem.remoteForeground": "#5e6777",
     },
-
-    "github.copilot.enable": { "*": false },
-    "github.copilot.chat.terminalChatLocation": "terminal",
-    "github.copilot.chat.codesearch.enabled": true,
-    "chat.fontSize": 14,
-    "chat.agent.enabled": true,
-    "chat.notifyWindowOnConfirmation": "off",
-    "chat.notifyWindowOnResponseReceived": "off",
-    "chat.viewProgressBadge.enabled": true,
-    "chat.titleBar.openInAgentsWindow.enabled": false,
-    "chatgpt.commentCodeLensEnabled": false,
-    "chatgpt.followUpQueueMode": "steer",
-    "claudeCode.preferredLocation": "panel",
-    "claudeCode.hideOnboarding": true,
-
-    "html.autoClosingTags": true,
-    "htmltagwrap.tag": "strong",
-    "htmltagwrap.autoDeselectClosingTag": false,
-
-    "js/ts.preferences.importModuleSpecifier": "project-relative",
-    "js/ts.updateImportsOnFileMove.enabled": "always",
-
-    "biome.suggestInstallingGlobally": false,
-
-    "stylelint.snippet": ["css", "scss", "vue"],
-    "stylelint.validate": ["css", "scss", "vue"],
-    "css.validate": false,
-    "scss.validate": false,
-
-    "eslint.enable": false,
-    "eslint.validate": ["javascript", "typescript", "vue"],
-    "eslint.format.enable": true,
-    "prettier.arrowParens": "always",
-    "prettier.bracketSameLine": false,
-    "prettier.bracketSpacing": true,
-    "prettier.htmlWhitespaceSensitivity": "strict",
-    "prettier.printWidth": 90,
-    "prettier.quoteProps": "consistent",
-    "prettier.semi": false,
-    "prettier.singleAttributePerLine": false,
-    "prettier.singleQuote": false,
-    "prettier.tabWidth": 2,
-    "prettier.trailingComma": "es5",
-    "prettier.vueIndentScriptAndStyle": false,
-
-    "vue.autoInsert.dotValue": true,
-    "vue.editor.templateInterpolationDecorators": false,
-
-    "python.terminal.activateEnvironment": false,
-    "python.analysis.typeCheckingMode": "strict",
-    "python.analysis.stubPath": "./typings",
-    "python.analysis.autoImportCompletions": true,
-    "python.analysis.diagnosticSeverityOverrides": {
-      "reportUnusedImport": "none",
-      "reportUnusedClass": "none",
-      "reportUnusedFunction": "none",
-      "reportUnboundVariable": "error",
-      "reportUnknownMemberType": "none",
-      "reportMissingModuleSource": "information",
-      "reportMissingTypeStubs": "information",
-      "reportInvalidStringEscapeSequence": "information",
-      "reportTypedDictNotRequiredAccess":"warning",
-      "reportUntypedFunctionDecorator": "none",
-    },
-    "black-formatter.args": [
-      "--line-length=124",
-    ],
-    "notebook.cellToolbarLocation": {
-      "default": "right",
-      "jupyter-notebook": "left",
-    },
-
-    "php.validate.run": "onType",
-    "intelephense.format.braces": "k&r",
-    "intelephense.diagnostics.undefinedFunctions": false,
-    "intelephense.diagnostics.undefinedConstants": false,
-    "intelephense.diagnostics.undefinedTypes": false,
-    "intelephense.stubs": ["apache", "bcmath", "bz2", "calendar", "com_dotnet", "Core", "ctype", "curl", "date", "dba", "dom", "enchant", "exif", "FFI", "fileinfo", "filter", "fpm", "ftp", "gd", "gettext", "gmp", "hash", "iconv", "imap", "intl", "json", "ldap", "libxml", "mbstring", "meta", "mysqli", "oci8", "odbc", "openssl", "pcntl", "pcre", "PDO", "pgsql", "Phar", "posix", "pspell", "readline", "Reflection", "session", "shmop", "SimpleXML", "snmp", "soap", "sockets", "sodium", "SPL", "sqlite3", "standard", "superglobals", "sysvmsg", "sysvsem", "sysvshm", "tidy", "tokenizer", "xml", "xmlreader", "xmlrpc", "xmlwriter", "xsl", "Zend OPcache", "zip", "zlib", "wordpress"],
-
-    "rust-analyzer.lens.run.enable": false,
-    "rust-analyzer.lens.debug.enable": false,
-    "rust-analyzer.lens.implementations.enable": false,
-    "rust-analyzer.check.command": "clippy",
-    "rust-analyzer.rustfmt.extraArgs": [
-      "--config", "imports_layout=HorizontalVertical,imports_granularity=Crate,group_imports=StdExternalCrate",
-    ],
-
-    "yaml.customTags": ["!And", "!And sequence", "!If", "!If sequence", "!Not", "!Not sequence", "!Equals", "!Equals sequence", "!Or", "!Or sequence", "!FindInMap", "!FindInMap sequence", "!Base64", "!Join", "!Join sequence", "!Cidr", "!Ref", "!Sub", "!Sub sequence", "!GetAtt", "!GetAZs", "!ImportValue", "!ImportValue sequence", "!Select", "!Select sequence", "!Split", "!Split sequence"],
-
-    "evenBetterToml.formatter.allowedBlankLines": 2,
-
-    "dbcode.useExecuteCodeLens": false,
-    "dbcode.tabTitle.format": "${connection}${separator}${table}",
-    "dbcode.formatting.keywordCase": "upper",
-    "dbcode.formatting.functionCase": "upper",
-    "dbcode.history.enabled": true,
-    "dbcode.history.logFailedQueries": true,
-    "dbcode.connections": [
-      {
-        "connectionId": "cim-_uhaytAUUWLXxqMSb",
-        "name": "futaribo",
-        "driver": "d1",
-        "color": "#FF7749",
-        "socket": "e06333d6-c754-40c9-bb09-d92ee0320664",
-        "username": "03d5a5ae65f44d853960a196c40b8cf3",
-        "password": "",
-        "savePassword": "secretStorage",
-        "readOnly": false,
-        "postConnectionSqlType": "inline",
-        "introspection": {
-          "progressive": false
+  },
+  "editor.tokenColorCustomizations": {
+    "[Monokai]": {
+      "textMateRules": [
+        // HTML
+        {
+          "scope": [
+            "meta.tag.custom.start.html entity.name.tag.html",
+            "meta.tag.custom.end.html entity.name.tag.html",
+          ],
+          "settings": {
+            "foreground": "#66d9ef",
+            "fontStyle": "italic",
+          },
         },
-        "connectionType": "socket"
-      }
-    ],
 
-    "[plaintext]": {
-      "editor.quickSuggestions": {
-        "comments": "off",
-        "strings": "off",
-        "other": "off"
-      },
-    },
-    "[markdown]":  {
-      "editor.tabSize": 4,
-      "editor.quickSuggestions": {
-        "comments": "on",
-        "strings": "on",
-        "other": "on"
-      },
-      "editor.suggest.showKeywords": false,
-      "editor.suggest.showWords": false,
-      "editor.defaultFormatter": "esbenp.prettier-vscode",
-    },
-    "[html]": {
-      "editor.defaultFormatter": "esbenp.prettier-vscode",
-      "editor.tabSize": 2,
-      "editor.formatOnSave": true,
-    },
-    "[css]": {
-      "editor.tabSize": 2,
-      "editor.defaultFormatter": "stylelint.vscode-stylelint",
-      "editor.formatOnSave": true,
-    },
-    "[scss]": {
-      "editor.tabSize": 2,
-      "editor.defaultFormatter": "stylelint.vscode-stylelint",
-      "editor.formatOnSave": true,
-    },
-    "[javascript]": {
-      "editor.tabSize": 2,
-      "editor.defaultFormatter": "biomejs.biome",
-      "editor.formatOnSave": true,
-      "editor.semanticHighlighting.enabled": false,
-    },
-    "[javascriptreact]": {
-      "editor.tabSize": 2,
-      "editor.defaultFormatter": "biomejs.biome",
-      "editor.formatOnSave": true,
-      "editor.semanticHighlighting.enabled": false,
-    },
-    "[typescript]": {
-      "editor.tabSize": 2,
-      "editor.defaultFormatter": "biomejs.biome",
-      "editor.formatOnSave": true,
-      "editor.semanticHighlighting.enabled": false,
-    },
-    "[typescriptreact]": {
-      "editor.tabSize": 2,
-      "editor.defaultFormatter": "biomejs.biome",
-      "editor.formatOnSave": true,
-      "editor.semanticHighlighting.enabled": false,
-    },
-    "[json]": {
-      "editor.tabSize": 2,
-      "editor.defaultFormatter": "biomejs.biome",
-    },
-    "[jsonc]": {
-      "editor.tabSize": 2,
-      "editor.defaultFormatter": "biomejs.biome",
-      "editor.formatOnSave": true,
-    },
-    "[yaml]": {
-      "editor.tabSize": 2,
-    },
-    "[vue]": {
-      "editor.tabSize": 2,
-      "editor.defaultFormatter": "esbenp.prettier-vscode",
-      "editor.formatOnSave": true,
-      "editor.codeActionsOnSave": {
-        "source.fixAll.prettier": "explicit",
-        "source.fixAll.stylelint": "explicit"
-      },
-    },
-    "[python]": {
-      "editor.defaultFormatter": "ms-python.black-formatter",
-      "editor.formatOnSave": true,
-      "editor.semanticHighlighting.enabled": false,
-    },
-    "[go]": {
-      "editor.formatOnSave": false,
-      "editor.codeActionsOnSave": {
-        "source.organizeImports": "never"
-      },
-    },
-    "[rust]": {
-      "editor.inlayHints.enabled": "offUnlessPressed",
-      "editor.formatOnSave": true,
-      "editor.semanticHighlighting.enabled": false,
-    },
-    "[tf]": {
-      "editor.tabSize": 2,
-    },
+        // JS/TS, jsx/tsx
+        {
+          "scope": [
+            "entity.name.type",
+            "entity.name.type.interface",
+            "support.function.json.ts",
+            "support.function.json.tsx",
+          ],
+          "settings": {
+            "foreground": "#a6e22e",
+            "fontStyle": "",
+          },
+        },
+        {
+          "scope": [
+            "meta.type.annotation.ts entity.name.type.ts",
+            "meta.type.annotation.tsx entity.name.type.tsx",
+            "meta.type.parameters.ts entity.name.type.ts",
+            "meta.type.parameters.tsx entity.name.type.tsx",
+            "meta.return.type.ts entity.name.type.ts",
+            "meta.return.type.tsx entity.name.type.tsx",
+            "meta.return.type.arrow.ts entity.name.type.ts",
+            "meta.return.type.arrow.tsx entity.name.type.tsx",
+            "meta.class.ts entity.other.inherited-class.ts",
+            "meta.class.tsx entity.other.inherited-class.tsx",
+          ],
+          "settings": {
+            "foreground": "#66d9ef",
+            "fontStyle": "italic",
+          },
+        },
+        {
+          "scope": [
+            "punctuation.accessor.ts",
+            "punctuation.accessor.tsx",
+            "punctuation.accessor.optional.ts",
+            "punctuation.accessor.optional.tsx",
+          ],
+          "settings": {
+            "foreground": "#f92672",
+            "fontStyle": "",
+          },
+        },
+        {
+          "scope": [
+            "new.expr.ts meta.function-call.ts entity.name.function.ts",
+            "new.expr.tsx meta.function-call.ts entity.name.function.tsx",
+            "meta.type.declaration.ts entity.name.type.alias.ts",
+            "meta.type.declaration.tsx entity.name.type.alias.tsx",
+            "meta.interface.ts entity.name.type.interface.ts",
+            "meta.interface.tsx entity.name.type.interface.tsx",
+            "variable.other.constant.ts entity.name.function.ts",
+            "variable.other.constant.tsx entity.name.function.tsx",
+            "entity.name.type.class.ts",
+            "entity.name.type.class.tsx",
+          ],
+          "settings": {
+            "foreground": "#f8f8f2",
+            "fontStyle": "",
+          },
+        },
+        {
+          "scope": [
+            "meta.arrow.ts storage.type.function.arrow.ts",
+            "meta.arrow.tsx storage.type.function.arrow.tsx",
+          ],
+          "settings": {
+            "foreground": "#f8f8f2",
+            "fontStyle": "italic",
+          },
+        },
 
-    "workbench.colorCustomizations": {
-      "[Monokai]": {
-        "diffEditor.insertedLineBackground": "#6ace6511",
-        "diffEditor.insertedTextBackground": "#44b7441c",
-        "diffEditor.removedLineBackground": "#ff000011",
-        "diffEditor.removedTextBackground": "#ff000027",
-        "statusBarItem.remoteBackground": "#3e3d32",
-        "statusBarItem.remoteForeground": "#f8f8f2",
-        "statusBarItem.remoteHoverBackground": "#49483e",
-        "statusBarItem.remoteHoverForeground": "#ffffff"
-      },
-      "[Mayukai Reversal]": {
-        "foreground": "#b2b6bd",
-        "editorCursor.foreground": "#ffe3e6",
-        "tab.inactiveForeground": "#999792",
-        "editor.selectionBackground": "#7597b966",
-        "editor.wordHighlightBackground": "#7597b926",
-        "editor.wordHighlightTextBackground": "#7597b926",
-        "editor.wordHighlightStrongBackground": "#ffcc6626",
-        "editor.selectionHighlightBackground": "#7597b926",
-        "editorBracketHighlight.foreground1": "#ffcc66",
-        "editorBracketHighlight.foreground2": "#a8c87c",
-        "editorBracketHighlight.foreground3": "#85baa8",
-        "editorBracketHighlight.foreground4": "#6e8dac",
-        "editorBracketHighlight.foreground5": "#afa1cd",
-        "editorBracketHighlight.foreground6": "#c68557",
-        "editorBracketPairGuide.background1": "#ffcc6626",
-        "editorBracketPairGuide.background2": "#bae67e26",
-        "editorBracketPairGuide.background3": "#95e6cb26",
-        "editorBracketPairGuide.background4": "#77a8d926",
-        "editorBracketPairGuide.background5": "#d4bfff26",
-        "editorBracketPairGuide.background6": "#ff8f4026",
-        "editorBracketPairGuide.activeBackground1": "#ffcc6699",
-        "editorBracketPairGuide.activeBackground2": "#bae67e99",
-        "editorBracketPairGuide.activeBackground3": "#95e6cb99",
-        "editorBracketPairGuide.activeBackground4": "#77a8d999",
-        "editorBracketPairGuide.activeBackground5": "#d4bfff99",
-        "editorBracketPairGuide.activeBackground6": "#ff8f4099",
-        "gitDecoration.untrackedResourceForeground": "#eac08c",
-        "statusBarItem.remoteBackground": "#1f2430",
-        "statusBarItem.remoteForeground": "#5e6777",
-      },
+        // Vue
+        {
+          "scope": [
+            "entity.name.type.class",
+          ],
+          "settings": {
+            "foreground": "#66d9ef",
+            "fontStyle": "italic",
+          },
+        },
+
+        // Go
+        {
+          "scope": [
+            "keyword.const.go",
+            "keyword.function.go",
+            "keyword.type.go",
+          ],
+          "settings": {
+            "foreground": "#66d9ef",
+          },
+        },
+        {
+          "scope": [
+            "storage.type.string.go",
+          ],
+          "settings": {
+            "foreground": "#fd971f",
+            "fontStyle": "italic",
+          },
+        },
+        {
+          "scope": [
+            "support.function.go",
+          ],
+          "settings": {
+            "foreground": "#f8f8f2",
+          },
+        },
+        {
+          "scope": [
+            "entity.name.type.go",
+          ],
+          "settings": {
+            "foreground": "#a6e22e",
+            "fontStyle": "",
+          },
+        },
+
+        // Rust
+        {
+          "scope": [
+            "keyword.operator.key-value.rust",
+            "entity.name.type.rust",
+            "entity.name.type.struct.rust",
+            "entity.name.type.enum.rust",
+            "entity.name.type.result.rust",
+            "entity.name.function.rust",
+            "entity.name.namespace.rust",
+            "entity.name.type.trait.rust",
+            "meta.function.definition.rust keyword.operator.arrow.skinny.rust",
+          ],
+          "settings": {
+            "foreground": "#f8f8f2",
+            "fontStyle": "",
+          },
+        },
+        {
+          "scope": [
+            "keyword.other.fn.rust",
+            "entity.name.type.primitive.rust",
+            "entity.name.type.numeric.rust",
+            "meta.function.definition.rust entity.name.type.rust",
+            "meta.attribute.rust entity.name.type.rust",
+            "meta.use.rust entity.name.type.rust",
+          ],
+          "settings": {
+            "foreground": "#66d9ef",
+            "fontStyle": "italic",
+          },
+        },
+        {
+          "scope": [
+            "meta.attribute.rust",
+            "meta.function.definition.rust variable.other.rust",
+            "punctuation.definition.lifetime.rust",
+            "entity.name.type.lifetime.rust",
+          ],
+          "settings": {
+            "foreground": "#fd971f",
+            "fontStyle": "italic",
+          },
+        },
+        {
+          "scope": [
+            "meta.function.definition.rust entity.name.function.rust",
+            "punctuation.definition.attribute.rust",
+          ],
+          "settings": {
+            "foreground": "#a6e22e",
+            "fontStyle": "",
+          },
+        },
+        {
+          "scope": [
+            "storage.type.rust",
+          ],
+          "settings": {
+            "foreground": "#f92672",
+          },
+        },
+        {
+          "scope": [
+            "entity.name.type.option.rust",
+          ],
+          "settings": {
+            "foreground": "#ae81ff",
+            "fontStyle": "italic",
+          },
+        },
+      ],
     },
-    "editor.tokenColorCustomizations": {
-      "[Monokai]": {
-        "textMateRules": [
-          // HTML
-          {
-            "scope": [
-              "meta.tag.custom.start.html entity.name.tag.html",
-              "meta.tag.custom.end.html entity.name.tag.html",
-            ],
-            "settings": {
-              "foreground": "#66d9ef",
-              "fontStyle": "italic",
-            },
+    "[Mayukai Reversal]": {
+      "textMateRules": [
+        {
+          "scope": [
+            "meta.type.annotation.ts entity.name.type.ts",
+            "meta.type.annotation.tsx entity.name.type.tsx",
+            "meta.type.parameters.ts entity.name.type.ts",
+            "meta.type.parameters.tsx entity.name.type.tsx",
+            "meta.return.type.ts entity.name.type.ts",
+            "meta.return.type.tsx entity.name.type.tsx",
+            "meta.return.type.arrow.ts entity.name.type.ts",
+            "meta.return.type.arrow.tsx entity.name.type.tsx",
+            "meta.class.ts entity.other.inherited-class.ts",
+            "meta.class.tsx entity.other.inherited-class.tsx",
+          ],
+          "settings": {
+            "fontStyle": "italic",
           },
-
-          // JS/TS, jsx/tsx
-          {
-            "scope": [
-              "entity.name.type",
-              "entity.name.type.interface",
-              "support.function.json.ts",
-              "support.function.json.tsx",
-            ],
-            "settings": {
-              "foreground": "#a6e22e",
-              "fontStyle": "",
-            },
+        },
+        {
+          "scope": [
+            "source.ts meta.var.expr.ts storage.type.ts",
+            "source.tsx meta.var.expr.tsx storage.type.tsx",
+          ],
+          "settings": {
+            "foreground": "#FFA759",
+            "fontStyle": "italic",
           },
-          {
-            "scope": [
-              "meta.type.annotation.ts entity.name.type.ts",
-              "meta.type.annotation.tsx entity.name.type.tsx",
-              "meta.type.parameters.ts entity.name.type.ts",
-              "meta.type.parameters.tsx entity.name.type.tsx",
-              "meta.return.type.ts entity.name.type.ts",
-              "meta.return.type.tsx entity.name.type.tsx",
-              "meta.return.type.arrow.ts entity.name.type.ts",
-              "meta.return.type.arrow.tsx entity.name.type.tsx",
-              "meta.class.ts entity.other.inherited-class.ts",
-              "meta.class.tsx entity.other.inherited-class.tsx",
-            ],
-            "settings": {
-              "foreground": "#66d9ef",
-              "fontStyle": "italic",
-            },
+        },
+        {
+          "scope": [
+            "meta.object-literal.key.ts",
+            "meta.object-literal.key.tsx",
+          ],
+          "settings": {
+            "fontStyle": "",
           },
-          {
-            "scope": [
-              "punctuation.accessor.ts",
-              "punctuation.accessor.tsx",
-              "punctuation.accessor.optional.ts",
-              "punctuation.accessor.optional.tsx",
-            ],
-            "settings": {
-              "foreground": "#f92672",
-              "fontStyle": "",
-            },
+        },
+        {
+          "scope": [
+            "comment",
+            "comment punctuation.definition.comment",
+          ],
+          "settings": {
+            "foreground": "#5a6066",
+            "fontStyle": "",
           },
-          {
-            "scope": [
-              "new.expr.ts meta.function-call.ts entity.name.function.ts",
-              "new.expr.tsx meta.function-call.ts entity.name.function.tsx",
-              "meta.type.declaration.ts entity.name.type.alias.ts",
-              "meta.type.declaration.tsx entity.name.type.alias.tsx",
-              "meta.interface.ts entity.name.type.interface.ts",
-              "meta.interface.tsx entity.name.type.interface.tsx",
-              "variable.other.constant.ts entity.name.function.ts",
-              "variable.other.constant.tsx entity.name.function.tsx",
-              "entity.name.type.class.ts",
-              "entity.name.type.class.tsx",
-            ],
-            "settings": {
-              "foreground": "#f8f8f2",
-              "fontStyle": "",
-            },
-          },
-          {
-            "scope": [
-              "meta.arrow.ts storage.type.function.arrow.ts",
-              "meta.arrow.tsx storage.type.function.arrow.tsx",
-            ],
-            "settings": {
-              "foreground": "#f8f8f2",
-              "fontStyle": "italic",
-            },
-          },
-
-          // Vue
-          {
-            "scope": [
-              "entity.name.type.class",
-            ],
-            "settings": {
-              "foreground": "#66d9ef",
-              "fontStyle": "italic",
-            },
-          },
-
-          // Go
-          {
-            "scope": [
-              "keyword.const.go",
-              "keyword.function.go",
-              "keyword.type.go",
-            ],
-            "settings": {
-              "foreground": "#66d9ef",
-            },
-          },
-          {
-            "scope": [
-              "storage.type.string.go",
-            ],
-            "settings": {
-              "foreground": "#fd971f",
-              "fontStyle": "italic",
-            },
-          },
-          {
-            "scope": [
-              "support.function.go",
-            ],
-            "settings": {
-              "foreground": "#f8f8f2",
-            },
-          },
-          {
-            "scope": [
-              "entity.name.type.go",
-            ],
-            "settings": {
-              "foreground": "#a6e22e",
-              "fontStyle": "",
-            },
-          },
-
-          // Rust
-          {
-            "scope": [
-              "keyword.operator.key-value.rust",
-              "entity.name.type.rust",
-              "entity.name.type.struct.rust",
-              "entity.name.type.enum.rust",
-              "entity.name.type.result.rust",
-              "entity.name.function.rust",
-              "entity.name.namespace.rust",
-              "entity.name.type.trait.rust",
-              "meta.function.definition.rust keyword.operator.arrow.skinny.rust",
-            ],
-            "settings": {
-              "foreground": "#f8f8f2",
-              "fontStyle": "",
-            },
-          },
-          {
-            "scope": [
-              "keyword.other.fn.rust",
-              "entity.name.type.primitive.rust",
-              "entity.name.type.numeric.rust",
-              "meta.function.definition.rust entity.name.type.rust",
-              "meta.attribute.rust entity.name.type.rust",
-              "meta.use.rust entity.name.type.rust",
-            ],
-            "settings": {
-              "foreground": "#66d9ef",
-              "fontStyle": "italic",
-            },
-          },
-          {
-            "scope": [
-              "meta.attribute.rust",
-              "meta.function.definition.rust variable.other.rust",
-              "punctuation.definition.lifetime.rust",
-              "entity.name.type.lifetime.rust",
-            ],
-            "settings": {
-              "foreground": "#fd971f",
-              "fontStyle": "italic",
-            },
-          },
-          {
-            "scope": [
-              "meta.function.definition.rust entity.name.function.rust",
-              "punctuation.definition.attribute.rust",
-            ],
-            "settings": {
-              "foreground": "#a6e22e",
-              "fontStyle": "",
-            },
-          },
-          {
-            "scope": [
-              "storage.type.rust",
-            ],
-            "settings": {
-              "foreground": "#f92672",
-            },
-          },
-          {
-            "scope": [
-              "entity.name.type.option.rust",
-            ],
-            "settings": {
-              "foreground": "#ae81ff",
-              "fontStyle": "italic",
-            },
-          },
-        ],
-      },
-      "[Mayukai Reversal]": {
-        "textMateRules": [
-          {
-            "scope": [
-              "meta.type.annotation.ts entity.name.type.ts",
-              "meta.type.annotation.tsx entity.name.type.tsx",
-              "meta.type.parameters.ts entity.name.type.ts",
-              "meta.type.parameters.tsx entity.name.type.tsx",
-              "meta.return.type.ts entity.name.type.ts",
-              "meta.return.type.tsx entity.name.type.tsx",
-              "meta.return.type.arrow.ts entity.name.type.ts",
-              "meta.return.type.arrow.tsx entity.name.type.tsx",
-              "meta.class.ts entity.other.inherited-class.ts",
-              "meta.class.tsx entity.other.inherited-class.tsx",
-            ],
-            "settings": {
-              "fontStyle": "italic",
-            },
-          },
-          {
-            "scope": [
-              "source.ts meta.var.expr.ts storage.type.ts",
-              "source.tsx meta.var.expr.tsx storage.type.tsx",
-            ],
-            "settings": {
-              "foreground": "#FFA759",
-              "fontStyle": "italic",
-            },
-          },
-          {
-            "scope": [
-              "meta.object-literal.key.ts",
-              "meta.object-literal.key.tsx",
-            ],
-            "settings": {
-              "fontStyle": "",
-            },
-          },
-          {
-            "scope": [
-              "comment",
-              "comment punctuation.definition.comment",
-            ],
-            "settings": {
-              "foreground": "#5a6066",
-              "fontStyle": "",
-            },
-          },
-        ],
-      },
+        },
+      ],
     },
+  },
 }
