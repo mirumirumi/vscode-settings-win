@@ -491,11 +491,6 @@
         "when": "workbench.scm.active && !gitlens:disabled && config.gitlens.keymap == 'chorded'"
     },
     {
-      "key": "ctrl+shift+oem_3",
-      "command": "workbench.action.terminal.openNativeConsole",
-      "when": "!terminalFocus"
-    },
-    {
       "key": "ctrl+shift+c",
       "command": "-workbench.action.terminal.openNativeConsole",
       "when": "!terminalFocus"
