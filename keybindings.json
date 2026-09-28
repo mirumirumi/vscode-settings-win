@@ -638,11 +638,16 @@
       "when": "!operationInProgress"
     },
 
-    // 一瞬右サイドバーを経由してからタブに移動させるしかいまは方法がないので頑張ってる
+    // Ctrl + L のゴールデンポジションは Codex と Claude Code で取り合っているのでその時々でここで入れ替えている（サブは Ctrl + Alt + L）
     {
       "key": "ctrl+l",
+      "command": "claude-vscode.primaryEditor.open"
+    },
+    {
+      "key": "ctrl+alt+l",
       "command": "runCommands",
       "args": {
+        // Codex with ChatGPT subscription on VS Code Chat では一瞬右サイドバーを経由してからタブに移動させるしかいまは方法がないので頑張ってる
         "commands": [
           {
             "command": "workbench.action.chat.openNewChatSessionInPlace.agent-host-codex",
@@ -654,12 +659,13 @@
       }
     },
 
-    // チャット履歴をクイックオープンで頑張る
+    // Ctrl + Shift + L ではチャット履歴で同じくゴールデンポジションを奪い合いたいが、Claude には単体コマンドがないためこちらは常に Codex 用になっている
     {
       "key": "ctrl+shift+l",
       "command": "runCommands",
       "when": "!inQuickInput",
       "args": {
+        // チャット履歴をクイックオープンで頑張る
         "commands": [
           {
             "command": "_setContext",
@@ -828,8 +834,4 @@
       "command": "-claude-vscode.editor.open",
       "when": "!config.claudeCode.useTerminal"
     },
-    {
-      "key": "ctrl+alt+l",
-      "command": "claude-vscode.primaryEditor.open"
-    }
 ]
