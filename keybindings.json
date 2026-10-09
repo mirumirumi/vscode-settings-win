@@ -834,4 +834,23 @@
       "command": "-claude-vscode.editor.open",
       "when": "!config.claudeCode.useTerminal"
     },
+    {
+      "key": "ctrl+m",
+      "command": "markdown.togglePreview",
+      "when": "!terminalFocus && activeCustomEditorId == 'vscode.markdown.preview.editor' || editorFocus && !notebookEditorFocused && !terminalFocus && resourceLangId =~ /^(markdown|prompt|instructions|chatagent|skill)$/"
+    },
+    {
+      "key": "ctrl+shift+v",
+      "command": "-markdown.togglePreview",
+      "when": "!terminalFocus && activeCustomEditorId == 'vscode.markdown.preview.editor' || editorFocus && !notebookEditorFocused && !terminalFocus && resourceLangId =~ /^(markdown|prompt|instructions|chatagent|skill)$/"
+    },
+    {
+      "key": "ctrl+m",
+      "command": "-markdown.extension.editing.toggleMath",
+      "when": "editorTextFocus && !editorReadonly && editorLangId =~ /^markdown$|^rmd$|^quarto$/"
+    },
+    {
+      "key": "ctrl+m",
+      "command": "-editor.action.toggleTabFocusMode"
+    },
 ]
