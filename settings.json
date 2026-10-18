@@ -39,6 +39,7 @@
   "explorer.compactFolders": false,
   "explorer.confirmDelete": false,
   "explorer.confirmDragAndDrop": false,
+  "explorer.autoReveal": false,
   "files.simpleDialog.enable": true,
   "files.insertFinalNewline": true,
   "terminal.integrated.fontSize": 15,
