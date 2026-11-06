@@ -119,18 +119,6 @@
   "eslint.enable": false,
   "eslint.validate": ["javascript", "typescript", "vue"],
   "eslint.format.enable": true,
-  "prettier.arrowParens": "always",
-  "prettier.bracketSameLine": false,
-  "prettier.bracketSpacing": true,
-  "prettier.htmlWhitespaceSensitivity": "strict",
-  "prettier.printWidth": 90,
-  "prettier.quoteProps": "consistent",
-  "prettier.semi": false,
-  "prettier.singleAttributePerLine": false,
-  "prettier.singleQuote": false,
-  "prettier.tabWidth": 2,
-  "prettier.trailingComma": "es5",
-  "prettier.vueIndentScriptAndStyle": false,
 
   "vue.autoInsert.dotValue": true,
   "vue.editor.templateInterpolationDecorators": false,
@@ -219,10 +207,9 @@
     },
     "editor.suggest.showKeywords": false,
     "editor.suggest.showWords": false,
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
   },
   "[html]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.defaultFormatter": "biomejs.biome",
     "editor.tabSize": 2,
     "editor.formatOnSave": true,
   },
@@ -267,17 +254,15 @@
   "[jsonc]": {
     "editor.tabSize": 2,
     "editor.defaultFormatter": "biomejs.biome",
-    "editor.formatOnSave": true,
   },
   "[yaml]": {
     "editor.tabSize": 2,
   },
   "[vue]": {
     "editor.tabSize": 2,
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.defaultFormatter": "biomejs.biome",
     "editor.formatOnSave": true,
     "editor.codeActionsOnSave": {
-      "source.fixAll.prettier": "explicit",
       "source.fixAll.stylelint": "explicit"
     },
   },
