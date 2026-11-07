@@ -40,6 +40,8 @@
   "explorer.confirmDelete": false,
   "explorer.confirmDragAndDrop": false,
   "explorer.autoReveal": false,
+  "search.exclude": { "**/.claude/worktrees": true },
+  "files.watcherExclude": { "**/.claude/worktrees/**": true },
   "files.simpleDialog.enable": true,
   "files.insertFinalNewline": true,
   "terminal.integrated.fontSize": 15,
