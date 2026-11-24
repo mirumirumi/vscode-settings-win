@@ -302,6 +302,7 @@
     "[Mayukai Reversal]": {
       "foreground": "#b2b6bd",
       "editorCursor.foreground": "#ffe3e6",
+      "tab.activeForeground": "#999792",
       "tab.inactiveForeground": "#999792",
       "editor.selectionBackground": "#7597b966",
       "editor.wordHighlightBackground": "#7597b926",
@@ -326,7 +327,8 @@
       "editorBracketPairGuide.activeBackground4": "#77a8d999",
       "editorBracketPairGuide.activeBackground5": "#d4bfff99",
       "editorBracketPairGuide.activeBackground6": "#ff8f4099",
-      "gitDecoration.untrackedResourceForeground": "#eac08c",
+      "gitDecoration.modifiedResourceForeground": "#eac08c",
+      "gitDecoration.untrackedResourceForeground": "#a6cc70",
       "statusBarItem.remoteBackground": "#1f2430",
       "statusBarItem.remoteForeground": "#5e6777",
     },
